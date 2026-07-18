@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-18T15:30:00Z",
+  "generatedAt": "2026-07-18T20:41:44.2229713\u002B00:00",
   "trips": [
     {
       "publicId": "34712d42-f27b-4b45-9fd9-bf8e72d47f23",
       "slug": "sample-trip-2026-07-k4m7",
-      "title": "Ukázková cesta",
-      "subtitle": "Sanitizovaný rodinný program",
+      "title": "Uk\u00E1zkov\u00E1 cesta",
+      "subtitle": "Sanitizovan\u00FD rodinn\u00FD program",
       "dateFrom": "2026-07-18",
       "dateTo": "2026-07-20",
       "countryCode": "CZ",
@@ -20,7 +20,7 @@
     {
       "publicId": "d9b6f6e3-c33e-403e-a2a8-493d37feead2",
       "slug": "pohodove-alicante-pro-sest-dospelych-2026-10-d9b6f6",
-      "title": "Pohodové Alicante pro šest dospělých",
+      "title": "Pohodov\u00E9 Alicante pro \u0161est dosp\u011Bl\u00FDch",
       "subtitle": "Alicante",
       "dateFrom": "2026-10-28",
       "dateTo": "2026-11-01",
@@ -29,7 +29,7 @@
       "status": "upcoming",
       "isListed": true,
       "revision": 1,
-      "updatedAt": "2026-07-18T14:41:19.7263679+00:00",
+      "updatedAt": "2026-07-18T14:41:19.7263679\u002B00:00",
       "vaultAvailable": false
     }
   ]
