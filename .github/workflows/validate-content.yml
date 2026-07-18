@@ -1,0 +1,36 @@
+name: Validate content
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Type check
+        run: npm run lint
+      - name: Validate content
+        run: npm run validate-content
+      - name: Security lint
+        run: npm run security-lint
+      - name: Unit tests
+        run: npm run test
+      - name: Build
+        run: npm run build
+

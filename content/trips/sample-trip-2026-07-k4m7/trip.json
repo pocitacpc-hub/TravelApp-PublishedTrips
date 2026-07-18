@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.0",
+  "documentType": "published_trip",
+  "publicId": "34712d42-f27b-4b45-9fd9-bf8e72d47f23",
+  "slug": "sample-trip-2026-07-k4m7",
+  "revision": 1,
+  "title": "Ukázková cesta",
+  "subtitle": "Sanitizovaný rodinný program",
+  "summary": "Krátký vzorový program bez rezervací, osobních údajů a interních identifikátorů TravelApp.",
+  "dateFrom": "2026-07-18",
+  "dateTo": "2026-07-20",
+  "timezone": "Europe/Prague",
+  "countryCode": "CZ",
+  "locale": "cs-CZ",
+  "currency": "CZK",
+  "status": "active",
+  "isListed": true,
+  "generatedAt": "2026-07-18T15:20:00Z",
+  "publishedAt": "2026-07-18T15:30:00Z",
+  "location": {
+    "name": "Ukázkové město",
+    "region": "Česká republika",
+    "latitude": 50.0755,
+    "longitude": 14.4378,
+    "publicAccommodationArea": "širší centrum",
+    "exactAccommodationInVault": false
+  },
+  "weather": {
+    "enabled": true,
+    "latitude": 50.0755,
+    "longitude": 14.4378,
+    "timezone": "Europe/Prague"
+  },
+  "days": [
+    {
+      "publicId": "d9164e88-9500-4e37-bff0-172061ac318d",
+      "date": "2026-07-18",
+      "dayIndex": 1,
+      "title": "Příjezd a první procházka",
+      "summary": "Lehký začátek bez dlouhých přesunů.",
+      "dayType": "arrival",
+      "weatherNote": "Při horku nechat procházku až na podvečer.",
+      "alternatives": {
+        "badWeather": {
+          "title": "Klidná vnitřní varianta",
+          "text": "Místo delší procházky navštívit veřejnou galerii."
+        },
+        "hotWeather": null,
+        "easy": null,
+        "active": null
+      },
+      "items": [
+        {
+          "publicId": "554bd87c-d764-42ec-b36d-b82794ee3325",
+          "type": "poi_visit",
+          "title": "Procházka historickým centrem",
+          "startTime": "17:00",
+          "endTime": "18:30",
+          "durationMinutes": 90,
+          "status": "planned",
+          "placePublicId": "65e0a563-3e80-41c3-98e9-a03ab90985a4",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 0,
+            "currency": "CZK",
+            "text": "Veřejný prostor bez vstupného."
+          },
+          "notes": "Vzít vodu a pohodlné boty.",
+          "needsVerification": false,
+          "sourceUrl": "https://www.prague.eu/cs/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=50.0870%2C14.4208",
+            "mapyUrl": "https://mapy.com/zakladni?x=14.4208&y=50.0870&z=16"
+          },
+          "tags": ["walk", "outdoor"]
+        }
+      ]
+    },
+    {
+      "publicId": "b21f08c2-dd82-437d-b1d4-56fffb834584",
+      "date": "2026-07-19",
+      "dayIndex": 2,
+      "title": "Město a park",
+      "summary": "Hlavní den s rezervou na odpočinek.",
+      "dayType": "city",
+      "weatherNote": "Před odchodem ověřit předpověď.",
+      "alternatives": {
+        "badWeather": null,
+        "hotWeather": {
+          "title": "Ranní varianta",
+          "text": "Začít o hodinu dříve a po obědě odpočívat."
+        },
+        "easy": null,
+        "active": null
+      },
+      "items": [
+        {
+          "publicId": "5e5f8858-cce1-4393-919e-b173df9ed850",
+          "type": "park_visit",
+          "title": "Ranní návštěva městského parku",
+          "startTime": "09:00",
+          "endTime": "11:00",
+          "durationMinutes": 120,
+          "status": "planned",
+          "placePublicId": "4f9a4874-14f7-41b5-bdb8-3db0bb2c94bf",
+          "transportMode": "tram",
+          "cost": null,
+          "notes": "Program lze podle počasí zkrátit.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.prague.eu/cs/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=50.1054%2C14.4330",
+            "mapyUrl": "https://mapy.com/zakladni?x=14.4330&y=50.1054&z=16"
+          },
+          "tags": ["park", "outdoor"]
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "publicId": "65e0a563-3e80-41c3-98e9-a03ab90985a4",
+      "name": "Historické centrum",
+      "category": "historic_center",
+      "latitude": 50.087,
+      "longitude": 14.4208,
+      "description": "Veřejné centrum ukázkové cesty.",
+      "whyVisit": "Kompaktní procházka na začátek pobytu.",
+      "travelerTips": "Vyhnout se nejteplejší části dne.",
+      "officialUrl": "https://www.prague.eu/cs/",
+      "sourceUrl": "https://www.prague.eu/cs/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=50.0870%2C14.4208",
+        "mapyUrl": "https://mapy.com/zakladni?x=14.4208&y=50.0870&z=16"
+      },
+      "needsVerification": false
+    },
+    {
+      "publicId": "4f9a4874-14f7-41b5-bdb8-3db0bb2c94bf",
+      "name": "Městský park",
+      "category": "park",
+      "latitude": 50.1054,
+      "longitude": 14.433,
+      "description": "Veřejný park pro klidnější část programu.",
+      "whyVisit": "Stín, odpočinek a prostor bez rezervace.",
+      "travelerTips": "Ověřit počasí před odchodem.",
+      "officialUrl": null,
+      "sourceUrl": "https://www.prague.eu/cs/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=50.1054%2C14.4330",
+        "mapyUrl": "https://mapy.com/zakladni?x=14.4330&y=50.1054&z=16"
+      },
+      "needsVerification": true
+    }
+  ],
+  "generalTips": [
+    "Program je ukázkový a neobsahuje žádné skutečné rezervace.",
+    "Časy a otevírací dobu vždy ověřit podle aktuální situace."
+  ],
+  "publicDocuments": [],
+  "vault": {
+    "available": false,
+    "manifestUrl": null
+  },
+  "sources": [
+    {
+      "title": "Prague City Tourism",
+      "url": "https://www.prague.eu/cs/"
+    }
+  ],
+  "quality": {
+    "warnings": ["Jde o sanitizovaná demonstrační data, ne o skutečný cestovní plán."],
+    "needsVerificationCount": 1
+  }
+}

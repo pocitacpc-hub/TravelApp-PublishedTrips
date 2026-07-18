@@ -1,0 +1,20 @@
+{
+  "name": "TravelApp – rodinné cesty",
+  "short_name": "Cesty",
+  "description": "Veřejné rodinné harmonogramy z TravelApp.",
+  "lang": "cs",
+  "start_url": "/TravelApp-PublishedTrips/",
+  "scope": "/TravelApp-PublishedTrips/",
+  "display": "standalone",
+  "background_color": "#f4f1e9",
+  "theme_color": "#123c35",
+  "icons": [
+    {
+      "src": "/TravelApp-PublishedTrips/icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

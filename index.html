@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#123c35" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self' https://api.open-meteo.com; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+    />
+    <link rel="manifest" href="/TravelApp-PublishedTrips/manifest.webmanifest" />
+    <link rel="icon" href="/TravelApp-PublishedTrips/icons/app-icon.svg" type="image/svg+xml" />
+    <title>Rodinné cesty</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Přejít na obsah</a>
+    <div id="app" aria-live="polite"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
+

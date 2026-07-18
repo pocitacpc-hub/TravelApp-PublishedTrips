@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pocitacpc-hub.github.io/TravelApp-PublishedTrips/schemas/published-catalog.schema.json",
+  "title": "TravelApp published trip catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "generatedAt", "trips"],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "trips": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["publicId", "slug", "title", "subtitle", "dateFrom", "dateTo", "countryCode", "coverImageUrl", "status", "isListed", "revision", "updatedAt", "vaultAvailable"],
+        "properties": {
+          "publicId": { "type": "string", "format": "uuid" },
+          "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "maxLength": 80 },
+          "title": { "type": "string", "minLength": 1, "maxLength": 120 },
+          "subtitle": { "type": ["string", "null"], "maxLength": 160 },
+          "dateFrom": { "type": "string", "format": "date" },
+          "dateTo": { "type": "string", "format": "date" },
+          "countryCode": { "type": "string", "pattern": "^[A-Z]{2}$" },
+          "coverImageUrl": { "type": ["string", "null"], "format": "uri" },
+          "status": { "enum": ["upcoming", "active", "completed", "archived"] },
+          "isListed": { "type": "boolean" },
+          "revision": { "type": "integer", "minimum": 1 },
+          "updatedAt": { "type": "string", "format": "date-time" },
+          "vaultAvailable": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}
+

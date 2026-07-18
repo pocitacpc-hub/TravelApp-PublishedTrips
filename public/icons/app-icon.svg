@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="TravelApp">
+  <rect width="512" height="512" rx="112" fill="#123c35"/>
+  <path d="M122 159h268v70H291v167h-70V229h-99z" fill="#fffaf0"/>
+  <circle cx="378" cy="365" r="46" fill="#e76f51"/>
+</svg>
+
