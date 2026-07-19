@@ -10,5 +10,9 @@ describe("publikační parser", () => {
   it("odmítne původní AI program JSON", () => {
     expect(() => parseTrip({ schemaVersion: "1.0", documentType: "program", days: [] })).toThrow();
   });
-});
 
+  it("přijme veřejný kontrakt 1.1 a doplní kompatibilní výchozí hodnoty", () => {
+    const trip = parseTrip({ schemaVersion: "1.1", documentType: "published_trip", slug: "test", places: [], days: [] });
+    expect(trip.schemaVersion).toBe("1.1");
+  });
+});

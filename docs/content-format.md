@@ -14,4 +14,16 @@ Validace probíhá příkazem:
 ```powershell
 npm run validate-content
 ```
+# Kontrakt 1.1
+
+Nově publikované `trip.json` používá `schemaVersion: "1.1"`. Čtečka zůstává kompatibilní s 1.0 a doplní chybějící detailová pole bezpečnými výchozími hodnotami.
+
+Kontrakt 1.1 rozlišuje:
+
+- kartu místa a navigaci pro Google Maps i Mapy.com,
+- samostatnou navigaci na parkoviště,
+- detail rezervace, otevírací doby, cen, hodnocení a vzdáleností,
+- `distanceKm`, `whyHere`, `bookingNote` a `parkingNote` na položce programu.
+
+Klikací detail místa lze otevřít přímo přes `/trips/<slug>/?item=<public-id>`.
 

@@ -80,6 +80,15 @@ summary { cursor: pointer; font-weight: 750; }
 details p { margin: .8rem 0 0; color: var(--muted); line-height: 1.5; }
 .info-panel { margin-top: 2.5rem; padding: 1.2rem; border-radius: 1.25rem; background: #e8eee9; }
 .info-panel h2 { font-family: Georgia, "Times New Roman", serif; }
+.button--small { min-height: 2rem; padding: .35rem .6rem; font-size: .76rem; }
+.place-link { padding: 0; border: 0; background: transparent; color: inherit; font: inherit; font-weight: inherit; text-align: left; text-decoration: underline; text-decoration-color: #a9b8b2; cursor: pointer; }
+.dialog-open { overflow: hidden; }
+.place-dialog__backdrop { position: fixed; inset: 0; z-index: 20; background: rgb(9 24 20 / 62%); }
+.place-dialog { position: fixed; z-index: 21; inset: 1rem; overflow: auto; width: auto; max-width: 48rem; margin-left: auto; padding: 1.25rem; border-radius: 1.2rem; background: var(--paper); box-shadow: 0 24px 80px rgb(0 0 0 / 35%); }
+.place-dialog__close { position: sticky; top: 0; float: right; width: 2.5rem; height: 2.5rem; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); color: var(--ink); font-size: 1.5rem; cursor: pointer; }
+.place-dialog h2 { padding-right: 3rem; font-family: Georgia, "Times New Roman", serif; font-size: 2rem; }
+.place-dialog h3 { margin: 1.2rem 0 .35rem; font-size: 1rem; }
+.place-dialog p, .place-dialog li { color: var(--muted); line-height: 1.5; }
 
 @media (min-width: 48rem) {
   .shell { width: min(100% - 4rem, 72rem); }
@@ -91,6 +100,7 @@ details p { margin: .8rem 0 0; color: var(--muted); line-height: 1.5; }
   .trip-content { display: grid; grid-template-columns: minmax(0, 1fr) 18rem; gap: 2rem; align-items: start; }
   .quick-nav { grid-column: 1 / -1; }
   .info-panel { position: sticky; top: 5.5rem; margin-top: 0; }
+  .place-dialog { inset: 2rem 2rem 2rem auto; width: min(46rem, calc(100% - 4rem)); }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -102,4 +112,3 @@ details p { margin: .8rem 0 0; color: var(--muted); line-height: 1.5; }
   .weather-note { background: #44351c; color: #f4dba7; }
   .info-panel { background: #1c302a; }
 }
-
