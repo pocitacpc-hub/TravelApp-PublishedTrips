@@ -25,21 +25,35 @@ export interface PublishedCatalog {
 export interface MapLinks {
   googleMapsUrl: string | null;
   mapyUrl: string | null;
+  googleNavigationUrl: string | null;
+  mapyNavigationUrl: string | null;
 }
 
 export interface PublishedPlace {
   publicId: string;
   name: string;
   category: string;
+  addressText: string | null;
   latitude: number | null;
   longitude: number | null;
   description: string | null;
   whyVisit: string | null;
   travelerTips: string | null;
+  warnings: string | null;
   officialUrl: string | null;
   sourceUrl: string | null;
   reservationUrl: string | null;
   mapLinks: MapLinks;
+  parking: {
+    name: string | null; addressText: string | null; latitude: number | null; longitude: number | null;
+    note: string | null; priceNote: string | null; heightLimitMeters: number | null; mapLinks: MapLinks; needsVerification: boolean;
+  };
+  booking: { required: boolean; recommendedAdvance: string | null; note: string | null; needsVerification: boolean };
+  openingHours: Array<{ dayOfWeek: string | null; date: string | null; openTime: string | null; closeTime: string | null; isClosed: boolean; note: string | null; sourceUrl: string | null }>;
+  prices: Array<{ priceType: string; adultPrice: number | null; childPrice: number | null; familyPrice: number | null; currency: string | null; note: string | null; sourceUrl: string | null }>;
+  reviewMetrics: Array<{ sourceName: string; rating: number | null; ratingMax: number | null; reviewCount: number | null; summary: string | null; url: string | null }>;
+  distances: Array<{ fromName: string; distanceKm: number | null; walkMinutes: number | null; carMinutes: number | null; publicTransportMinutes: number | null; routeUrl: string | null; note: string | null }>;
+  alternativesJson: string;
   needsVerification: boolean;
 }
 
@@ -54,7 +68,11 @@ export interface PublishedItem {
   placePublicId: string | null;
   transportMode: string | null;
   cost: { amount: number | null; currency: string | null; text: string | null } | null;
+  distanceKm: number | null;
   notes: string | null;
+  whyHere: string | null;
+  bookingNote: string | null;
+  parkingNote: string | null;
   needsVerification: boolean;
   sourceUrl: string | null;
   mapLinks: MapLinks;
@@ -74,7 +92,7 @@ export interface PublishedDay {
 }
 
 export interface PublishedTrip {
-  schemaVersion: "1.0";
+  schemaVersion: "1.0" | "1.1";
   documentType: "published_trip";
   publicId: string;
   slug: string;
@@ -109,4 +127,3 @@ export interface PublishedTrip {
   sources: Array<{ title: string; url: string }>;
   quality: { warnings: string[]; needsVerificationCount: number };
 }
-

@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "required": ["schemaVersion", "documentType", "publicId", "slug", "revision", "title", "subtitle", "summary", "dateFrom", "dateTo", "timezone", "countryCode", "locale", "currency", "status", "isListed", "generatedAt", "publishedAt", "location", "weather", "days", "places", "generalTips", "publicDocuments", "vault", "sources", "quality"],
   "properties": {
-    "schemaVersion": { "const": "1.0" },
+    "schemaVersion": { "enum": ["1.0", "1.1"] },
     "documentType": { "const": "published_trip" },
     "publicId": { "type": "string", "format": "uuid" },
     "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "maxLength": 80 },
@@ -70,7 +70,9 @@
       "required": ["googleMapsUrl", "mapyUrl"],
       "properties": {
         "googleMapsUrl": { "type": ["string", "null"], "format": "uri", "maxLength": 2000 },
-        "mapyUrl": { "type": ["string", "null"], "format": "uri", "maxLength": 2000 }
+        "mapyUrl": { "type": ["string", "null"], "format": "uri", "maxLength": 2000 },
+        "googleNavigationUrl": { "type": ["string", "null"], "format": "uri", "maxLength": 2000 },
+        "mapyNavigationUrl": { "type": ["string", "null"], "format": "uri", "maxLength": 2000 }
       }
     },
     "location": {
@@ -134,7 +136,7 @@
     },
     "item": {
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "required": ["publicId", "type", "title", "startTime", "endTime", "durationMinutes", "status", "placePublicId", "transportMode", "cost", "notes", "needsVerification", "sourceUrl", "mapLinks", "tags"],
       "properties": {
         "publicId": { "type": "string", "format": "uuid" },
@@ -165,7 +167,7 @@
     },
     "place": {
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "required": ["publicId", "name", "category", "latitude", "longitude", "description", "whyVisit", "travelerTips", "officialUrl", "sourceUrl", "reservationUrl", "mapLinks", "needsVerification"],
       "properties": {
         "publicId": { "type": "string", "format": "uuid" },
