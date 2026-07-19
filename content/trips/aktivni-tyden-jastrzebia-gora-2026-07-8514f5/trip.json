@@ -1,0 +1,1158 @@
+{
+  "schemaVersion": "1.0",
+  "documentType": "published_trip",
+  "publicId": "8514f554-ce1c-4772-9699-4543b380c71a",
+  "slug": "aktivni-tyden-jastrzebia-gora-2026-07-8514f5",
+  "revision": 1,
+  "title": "Aktivní týden Jastrzębia Góra",
+  "subtitle": "Jastrzębia Góra",
+  "summary": "Reda je pevná hlavní atrakce, ale její datum se přesouvá na první deštivý všední den.",
+  "dateFrom": "2026-07-27",
+  "dateTo": "2026-08-03",
+  "timezone": "Europe/Prague",
+  "countryCode": "PL",
+  "locale": "cs-CZ",
+  "currency": "EUR",
+  "status": "upcoming",
+  "isListed": true,
+  "generatedAt": "2026-07-19T08:57:22.2969252+00:00",
+  "publishedAt": "2026-07-19T08:57:22.2969252+00:00",
+  "location": {
+    "name": "Jastrzębia Góra",
+    "region": "Pomořské vojvodství",
+    "latitude": 54.832,
+    "longitude": 18.302,
+    "publicAccommodationArea": null,
+    "exactAccommodationInVault": false
+  },
+  "weather": {
+    "enabled": true,
+    "latitude": 54.832,
+    "longitude": 18.302,
+    "timezone": "Europe/Prague"
+  },
+  "days": [
+    {
+      "publicId": "7a6fbfd6-6e63-4c45-bf16-78a3d4e6355d",
+      "date": "2026-07-27",
+      "dayIndex": 1,
+      "title": "Příjezd",
+      "summary": null,
+      "dayType": "arrival",
+      "weatherNote": null,
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Jen nákup a odpočinek."
+        },
+        "hotWeather": null,
+        "easy": null,
+        "active": null
+      },
+      "items": [
+        {
+          "publicId": "d0ed35ef-3266-4d93-9766-4ab8d62c4af7",
+          "type": "arrival",
+          "title": "Příjezd do ubytování",
+          "startTime": "16:00",
+          "endTime": "16:00",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": null,
+          "needsVerification": false,
+          "sourceUrl": "https://www.morskie-tarasy.pl/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "arrival"
+          ]
+        },
+        {
+          "publicId": "9ea2f477-d98c-48f3-ad15-2a6a35062d16",
+          "type": "practical_stop",
+          "title": "POLOmarket",
+          "startTime": "16:45",
+          "endTime": "17:30",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": "f62e15dc-99aa-410d-8dde-946ebd41a3f4",
+          "transportMode": "car",
+          "cost": null,
+          "notes": null,
+          "needsVerification": true,
+          "sourceUrl": "https://polomarket.pl/sklepy",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "practical_stop",
+            "supermarket"
+          ]
+        },
+        {
+          "publicId": "22b55de6-3151-4982-9130-b7147ff64870",
+          "type": "poi_visit",
+          "title": "Procházka k moři",
+          "startTime": "18:30",
+          "endTime": "20:00",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "notes": null,
+          "needsVerification": true,
+          "sourceUrl": "https://sk.gis.gov.pl/kapielisko/134",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "3601080d-8509-42ae-b7b2-2de0b70b5480",
+      "date": "2026-07-28",
+      "dayIndex": 2,
+      "title": "Rozewie a Lisi Jar",
+      "summary": null,
+      "dayType": "local_active",
+      "weatherNote": null,
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Reda."
+        },
+        "hotWeather": null,
+        "easy": null,
+        "active": null
+      },
+      "items": [
+        {
+          "publicId": "fb36099e-49be-40e2-b425-1daaac9544c3",
+          "type": "poi_visit",
+          "title": "Maják Rozewie",
+          "startTime": "09:30",
+          "endTime": "10:30",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": "6fb3c08d-17b2-4732-926b-f85030557e87",
+          "transportMode": "walk",
+          "cost": null,
+          "notes": null,
+          "needsVerification": true,
+          "sourceUrl": "https://tpnmm.pl/latarnia-rozewie/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "viewpoint"
+          ]
+        },
+        {
+          "publicId": "39cde3d2-3a77-46c3-88ac-47a424d3aef9",
+          "type": "poi_visit",
+          "title": "Lisi Jar a klify",
+          "startTime": "10:45",
+          "endTime": "13:00",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "notes": null,
+          "needsVerification": false,
+          "sourceUrl": "https://www.jastrzebia-gora.com/atrakcje/wawoz-lisi-jar-w-jastrzebiej-gorze-1499",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit"
+          ]
+        },
+        {
+          "publicId": "635f6235-abea-4aa5-ad4e-edb6ec3b9773",
+          "type": "meal",
+          "title": "Denní menu Morski",
+          "startTime": "13:30",
+          "endTime": "14:45",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": "10922298-f926-4caa-ae60-2baa7ecf6f4f",
+          "transportMode": "walk",
+          "cost": null,
+          "notes": null,
+          "needsVerification": true,
+          "sourceUrl": "https://barmorski.pl/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "meal",
+            "restaurant_area"
+          ]
+        },
+        {
+          "publicId": "526df478-c044-43ee-b62a-9df92bce94b3",
+          "type": "poi_visit",
+          "title": "Pláž/odpočinek",
+          "startTime": "16:30",
+          "endTime": "19:00",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "notes": null,
+          "needsVerification": true,
+          "sourceUrl": "https://sk.gis.gov.pl/kapielisko/134",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "0db825ad-6e13-434a-b134-4f7273328144",
+      "date": "2026-07-29",
+      "dayIndex": 3,
+      "title": "Hel autem",
+      "summary": null,
+      "dayType": "full_day_trip",
+      "weatherNote": null,
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Reda; Hel přesunout."
+        },
+        "hotWeather": null,
+        "easy": null,
+        "active": null
+      },
+      "items": [
+        {
+          "publicId": "bf3c5b6b-8697-43bf-b9fd-ef1bdfd84f9f",
+          "type": "car_transfer",
+          "title": "Odjezd na Hel",
+          "startTime": "06:00",
+          "endTime": "07:15",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": "Navigaci/parking ověřit; při koloně vlak z Władysławowa.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+84-104+Jastrz%C4%99bia+G%C3%B3ra&destination=Hel&travelmode=driving",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        },
+        {
+          "publicId": "820f686a-4754-477e-91cb-2061e8e13245",
+          "type": "poi_visit",
+          "title": "Cypel Helski",
+          "startTime": "07:30",
+          "endTime": "09:45",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "notes": null,
+          "needsVerification": false,
+          "sourceUrl": "https://www.helmuzeum.pl/zwiedzanie/mapa/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit"
+          ]
+        },
+        {
+          "publicId": "fe5c1735-9d71-411c-b18e-34c456f53219",
+          "type": "poi_visit",
+          "title": "Fokarium, krmení 11:00",
+          "startTime": "10:10",
+          "endTime": "11:45",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": "18718c5d-ad7c-484d-8dfb-d9873dd5b3ed",
+          "transportMode": "walk",
+          "cost": null,
+          "notes": null,
+          "needsVerification": false,
+          "sourceUrl": "https://fokarium.ug.edu.pl/dla-odwiedzajacych/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "custom"
+          ]
+        },
+        {
+          "publicId": "d08759e1-eae9-4eed-856d-e8c615bf738e",
+          "type": "meal",
+          "title": "Oběd a přístav",
+          "startTime": "12:00",
+          "endTime": "13:15",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "notes": "Rezervovat ráno nebo vzít svačinu.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=restaurants+Hel",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "meal"
+          ]
+        },
+        {
+          "publicId": "c6da1b3e-f092-4e0c-8197-c7613bf53110",
+          "type": "poi_visit",
+          "title": "Muzeum Obrony Wybrzeża",
+          "startTime": "13:30",
+          "endTime": "16:30",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": "5ced41da-9121-47e4-b492-47ecfb9513a2",
+          "transportMode": "car",
+          "cost": null,
+          "notes": null,
+          "needsVerification": false,
+          "sourceUrl": "https://www.helmuzeum.pl/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "museum"
+          ]
+        },
+        {
+          "publicId": "b0e3c722-6e15-4789-bef2-9c95596b8e04",
+          "type": "car_transfer",
+          "title": "Návrat",
+          "startTime": "18:30",
+          "endTime": "20:00",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": "Odjet před 15:30 nebo po 18:30.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=Hel&destination=Piastowska+2%2C+84-104+Jastrz%C4%99bia+G%C3%B3ra&travelmode=driving",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "2165454c-4737-45e9-8403-6cf3adfd9c3f",
+      "date": "2026-07-30",
+      "dayIndex": 4,
+      "title": "Gdaňsk",
+      "summary": null,
+      "dayType": "city_history",
+      "weatherNote": null,
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Zkrátit centrum, muzeum ponechat."
+        },
+        "hotWeather": null,
+        "easy": null,
+        "active": null
+      },
+      "items": [
+        {
+          "publicId": "f4ddc933-fbae-482f-a88d-709249976117",
+          "type": "car_transfer",
+          "title": "Odjezd",
+          "startTime": "07:15",
+          "endTime": "09:00",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": "Parkovat u muzea; výšku auta ověřit.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/plan-your-visit/parking",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        },
+        {
+          "publicId": "7feb06d1-78e9-4f6b-beb3-fd95889c5bf7",
+          "type": "poi_visit",
+          "title": "Długi Targ, Mariacka, Motława",
+          "startTime": "09:15",
+          "endTime": "11:30",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "notes": null,
+          "needsVerification": false,
+          "sourceUrl": "https://visitgdansk.com/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit"
+          ]
+        },
+        {
+          "publicId": "05757306-3fbc-4ce6-8275-9558025bf58d",
+          "type": "meal",
+          "title": "Bar Mleczny",
+          "startTime": "11:30",
+          "endTime": "12:30",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "notes": "Długie Ogrody 25; menu ověřit.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.barmlecznygdansk.pl/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "meal"
+          ]
+        },
+        {
+          "publicId": "e4feb14d-c800-4ebc-af3d-2262413874b6",
+          "type": "poi_visit",
+          "title": "Muzeum druhé světové války",
+          "startTime": "13:00",
+          "endTime": "16:30",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": "b2fca9ce-5896-4006-899e-2ba339c1c018",
+          "transportMode": "walk",
+          "cost": null,
+          "notes": null,
+          "needsVerification": false,
+          "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/buying-tickets",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "museum"
+          ]
+        },
+        {
+          "publicId": "29fa1ef2-19f4-4ae8-bff0-22a1d84c6b44",
+          "type": "car_transfer",
+          "title": "Návrat po večerní procházce",
+          "startTime": "18:30",
+          "endTime": "20:15",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": null,
+          "needsVerification": true,
+          "sourceUrl": "https://visitgdansk.com/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "afc4a514-504e-4363-94f4-9a6a35089c0a",
+      "date": "2026-07-31",
+      "dayIndex": 5,
+      "title": "Aquapark Reda – plovoucí den",
+      "summary": null,
+      "dayType": "floating_bad_weather",
+      "weatherNote": null,
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Hlavní plán."
+        },
+        "hotWeather": null,
+        "easy": null,
+        "active": null
+      },
+      "items": [
+        {
+          "publicId": "613bd63b-6a60-4bed-9cd5-b0bb0439e1d2",
+          "type": "car_transfer",
+          "title": "Odjezd",
+          "startTime": "07:00",
+          "endTime": "07:50",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": "P1/P2; sazbu ověřit.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.aquaparkreda.pl/en/location",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        },
+        {
+          "publicId": "776a6f5a-641b-495a-9bda-89ca8c20e028",
+          "type": "poi_visit",
+          "title": "Aquapark Reda",
+          "startTime": "08:00",
+          "endTime": "14:30",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": "d77fd5c6-6a40-457d-84de-6ccc03952635",
+          "transportMode": "walk",
+          "cost": null,
+          "notes": "Online večer předem; doporučen celý den.",
+          "needsVerification": false,
+          "sourceUrl": "https://www.aquaparkreda.pl/en/prices",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "custom"
+          ]
+        },
+        {
+          "publicId": "cf3d19a3-ab85-4fa8-8ca2-b76af51c1596",
+          "type": "meal",
+          "title": "Kuchnia Domowa Reda",
+          "startTime": "15:00",
+          "endTime": "16:00",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": "Denní komplet ověřit.",
+          "needsVerification": true,
+          "sourceUrl": "https://redakuchniadomowa.pl/pl",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "meal"
+          ]
+        },
+        {
+          "publicId": "cbbc2a2a-a5ec-4dc0-a85e-8bd39acd4e31",
+          "type": "car_transfer",
+          "title": "Návrat",
+          "startTime": "16:15",
+          "endTime": "17:15",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": null,
+          "needsVerification": true,
+          "sourceUrl": "https://www.aquaparkreda.pl/en/location",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "744037f3-9cb5-4d4a-9fde-61ca677ea4a3",
+      "date": "2026-08-01",
+      "dayIndex": 6,
+      "title": "Pohyblivé duny",
+      "summary": null,
+      "dayType": "active_nature",
+      "weatherNote": null,
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Reda/Gdyně."
+        },
+        "hotWeather": null,
+        "easy": null,
+        "active": null
+      },
+      "items": [
+        {
+          "publicId": "e47a3a1d-1427-45e7-a5ee-ddb732aa1bd2",
+          "type": "car_transfer",
+          "title": "Odjezd do Rąbky",
+          "startTime": "06:00",
+          "endTime": "07:40",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": null,
+          "needsVerification": true,
+          "sourceUrl": "https://spn.gov.pl/informacje-o-biletach",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        },
+        {
+          "publicId": "9feecfe7-7ad6-4ce4-81d5-b2aee9c5de8b",
+          "type": "poi_visit",
+          "title": "Okruh Łącka duna",
+          "startTime": "08:00",
+          "endTime": "14:30",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": "8eda5a5b-a235-414f-b620-4db87d4ac172",
+          "transportMode": "walk",
+          "cost": null,
+          "notes": "Voda, čepice, krém; kratší varianta s vozíkem.",
+          "needsVerification": true,
+          "sourceUrl": "https://spn.gov.pl/szlaki-turystyczne/stara-leba-brzeg-morza-wydma-lacka-stara-leba-petla",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "nature"
+          ]
+        },
+        {
+          "publicId": "51e473a2-75d4-4458-8d06-5280265879dc",
+          "type": "meal",
+          "title": "Pozdní oběd Łeba",
+          "startTime": "15:15",
+          "endTime": "16:30",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": "Hledat danie dnia.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.facebook.com/BarBonanza1/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "meal"
+          ]
+        },
+        {
+          "publicId": "fe82737f-fa42-4763-baca-d7cf0e6e3c97",
+          "type": "car_transfer",
+          "title": "Návrat",
+          "startTime": "16:45",
+          "endTime": "18:20",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": null,
+          "needsVerification": true,
+          "sourceUrl": "https://spn.gov.pl/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "5178cb78-588f-452c-8d73-d7c85382b337",
+      "date": "2026-08-02",
+      "dayIndex": 7,
+      "title": "Gdyně: Experyment a Orłowo",
+      "summary": null,
+      "dayType": "mixed_weather",
+      "weatherNote": null,
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Jen Experyment."
+        },
+        "hotWeather": null,
+        "easy": null,
+        "active": null
+      },
+      "items": [
+        {
+          "publicId": "beff93de-7c3e-48d4-b2c0-97086aa8c3d5",
+          "type": "car_transfer",
+          "title": "Odjezd",
+          "startTime": "07:30",
+          "endTime": "08:50",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": "Parking u centra, záloha Arena/Riviera.",
+          "needsVerification": true,
+          "sourceUrl": "https://experyment.gdynia.pl/zaplanuj-wizyte/godziny-otwarcia-jak-dojechac/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        },
+        {
+          "publicId": "ce01f502-2d7e-481b-af5c-aa32bff14fdb",
+          "type": "poi_visit",
+          "title": "Experyment",
+          "startTime": "09:00",
+          "endTime": "12:00",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": "9f5b33b4-6f29-463d-af68-eab1c5ae0d3c",
+          "transportMode": "walk",
+          "cost": null,
+          "notes": null,
+          "needsVerification": false,
+          "sourceUrl": "https://experyment.gdynia.pl/en/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "museum"
+          ]
+        },
+        {
+          "publicId": "51b51e8b-c63f-4d1d-8d70-4ff76be77449",
+          "type": "meal",
+          "title": "Parkowa Bistro",
+          "startTime": "12:00",
+          "endTime": "13:00",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "notes": "Rezervaci/menu ověřit.",
+          "needsVerification": true,
+          "sourceUrl": "https://experyment.gdynia.pl/wydarzenia/wycieczki-szkolne-i-oferta-dla-turystyki/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "meal"
+          ]
+        },
+        {
+          "publicId": "6404b226-c830-44cf-88ca-c99ea4a9e303",
+          "type": "poi_visit",
+          "title": "Orłowo",
+          "startTime": "13:30",
+          "endTime": "16:15",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": "Parkovat dál od mola.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.gdynia.pl/turystyczna",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "poi_visit"
+          ]
+        },
+        {
+          "publicId": "87ddc96e-5d99-4eea-8e96-3182a0719588",
+          "type": "car_transfer",
+          "title": "Návrat",
+          "startTime": "16:30",
+          "endTime": "18:00",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": null,
+          "needsVerification": true,
+          "sourceUrl": "https://www.gdynia.pl/turystyczna",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "7717a15b-8c89-411d-b361-175d799f0f44",
+      "date": "2026-08-03",
+      "dayIndex": 8,
+      "title": "Odjezd",
+      "summary": null,
+      "dayType": "departure",
+      "weatherNote": null,
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Beze změny."
+        },
+        "hotWeather": null,
+        "easy": null,
+        "active": null
+      },
+      "items": [
+        {
+          "publicId": "7a2cc248-cbca-46c8-be68-7bd07d10cab5",
+          "type": "practical_stop",
+          "title": "Balení",
+          "startTime": "08:00",
+          "endTime": "10:30",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "notes": null,
+          "needsVerification": false,
+          "sourceUrl": "https://www.morskie-tarasy.pl/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "practical_stop"
+          ]
+        },
+        {
+          "publicId": "fc65ded9-ec18-4842-8630-993b97b83d22",
+          "type": "departure",
+          "title": "Odjezd z destinace",
+          "startTime": "11:00",
+          "endTime": "11:00",
+          "durationMinutes": null,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "notes": null,
+          "needsVerification": false,
+          "sourceUrl": "https://www.morskie-tarasy.pl/",
+          "mapLinks": {
+            "googleMapsUrl": null,
+            "mapyUrl": null
+          },
+          "tags": [
+            "departure"
+          ]
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "publicId": "d77fd5c6-6a40-457d-84de-6ccc03952635",
+      "name": "Aquapark Reda",
+      "category": "custom",
+      "latitude": null,
+      "longitude": null,
+      "description": "31 km/40–55 min autem; převážně vnitřní, hlavní atrakce na déšť.",
+      "whyVisit": null,
+      "travelerTips": null,
+      "officialUrl": "https://www.aquaparkreda.pl/en/",
+      "sourceUrl": "https://www.aquaparkreda.pl/en/prices",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": null,
+        "mapyUrl": null
+      },
+      "needsVerification": false
+    },
+    {
+      "publicId": "9f5b33b4-6f29-463d-af68-eab1c5ae0d3c",
+      "name": "Experyment + Orłowo",
+      "category": "museum",
+      "latitude": null,
+      "longitude": null,
+      "description": "49 km/cca 75 min; 2,5–3 h interaktivní vědy, potom molo a útes.",
+      "whyVisit": null,
+      "travelerTips": null,
+      "officialUrl": "https://experyment.gdynia.pl/en/",
+      "sourceUrl": "https://experyment.gdynia.pl/cennik/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": null,
+        "mapyUrl": null
+      },
+      "needsVerification": false
+    },
+    {
+      "publicId": "18718c5d-ad7c-484d-8dfb-d9873dd5b3ed",
+      "name": "Fokarium Hel",
+      "category": "custom",
+      "latitude": null,
+      "longitude": null,
+      "description": "45 km/cca 65 min bez kolon; krmení 11:00, 12:30, 14:00, 15:30.",
+      "whyVisit": null,
+      "travelerTips": null,
+      "officialUrl": "https://fokarium.ug.edu.pl/dla-odwiedzajacych/",
+      "sourceUrl": "https://fokarium.ug.edu.pl/dla-odwiedzajacych/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": null,
+        "mapyUrl": null
+      },
+      "needsVerification": false
+    },
+    {
+      "publicId": "b2fca9ce-5896-4006-899e-2ba339c1c018",
+      "name": "Gdaňsk + Muzeum druhé světové války",
+      "category": "museum",
+      "latitude": null,
+      "longitude": null,
+      "description": "72–73 km/cca 90 min; ráno Długi Targ a Motława, od 13:00 muzeum.",
+      "whyVisit": null,
+      "travelerTips": null,
+      "officialUrl": "https://www.muzeum1939.pl/en",
+      "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/buying-tickets",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": null,
+        "mapyUrl": null
+      },
+      "needsVerification": false
+    },
+    {
+      "publicId": "8eda5a5b-a235-414f-b620-4db87d4ac172",
+      "name": "Łącka duna",
+      "category": "nature",
+      "latitude": null,
+      "longitude": null,
+      "description": "73 km/cca 95 min autem; aktivní okruh 15,1 km.",
+      "whyVisit": null,
+      "travelerTips": null,
+      "officialUrl": "https://spn.gov.pl/",
+      "sourceUrl": "https://spn.gov.pl/informacje-o-biletach",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": null,
+        "mapyUrl": null
+      },
+      "needsVerification": false
+    },
+    {
+      "publicId": "6fb3c08d-17b2-4732-926b-f85030557e87",
+      "name": "Maják Rozewie + Lisi Jar",
+      "category": "viewpoint",
+      "latitude": null,
+      "longitude": null,
+      "description": "Místní pěší den; maják 3,5 km/10 min autem od ubytování, Lisi Jar navazuje procházkou.",
+      "whyVisit": null,
+      "travelerTips": null,
+      "officialUrl": "https://tpnmm.pl/latarnia-rozewie/",
+      "sourceUrl": "https://tpnmm.pl/latarnia-rozewie/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": null,
+        "mapyUrl": null
+      },
+      "needsVerification": true
+    },
+    {
+      "publicId": "10922298-f926-4caa-ae60-2baa7ecf6f4f",
+      "name": "Morski – Bar & Restaurant",
+      "category": "restaurant_area",
+      "latitude": null,
+      "longitude": null,
+      "description": null,
+      "whyVisit": null,
+      "travelerTips": null,
+      "officialUrl": "https://barmorski.pl/",
+      "sourceUrl": "https://barmorski.pl/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": null,
+        "mapyUrl": null
+      },
+      "needsVerification": true
+    },
+    {
+      "publicId": "5ced41da-9121-47e4-b492-47ecfb9513a2",
+      "name": "Muzeum Obrony Wybrzeża",
+      "category": "museum",
+      "latitude": null,
+      "longitude": null,
+      "description": "43 km/cca 60 min bez kolon; vojenská technika a pobřežní baterie.",
+      "whyVisit": null,
+      "travelerTips": null,
+      "officialUrl": "https://www.helmuzeum.pl/",
+      "sourceUrl": "https://www.helmuzeum.pl/zwiedzanie/ceny-biletow/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": null,
+        "mapyUrl": null
+      },
+      "needsVerification": false
+    },
+    {
+      "publicId": "f62e15dc-99aa-410d-8dde-946ebd41a3f4",
+      "name": "POLOmarket",
+      "category": "supermarket",
+      "latitude": null,
+      "longitude": null,
+      "description": null,
+      "whyVisit": null,
+      "travelerTips": null,
+      "officialUrl": null,
+      "sourceUrl": "https://polomarket.pl/sklepy",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": null,
+        "mapyUrl": null
+      },
+      "needsVerification": true
+    }
+  ],
+  "generalTips": [
+    "Odjezd autem kolem 06:00, ideálně úterý–čtvrtek; vlak je záloha.",
+    "První celodenně deštivý/chladný/větrný všední den; bez deště nejpozději pátek 31. 7.",
+    "Rozhodnout ráno; leash, vesta, bez bouřek a větru od břehu.",
+    "Kontrolovat kolem 10:30–11:30; pro 7 osob zavolat; u ryb ověřit cenu za 100 g."
+  ],
+  "publicDocuments": [],
+  "vault": {
+    "available": false,
+    "manifestUrl": null
+  },
+  "sources": [
+    {
+      "title": "Aquapark Reda",
+      "url": "https://www.aquaparkreda.pl/en/prices"
+    },
+    {
+      "title": "ČNB kurz",
+      "url": "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/"
+    },
+    {
+      "title": "Experyment",
+      "url": "https://experyment.gdynia.pl/cennik/"
+    },
+    {
+      "title": "Fokarium",
+      "url": "https://fokarium.ug.edu.pl/dla-odwiedzajacych/"
+    },
+    {
+      "title": "Hel muzeum",
+      "url": "https://www.helmuzeum.pl/zwiedzanie/ceny-biletow/"
+    },
+    {
+      "title": "Marina Puck",
+      "url": "https://en.marinapuck.com/"
+    },
+    {
+      "title": "Morski",
+      "url": "https://barmorski.pl/"
+    },
+    {
+      "title": "POLOmarket",
+      "url": "https://polomarket.pl/sklepy"
+    },
+    {
+      "title": "Rozewie",
+      "url": "https://tpnmm.pl/latarnia-rozewie/"
+    },
+    {
+      "title": "Słowiński park",
+      "url": "https://spn.gov.pl/informacje-o-biletach"
+    },
+    {
+      "title": "WWII muzeum",
+      "url": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/buying-tickets"
+    }
+  ],
+  "quality": {
+    "warnings": [
+      "Lokalita nemá vlastní časové pásmo; použit výchozí údaj Europe/Prague."
+    ],
+    "needsVerificationCount": 25
+  }
+}

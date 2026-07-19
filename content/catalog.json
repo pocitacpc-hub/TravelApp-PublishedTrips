@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-18T20:41:44.2229713\u002B00:00",
+  "generatedAt": "2026-07-19T08:59:36.7955317\u002B00:00",
   "trips": [
     {
       "publicId": "34712d42-f27b-4b45-9fd9-bf8e72d47f23",
@@ -15,6 +15,21 @@
       "isListed": true,
       "revision": 1,
       "updatedAt": "2026-07-18T15:30:00Z",
+      "vaultAvailable": false
+    },
+    {
+      "publicId": "8514f554-ce1c-4772-9699-4543b380c71a",
+      "slug": "aktivni-tyden-jastrzebia-gora-2026-07-8514f5",
+      "title": "Aktivn\u00ED t\u00FDden Jastrz\u0119bia G\u00F3ra",
+      "subtitle": "Jastrz\u0119bia G\u00F3ra",
+      "dateFrom": "2026-07-27",
+      "dateTo": "2026-08-03",
+      "countryCode": "PL",
+      "coverImageUrl": null,
+      "status": "upcoming",
+      "isListed": true,
+      "revision": 1,
+      "updatedAt": "2026-07-19T08:57:22.2969252\u002B00:00",
       "vaultAvailable": false
     },
     {
