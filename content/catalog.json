@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-19T19:03:46.5731214\u002B00:00",
+  "generatedAt": "2026-07-20T04:07:34.2340504\u002B00:00",
   "trips": [
     {
       "publicId": "34712d42-f27b-4b45-9fd9-bf8e72d47f23",
@@ -45,6 +45,21 @@
       "isListed": true,
       "revision": 1,
       "updatedAt": "2026-07-19T19:01:34.5786714\u002B00:00",
+      "vaultAvailable": false
+    },
+    {
+      "publicId": "a386ffa5-76fa-43f6-bdf1-e58468f30d7d",
+      "slug": "polsko-balt-aktivni-tyden-v-jastrzebie-gore-2026-07-a386ff",
+      "title": "Polsko-Balt \u2013 aktivn\u00ED t\u00FDden v Jastrz\u0119bie G\u00F3\u0159e",
+      "subtitle": "Jastrz\u0119bia G\u00F3ra",
+      "dateFrom": "2026-07-27",
+      "dateTo": "2026-08-03",
+      "countryCode": "PL",
+      "coverImageUrl": null,
+      "status": "upcoming",
+      "isListed": true,
+      "revision": 1,
+      "updatedAt": "2026-07-20T04:06:42.1009669\u002B00:00",
       "vaultAvailable": false
     },
     {
