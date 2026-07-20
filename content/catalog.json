@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "generatedAt": "2026-07-20T04:07:34.2340504\u002B00:00",
   "trips": [
- /*
+ 
     {
       "publicId": "34712d42-f27b-4b45-9fd9-bf8e72d47f23",
       "slug": "sample-trip-2026-07-k4m7",
@@ -17,7 +17,7 @@
       "revision": 1,
       "updatedAt": "2026-07-18T15:30:00Z",
       "vaultAvailable": false
-    },*/
+    },
     
     {
       "publicId": "8514f554-ce1c-4772-9699-4543b380c71a",
