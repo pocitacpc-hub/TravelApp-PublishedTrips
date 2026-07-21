@@ -3,8 +3,8 @@
   "documentType": "published_trip",
   "publicId": "a386ffa5-76fa-43f6-bdf1-e58468f30d7d",
   "slug": "polsko-balt-aktivni-tyden-v-jastrzebie-gore-2026-07-a386ff",
-  "revision": 1,
-  "title": "Polsko-Balt – aktivní týden v Jastrzębie Góře-v2",
+  "revision": 2,
+  "title": "Polsko-Balt – aktivní týden v Jastrzębie Góře",
   "subtitle": "Jastrzębia Góra",
   "summary": "Příjezd přes Toruň s volitelným Grudziądzem, místní klify, Hel, Gdaňsk, Aquapark Reda, pohyblivé duny a Gdyně pro rodinu s teenagery a vlastním autem.",
   "dateFrom": "2026-07-27",
@@ -1252,29 +1252,29 @@
       "longitude": 18.6049,
       "description": "Kompaktní středověké centrum zapsané na seznamu UNESCO, vhodné jako hlavní zastávka při cestě z Ostravy k Baltu.",
       "whyVisit": "Za 60–90 minut lze projít Staroměstské náměstí, Koperníkův pomník, ulici Szeroka, katedrálu zvenku, Křivou věž a část hradeb.",
-      "travelerTips": "Toruň je primární zastávka. Do muzeí v příjezdový den nechodit a držet pěší okruh přibližně na 2,5–3 kilometrech.",
-      "warnings": "Podzemní parkoviště CKK Jordanki může mít výškový limit; před vjezdem zkontrolovat značku kvůli velkému autu.",
+      "travelerTips": "Toruň je jediná plánovaná zastávka cestou k moři. Do muzeí v příjezdový den nechodit a držet pěší okruh přibližně na 2,5–3 kilometrech.",
+      "warnings": "Venkovní Parking Pod Mostem se může v letní sezoně zaplnit. Záložní parkování CKK Jordanki může mít výškový limit.",
       "officialUrl": "https://visittorun.com/en",
       "sourceUrl": "https://visittorun.com/en",
       "reservationUrl": null,
       "mapLinks": {
-        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rynek+Staromiejski+Toru%C5%84",
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking+Pod+Mostem+Bulwar+Filadelfijski+Toru%C5%84",
         "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.6049,53.0105&zoom=16&marker=true",
-        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=CKK+Jordanki%2C+Aleja+Solidarno%C5%9Bci+1-3%2C+Toru%C5%84",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Parking+Pod+Mostem%2C+Bulwar+Filadelfijski+11%2F15%2C+Toru%C5%84",
         "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.6049,53.0105&navigate=true"
       },
       "parking": {
-        "name": "Parkoviště CKK Jordanki",
+        "name": "Parking Pod Mostem",
         "addressText": null,
         "latitude": null,
         "longitude": null,
-        "note": "Podzemní parkoviště blízko historického centra. Uváděná sazba je 6 PLN za započatou hodinu v denním režimu; výškový limit a aktuální tarif ověřit před vjezdem.",
+        "note": "Venkovní parkoviště přibližně 3 minuty pěšky od Starého města. Orientační sazba 8 PLN za hodinu; aktuální tarif a obsazenost ověřit. Záloha: CKK Jordanki.",
         "priceNote": null,
         "heightLimitMeters": null,
         "mapLinks": {
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=CKK+Jordanki+Toru%C5%84",
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking+Pod+Mostem+Bulwar+Filadelfijski+Toru%C5%84",
           "mapyUrl": null,
-          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=CKK+Jordanki%2C+Aleja+Solidarno%C5%9Bci+1-3%2C+Toru%C5%84",
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Parking+Pod+Mostem%2C+Bulwar+Filadelfijski+11%2F15%2C+Toru%C5%84",
           "mapyNavigationUrl": null
         },
         "needsVerification": true
@@ -1319,7 +1319,7 @@
           "note": "Se sedmi lidmi, přestávkou a provozem počítat přibližně se 4,5–5 hodinami."
         }
       ],
-      "alternativesJson": "[\n        {\n          \"type\": \"late_arrival\",\n          \"text\": \"Při příjezdu do Toruně po 13:00 zkrátit okruh na 60 minut a Grudziądz vynechat.\"\n        },\n        {\n          \"type\": \"bad_weather\",\n          \"text\": \"Při silném dešti projít pouze náměstí a hlavní ulice, dát rychlé jídlo a pokračovat k pobřeží.\"\n        }\n      ]",
+      "alternativesJson": "[\n        {\n          \"type\": \"late_arrival\",\n          \"text\": \"Při příjezdu do Toruně po 14:00 zkrátit okruh na 45–60 minut a vzít jídlo s sebou.\"\n        },\n        {\n          \"type\": \"bad_weather\",\n          \"text\": \"Při silném dešti projít jen náměstí a hlavní ulice, dát rychlé jídlo a pokračovat k pobřeží.\"\n        }\n      ]",
       "needsVerification": true
     },
     {
@@ -1967,8 +1967,10 @@
     "Redu použít na první celodenně deštivý, chladný nebo velmi větrný všední den. Pokud takový den nepřijde, ponechat pátek 31. 7.",
     "Odjezd autem kolem 06:00, ideálně úterý–čtvrtek; vlak je záloha.",
     "Hlavní volba je auto s odjezdem kolem 06:00 ve středu. Při mimořádné koloně parkovat ve Władysławowu a pokračovat vlakem.",
+    "Odjezd z Jastrzębie Góry v 09:00. V pondělí využít bezplatnou Castle Grounds Route, navštívit pouze exteriéry a z Malborku odjet kolem 14:30.",
     "SUP použít jen při slabém větru, bez bouřek a s bezpečným směrem větru. Při pochybnosti aktivitu zrušit.",
     "Na duny nejet autem do Rąbky. Zaparkovat v Łebě a pokračovat místním transferem.",
+    "Odjezd z Ostravy v 08:00. V Toruni držet přibližně 75 minut na centrum a 40 minut na oběd, poté pokračovat přímo k ubytování.",
     "Při odjezdu z Ostravy v 07:00 ponechat Toruň jako hlavní zastávku. Grudziądz je pouze bonus: vynechat jej, pokud příjezd do Toruně nastane po 13:00, odjezd z Toruně po 13:45 nebo je skupina unavená.",
     "První celodenně deštivý/chladný/větrný všední den; bez deště nejpozději pátek 31. 7.",
     "Rozhodnout ráno; leash, vesta, bez bouřek a větru od břehu.",
@@ -1992,10 +1994,6 @@
     {
       "title": "Centrum Nauki Experyment",
       "url": "https://experyment.gdynia.pl/"
-    },
-    {
-      "title": "CKK Jordanki",
-      "url": "https://visittorun.com/en/content/ckk-jordanki"
     },
     {
       "title": "Experyment – ceník",
@@ -2056,6 +2054,10 @@
     {
       "title": "Muzeum Obrony Wybrzeża – otevírací doba",
       "url": "https://www.helmuzeum.pl/zwiedzanie/godziny-otwarcia/"
+    },
+    {
+      "title": "Parking Pod Mostem",
+      "url": "https://visittorun.com/pl/content/parking-pod-mostem"
     },
     {
       "title": "Słowiński národní park",
