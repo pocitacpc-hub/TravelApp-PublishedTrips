@@ -62,7 +62,7 @@ try {
     Assert-AllowedChanges -Paths $changedPaths
 
     Write-Host "Spouštím úplnou kontrolu veřejného obsahu..."
-    Invoke-Native npm.cmd run check
+    Invoke-Native -FilePath npm.cmd -Arguments @("run", "check")
 
     if ($ValidateOnly) {
         Write-Host "Kontrola publish workflow proběhla úspěšně. Commit ani push nebyl proveden."
@@ -74,7 +74,7 @@ try {
     }
 
     Write-Host "Ověřuji synchronizaci s origin/main..."
-    Invoke-Native git fetch origin $expectedBranch
+    Invoke-Native -FilePath git -Arguments @("fetch", "origin", $expectedBranch)
     $sync = (git rev-list --left-right --count "origin/$expectedBranch...HEAD").Trim() -split '\s+'
     if ($LASTEXITCODE -ne 0 -or $sync.Count -ne 2) {
         throw "Nepodařilo se ověřit synchronizaci s origin/$expectedBranch."
@@ -83,7 +83,7 @@ try {
         throw "Lokální větev není přesně synchronní s origin/$expectedBranch (behind=$($sync[0]), ahead=$($sync[1])). Nejprve stav bezpečně vyřešte."
     }
 
-    Invoke-Native git add -A -- content/catalog.json content/trips
+    Invoke-Native -FilePath git -Arguments @("add", "-A", "--", "content/catalog.json", "content/trips")
     $stagedPaths = @(git diff --cached --name-only | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
     if ($LASTEXITCODE -ne 0 -or $stagedPaths.Count -eq 0) {
         throw "Po kontrole není připravena žádná změna ke commitu."
@@ -91,9 +91,9 @@ try {
     Assert-AllowedChanges -Paths $stagedPaths
 
     $stamp = Get-Date -Format "yyyy-MM-dd HH:mm"
-    Invoke-Native git commit -m "Publish prepared TravelApp trips ($stamp)"
+    Invoke-Native -FilePath git -Arguments @("commit", "-m", "Publish prepared TravelApp trips ($stamp)")
     $commitSha = (git rev-parse HEAD).Trim()
-    Invoke-Native git push origin $expectedBranch
+    Invoke-Native -FilePath git -Arguments @("push", "origin", $expectedBranch)
 
     Write-Host "Commit $commitSha byl odeslán. GitHub Actions nyní nasadí GitHub Pages."
 
@@ -134,7 +134,7 @@ try {
     }
 
     Write-Host "Čekám na dokončení GitHub Pages workflow #$runId..."
-    Invoke-Native gh run watch $runId --repo pocitacpc-hub/TravelApp-PublishedTrips --exit-status
+    Invoke-Native -FilePath gh -Arguments @("run", "watch", $runId, "--repo", "pocitacpc-hub/TravelApp-PublishedTrips", "--exit-status")
     Write-Host "GitHub Pages byly úspěšně nasazeny."
 }
 finally {
