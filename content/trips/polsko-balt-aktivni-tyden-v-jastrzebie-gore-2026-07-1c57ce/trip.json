@@ -3,7 +3,7 @@
   "documentType": "published_trip",
   "publicId": "1c57cea5-d4b5-4cca-9b37-cb4d5be80c01",
   "slug": "polsko-balt-aktivni-tyden-v-jastrzebie-gore-2026-07-1c57ce",
-  "revision": 2,
+  "revision": 3,
   "title": "Polsko-Balt – aktivní týden v Jastrzębie Góře",
   "subtitle": "Jastrzębia Góra",
   "summary": null,
@@ -15,8 +15,8 @@
   "currency": "PLN",
   "status": "upcoming",
   "isListed": true,
-  "generatedAt": "2026-07-23T15:50:08.7146883+00:00",
-  "publishedAt": "2026-07-23T15:50:08.7146883+00:00",
+  "generatedAt": "2026-07-23T16:27:33.9539125+00:00",
+  "publishedAt": "2026-07-23T16:27:33.9539125+00:00",
   "location": {
     "name": "Jastrzębia Góra",
     "region": "Polsko",
@@ -183,384 +183,6 @@
           },
           "tags": [
             "arrival"
-          ]
-        }
-      ]
-    },
-    {
-      "publicId": "a8a60e28-4f76-4aac-9ebc-a52827eb32ec",
-      "date": "2026-08-02",
-      "dayIndex": 7,
-      "title": "Gdyně a Sopot – Błyskawica, Experyment, Orłowo a molo",
-      "summary": "Námořní historie v centru Gdyně, interaktivní věda, pobřeží Orłowa a podvečerní Sopot.",
-      "dayType": "mixed_weather",
-      "weatherNote": "Při celodenním dešti vynechat Orłowo nebo Sopot a prodloužit indoor program. ORP Błyskawica může být uzavřena při nepříznivých podmínkách.",
-      "alternatives": {
-        "badWeather": {
-          "title": "Alternativa při špatném počasí",
-          "text": "ORP Błyskawica, pokud zůstane otevřená, volitelně Dar Pomorza, Experyment a krátký Sopot podle počasí. Orłowo vynechat."
-        },
-        "hotWeather": {
-          "title": "Alternativa při horku",
-          "text": "Experyment držet na dvě hodiny, v Orłowu jen molo a pláž a větší část podvečera ponechat Sopotu."
-        },
-        "easy": {
-          "title": "Lehčí alternativa",
-          "text": "ORP Błyskawica, Experyment a krátké Orłowo. Sopot zkrátit nebo vynechat podle energie."
-        },
-        "active": {
-          "title": "Aktivnější alternativa",
-          "text": "Po ORP Błyskawica navštívit také interiér Dar Pomorza přibližně 10:55–11:45. Potom Experyment 12:10–14:10, oběd do 15:00, Orłowo 15:15–16:45 a Sopot 17:15–19:30."
-        }
-      },
-      "items": [
-        {
-          "publicId": "e5b5f88b-823b-4b42-98ab-244bee94f69d",
-          "type": "car_transfer",
-          "title": "Odjezd z Jastrzębie Góry do centra Gdyně",
-          "startTime": "08:15",
-          "endTime": "09:30",
-          "durationMinutes": 75,
-          "status": "planned",
-          "placePublicId": null,
-          "transportMode": "car",
-          "cost": {
-            "amount": 0.0,
-            "currency": "PLN",
-            "text": null
-          },
-          "distanceKm": 55.0,
-          "notes": "Počítat s nedělním provozem a rezervou na parkování u Skweru Kościuszki.",
-          "whyHere": "Včasný příjezd umožní stihnout první vstup na ORP Błyskawica.",
-          "bookingNote": null,
-          "parkingNote": "Primárně Skwer Kościuszki / Nabrzeże Pomorskie; zálohu zvolit podle obsazenosti.",
-          "needsVerification": true,
-          "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=Jastrz%C4%99bia+G%C3%B3ra&destination=Skwer+Ko%C5%9Bciuszki%2C+Gdynia&travelmode=driving",
-          "mapLinks": {
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Odjezd%20z%20Jastrz%C4%99bie%20G%C3%B3ry%20do%20centra%20Gdyn%C4%9B",
-            "mapyUrl": null,
-            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Jastrz%C4%99bia+G%C3%B3ra&destination=Skwer+Ko%C5%9Bciuszki%2C+Gdynia&travelmode=driving",
-            "mapyNavigationUrl": null
-          },
-          "tags": [
-            "car_transfer"
-          ]
-        },
-        {
-          "publicId": "26001a41-c662-4ee0-ad9e-41ae6b8784fc",
-          "type": "poi_visit",
-          "title": "Přístav a Dar Pomorza zvenku",
-          "startTime": "09:30",
-          "endTime": "09:55",
-          "durationMinutes": 25,
-          "status": "planned",
-          "placePublicId": "00be31a0-cfbc-4d61-b0e0-fa36142da184",
-          "transportMode": "walk",
-          "cost": {
-            "amount": 0.0,
-            "currency": "PLN",
-            "text": null
-          },
-          "distanceKm": 0.5,
-          "notes": "Krátká procházka po nábřeží a fotografie plachetnice. Interiér není součástí hlavního plánu.",
-          "whyHere": "Vyplní čas před otevřením Błyskawice bez dalšího přejezdu.",
-          "bookingNote": null,
-          "parkingNote": "Auto ponechat u Skweru Kościuszki.",
-          "needsVerification": false,
-          "sourceUrl": "https://nmm.pl/en/dar-pomorza/",
-          "mapLinks": {
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dar+Pomorza+Gdynia",
-            "mapyUrl": "https://mapy.com/fnc/v1/search?query=Dar%20Pomorza%20Gdynia",
-            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=P%C5%99%C3%ADstav%20a%20Dar%20Pomorza%20zvenku",
-            "mapyNavigationUrl": null
-          },
-          "tags": [
-            "poi_visit",
-            "museum"
-          ]
-        },
-        {
-          "publicId": "3bd06186-e46b-42e6-baf3-38008d7578d7",
-          "type": "poi_visit",
-          "title": "ORP Błyskawica",
-          "startTime": "10:00",
-          "endTime": "10:50",
-          "durationMinutes": 50,
-          "status": "planned",
-          "placePublicId": "d710fae6-af55-4318-9186-8f89d20e4ac9",
-          "transportMode": "walk",
-          "cost": {
-            "amount": 30.0,
-            "currency": "PLN",
-            "text": null
-          },
-          "distanceKm": 0.2,
-          "notes": "Hlavní námořní atrakce dne. Držet prohlídku kolem 45–50 minut.",
-          "whyHere": "Jedna z nejvýraznějších atrakcí Gdyně a silný zážitek pro děti ve věku 13–14 let.",
-          "bookingNote": "Bez běžné rezervace; přijít před prvním vstupem.",
-          "parkingNote": "Auto zůstává na stejném parkovišti.",
-          "needsVerification": true,
-          "sourceUrl": "https://muzeummw.pl/en/price-list-and-opening-hours/",
-          "mapLinks": {
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=ORP+B%C5%82yskawica+Gdynia",
-            "mapyUrl": "https://mapy.com/fnc/v1/search?query=ORP%20B%C5%82yskawica%20Gdynia",
-            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=ORP%20B%C5%82yskawica",
-            "mapyNavigationUrl": null
-          },
-          "tags": [
-            "poi_visit",
-            "museum"
-          ]
-        },
-        {
-          "publicId": "ff411131-358f-4960-8cea-35ff2faeb0f9",
-          "type": "car_transfer",
-          "title": "Přejezd k Centru Nauki Experyment",
-          "startTime": "10:50",
-          "endTime": "11:25",
-          "durationMinutes": 35,
-          "status": "planned",
-          "placePublicId": null,
-          "transportMode": "car",
-          "cost": {
-            "amount": 0.0,
-            "currency": "PLN",
-            "text": null
-          },
-          "distanceKm": 6.0,
-          "notes": "Čas zahrnuje návrat k autu, přejezd a parkování.",
-          "whyHere": "Přesun z přístavu k hlavní indoor aktivitě.",
-          "bookingNote": null,
-          "parkingNote": "Při zaplnění parkování u centra použít Arena nebo Riviera.",
-          "needsVerification": true,
-          "sourceUrl": "https://experyment.gdynia.pl/zaplanuj-wizyte/godziny-otwarcia-jak-dojechac/",
-          "mapLinks": {
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C5%99ejezd%20k%20Centru%20Nauki%20Experyment",
-            "mapyUrl": null,
-            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.4935%2C18.5386",
-            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.5386,54.4935&routeType=car_fast_traffic&navigate=true"
-          },
-          "tags": [
-            "car_transfer"
-          ]
-        },
-        {
-          "publicId": "9f774656-99d3-4353-938d-3162cba47906",
-          "type": "poi_visit",
-          "title": "Centrum Nauki Experyment",
-          "startTime": "11:30",
-          "endTime": "13:30",
-          "durationMinutes": 120,
-          "status": "planned",
-          "placePublicId": "5f8fe9a5-7703-4cb4-af76-0f7ec4c63a68",
-          "transportMode": "walk",
-          "cost": {
-            "amount": 30.0,
-            "currency": "PLN",
-            "text": null
-          },
-          "distanceKm": 0.0,
-          "notes": "Dvě hodiny jsou pro tento nabitý den dostačující.",
-          "whyHere": "Silný interaktivní program pro teenagery a jistota i při proměnlivém počasí.",
-          "bookingNote": "Doporučeno koupit vstup den předem.",
-          "parkingNote": "Auto ponechat u Experymentu.",
-          "needsVerification": true,
-          "sourceUrl": "https://experyment.gdynia.pl/",
-          "mapLinks": {
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.4935%2C18.5386",
-            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.5386,54.4935&zoom=16&marker=true",
-            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.4935%2C18.5386",
-            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.5386,54.4935&routeType=car_fast_traffic&navigate=true"
-          },
-          "tags": [
-            "poi_visit",
-            "museum"
-          ]
-        },
-        {
-          "publicId": "51215029-8803-4acd-be44-e5d945d1b645",
-          "type": "meal",
-          "title": "Rychlý oběd u Experymentu nebo cestou do Orłowa",
-          "startTime": "13:30",
-          "endTime": "14:20",
-          "durationMinutes": 50,
-          "status": "planned",
-          "placePublicId": null,
-          "transportMode": "walk",
-          "cost": null,
-          "distanceKm": 0.5,
-          "notes": "Neplánovat dlouhé posezení. Konkrétní podnik a denní menu ověřit ráno.",
-          "whyHere": "Praktická pauza před pobřežní částí dne.",
-          "bookingNote": "Pro sedm osob je vhodné ráno ověřit kapacitu.",
-          "parkingNote": "Auto ponechat u Experymentu nebo se přesunout směrem k Orłowu podle zvoleného podniku.",
-          "needsVerification": true,
-          "sourceUrl": "https://experyment.gdynia.pl/",
-          "mapLinks": {
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=restaurant+near+Centrum+Nauki+Experyment+Gdynia",
-            "mapyUrl": "https://mapy.com/fnc/v1/search?query=restaurace%20Centrum%20Nauki%20Experyment%20Gdynia",
-            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Rychl%C3%BD%20ob%C4%9Bd%20u%20Experymentu%20nebo%20cestou%20do%20Or%C5%82owa",
-            "mapyNavigationUrl": null
-          },
-          "tags": [
-            "meal"
-          ]
-        },
-        {
-          "publicId": "29a5850f-369c-47af-90b7-e9d16cc4c25e",
-          "type": "poi_visit",
-          "title": "Molo, pláž a útes Orłowo",
-          "startTime": "14:35",
-          "endTime": "16:30",
-          "durationMinutes": 115,
-          "status": "planned",
-          "placePublicId": "cfaa9bd2-8efe-4b99-8ebb-cdbaf330371e",
-          "transportMode": "car",
-          "cost": {
-            "amount": 0.0,
-            "currency": "PLN",
-            "text": null
-          },
-          "distanceKm": 6.0,
-          "notes": "Pohodový okruh bez dlouhé túry. Po dešti se nepřibližovat těsně pod klif.",
-          "whyHere": "Pobřežní část dne vyvažuje lodě a Experyment.",
-          "bookingNote": "Bez rezervace.",
-          "parkingNote": "Parkovat dál od mola a dojít přibližně 10–15 minut.",
-          "needsVerification": true,
-          "sourceUrl": "https://www.gdynia.pl/turystyczna",
-          "mapLinks": {
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.4793%2C18.5592",
-            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.5592,54.4793&zoom=16&marker=true",
-            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.4793%2C18.5592",
-            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.5592,54.4793&routeType=car_fast_traffic&navigate=true"
-          },
-          "tags": [
-            "poi_visit",
-            "nature"
-          ]
-        },
-        {
-          "publicId": "fa20878c-e6f5-4f9e-8c1c-d793d9451cc1",
-          "type": "car_transfer",
-          "title": "Přejezd z Orłowa do Sopotu",
-          "startTime": "16:30",
-          "endTime": "17:00",
-          "durationMinutes": 30,
-          "status": "planned",
-          "placePublicId": null,
-          "transportMode": "car",
-          "cost": {
-            "amount": 0.0,
-            "currency": "PLN",
-            "text": null
-          },
-          "distanceKm": 7.0,
-          "notes": "Čas zahrnuje hledání parkování v Sopotu.",
-          "whyHere": "Sopot přímo navazuje na Orłowo směrem na jih.",
-          "bookingNote": null,
-          "parkingNote": "Vybrat parkování v docházkové vzdálenosti od Bohaterów Monte Cassino.",
-          "needsVerification": true,
-          "sourceUrl": "https://visit.sopot.pl/",
-          "mapLinks": {
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C5%99ejezd%20z%20Or%C5%82owa%20do%20Sopotu",
-            "mapyUrl": null,
-            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Or%C5%82owo%2C+Gdynia&destination=Plac+Zdrojowy%2C+Sopot&travelmode=driving",
-            "mapyNavigationUrl": null
-          },
-          "tags": [
-            "car_transfer"
-          ]
-        },
-        {
-          "publicId": "79d6052d-664e-42a9-a570-bed6714afff1",
-          "type": "poi_visit",
-          "title": "Sopot – Monciak, Krzywy Domek, molo a pláž",
-          "startTime": "17:00",
-          "endTime": "19:30",
-          "durationMinutes": 150,
-          "status": "planned",
-          "placePublicId": "3bd2b72f-8835-494e-aa92-dfc4217fd06a",
-          "transportMode": "walk",
-          "cost": {
-            "amount": 10.0,
-            "currency": "PLN",
-            "text": null
-          },
-          "distanceKm": 3.0,
-          "notes": "Projít Bohaterów Monte Cassino, Krzywy Domek, Plac Zdrojowy, molo a krátký úsek pláže.",
-          "whyHere": "Krátká podvečerní zastávka dodá výletu atmosféru Sopotu bez zkrácení samostatného dne v Gdaňsku.",
-          "bookingNote": "Bez rezervace; vstup na molo koupit na místě.",
-          "parkingNote": "Auto ponechat na vybraném parkovišti u centra.",
-          "needsVerification": true,
-          "sourceUrl": "https://visit.sopot.pl/",
-          "mapLinks": {
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Molo+w+Sopocie",
-            "mapyUrl": "https://mapy.com/fnc/v1/search?query=Molo%20w%20Sopocie",
-            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Plac+Zdrojowy%2C+Sopot",
-            "mapyNavigationUrl": null
-          },
-          "tags": [
-            "poi_visit",
-            "historic_center"
-          ]
-        },
-        {
-          "publicId": "ba01c2af-a1b6-4fe2-bcda-fb5afa884cda",
-          "type": "meal",
-          "title": "Večeře v Sopotu",
-          "startTime": "19:30",
-          "endTime": "20:30",
-          "durationMinutes": 60,
-          "status": "planned",
-          "placePublicId": null,
-          "transportMode": "walk",
-          "cost": null,
-          "distanceKm": 0.5,
-          "notes": "Pro rozumnější cenu odejít několik ulic od mola. Pro sedm osob ověřit kapacitu.",
-          "whyHere": "Klidné zakončení dlouhého dne před návratem.",
-          "bookingNote": "Doporučeno rezervovat nebo zavolat během odpoledne.",
-          "parkingNote": "Auto zůstává na stejném parkovišti.",
-          "needsVerification": true,
-          "sourceUrl": "https://visit.sopot.pl/",
-          "mapLinks": {
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=restaurants+Sopot+centrum",
-            "mapyUrl": "https://mapy.com/fnc/v1/search?query=restaurace%20Sopot%20centrum",
-            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Ve%C4%8De%C5%99e%20v%20Sopotu",
-            "mapyNavigationUrl": null
-          },
-          "tags": [
-            "meal"
-          ]
-        },
-        {
-          "publicId": "e6dc9f05-8cf4-4a27-8164-84ac79dd7d28",
-          "type": "car_transfer",
-          "title": "Návrat ze Sopotu do Jastrzębie Góry",
-          "startTime": "20:30",
-          "endTime": "21:45",
-          "durationMinutes": 75,
-          "status": "planned",
-          "placePublicId": null,
-          "transportMode": "car",
-          "cost": {
-            "amount": 0.0,
-            "currency": "PLN",
-            "text": null
-          },
-          "distanceKm": 60.0,
-          "notes": "Doba je orientační podle večerního provozu.",
-          "whyHere": "Závěrečný přesun na ubytování.",
-          "bookingNote": null,
-          "parkingNote": null,
-          "needsVerification": true,
-          "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=Sopot&destination=Jastrz%C4%99bia+G%C3%B3ra&travelmode=driving",
-          "mapLinks": {
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=N%C3%A1vrat%20ze%20Sopotu%20do%20Jastrz%C4%99bie%20G%C3%B3ry",
-            "mapyUrl": null,
-            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Sopot&destination=Jastrz%C4%99bia+G%C3%B3ra&travelmode=driving",
-            "mapyNavigationUrl": null
-          },
-          "tags": [
-            "car_transfer"
           ]
         }
       ]
@@ -1023,6 +645,384 @@
           "tags": [
             "poi_visit",
             "nature"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "a8a60e28-4f76-4aac-9ebc-a52827eb32ec",
+      "date": "2026-08-02",
+      "dayIndex": 7,
+      "title": "Gdyně a Sopot – Błyskawica, Experyment, Orłowo a molo",
+      "summary": "Námořní historie v centru Gdyně, interaktivní věda, pobřeží Orłowa a podvečerní Sopot.",
+      "dayType": "mixed_weather",
+      "weatherNote": "Při celodenním dešti vynechat Orłowo nebo Sopot a prodloužit indoor program. ORP Błyskawica může být uzavřena při nepříznivých podmínkách.",
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "ORP Błyskawica, pokud zůstane otevřená, volitelně Dar Pomorza, Experyment a krátký Sopot podle počasí. Orłowo vynechat."
+        },
+        "hotWeather": {
+          "title": "Alternativa při horku",
+          "text": "Experyment držet na dvě hodiny, v Orłowu jen molo a pláž a větší část podvečera ponechat Sopotu."
+        },
+        "easy": {
+          "title": "Lehčí alternativa",
+          "text": "ORP Błyskawica, Experyment a krátké Orłowo. Sopot zkrátit nebo vynechat podle energie."
+        },
+        "active": {
+          "title": "Aktivnější alternativa",
+          "text": "Po ORP Błyskawica navštívit také interiér Dar Pomorza přibližně 10:55–11:45. Potom Experyment 12:10–14:10, oběd do 15:00, Orłowo 15:15–16:45 a Sopot 17:15–19:30."
+        }
+      },
+      "items": [
+        {
+          "publicId": "e5b5f88b-823b-4b42-98ab-244bee94f69d",
+          "type": "car_transfer",
+          "title": "Odjezd z Jastrzębie Góry do centra Gdyně",
+          "startTime": "08:15",
+          "endTime": "09:30",
+          "durationMinutes": 75,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 55.0,
+          "notes": "Počítat s nedělním provozem a rezervou na parkování u Skweru Kościuszki.",
+          "whyHere": "Včasný příjezd umožní stihnout první vstup na ORP Błyskawica.",
+          "bookingNote": null,
+          "parkingNote": "Primárně Skwer Kościuszki / Nabrzeże Pomorskie; zálohu zvolit podle obsazenosti.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=Jastrz%C4%99bia+G%C3%B3ra&destination=Skwer+Ko%C5%9Bciuszki%2C+Gdynia&travelmode=driving",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Odjezd%20z%20Jastrz%C4%99bie%20G%C3%B3ry%20do%20centra%20Gdyn%C4%9B",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Jastrz%C4%99bia+G%C3%B3ra&destination=Skwer+Ko%C5%9Bciuszki%2C+Gdynia&travelmode=driving",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        },
+        {
+          "publicId": "26001a41-c662-4ee0-ad9e-41ae6b8784fc",
+          "type": "poi_visit",
+          "title": "Přístav a Dar Pomorza zvenku",
+          "startTime": "09:30",
+          "endTime": "09:55",
+          "durationMinutes": 25,
+          "status": "planned",
+          "placePublicId": "00be31a0-cfbc-4d61-b0e0-fa36142da184",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 0.5,
+          "notes": "Krátká procházka po nábřeží a fotografie plachetnice. Interiér není součástí hlavního plánu.",
+          "whyHere": "Vyplní čas před otevřením Błyskawice bez dalšího přejezdu.",
+          "bookingNote": null,
+          "parkingNote": "Auto ponechat u Skweru Kościuszki.",
+          "needsVerification": false,
+          "sourceUrl": "https://nmm.pl/en/dar-pomorza/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dar+Pomorza+Gdynia",
+            "mapyUrl": "https://mapy.com/fnc/v1/search?query=Dar%20Pomorza%20Gdynia",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=P%C5%99%C3%ADstav%20a%20Dar%20Pomorza%20zvenku",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "museum"
+          ]
+        },
+        {
+          "publicId": "3bd06186-e46b-42e6-baf3-38008d7578d7",
+          "type": "poi_visit",
+          "title": "ORP Błyskawica",
+          "startTime": "10:00",
+          "endTime": "10:50",
+          "durationMinutes": 50,
+          "status": "planned",
+          "placePublicId": "d710fae6-af55-4318-9186-8f89d20e4ac9",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 30.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 0.2,
+          "notes": "Hlavní námořní atrakce dne. Držet prohlídku kolem 45–50 minut.",
+          "whyHere": "Jedna z nejvýraznějších atrakcí Gdyně a silný zážitek pro děti ve věku 13–14 let.",
+          "bookingNote": "Bez běžné rezervace; přijít před prvním vstupem.",
+          "parkingNote": "Auto zůstává na stejném parkovišti.",
+          "needsVerification": true,
+          "sourceUrl": "https://muzeummw.pl/en/price-list-and-opening-hours/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=ORP+B%C5%82yskawica+Gdynia",
+            "mapyUrl": "https://mapy.com/fnc/v1/search?query=ORP%20B%C5%82yskawica%20Gdynia",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=ORP%20B%C5%82yskawica",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "museum"
+          ]
+        },
+        {
+          "publicId": "ff411131-358f-4960-8cea-35ff2faeb0f9",
+          "type": "car_transfer",
+          "title": "Přejezd k Centru Nauki Experyment",
+          "startTime": "10:50",
+          "endTime": "11:25",
+          "durationMinutes": 35,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 6.0,
+          "notes": "Čas zahrnuje návrat k autu, přejezd a parkování.",
+          "whyHere": "Přesun z přístavu k hlavní indoor aktivitě.",
+          "bookingNote": null,
+          "parkingNote": "Při zaplnění parkování u centra použít Arena nebo Riviera.",
+          "needsVerification": true,
+          "sourceUrl": "https://experyment.gdynia.pl/zaplanuj-wizyte/godziny-otwarcia-jak-dojechac/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C5%99ejezd%20k%20Centru%20Nauki%20Experyment",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.4935%2C18.5386",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.5386,54.4935&routeType=car_fast_traffic&navigate=true"
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        },
+        {
+          "publicId": "9f774656-99d3-4353-938d-3162cba47906",
+          "type": "poi_visit",
+          "title": "Centrum Nauki Experyment",
+          "startTime": "11:30",
+          "endTime": "13:30",
+          "durationMinutes": 120,
+          "status": "planned",
+          "placePublicId": "5f8fe9a5-7703-4cb4-af76-0f7ec4c63a68",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 30.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 0.0,
+          "notes": "Dvě hodiny jsou pro tento nabitý den dostačující.",
+          "whyHere": "Silný interaktivní program pro teenagery a jistota i při proměnlivém počasí.",
+          "bookingNote": "Doporučeno koupit vstup den předem.",
+          "parkingNote": "Auto ponechat u Experymentu.",
+          "needsVerification": true,
+          "sourceUrl": "https://experyment.gdynia.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.4935%2C18.5386",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.5386,54.4935&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.4935%2C18.5386",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.5386,54.4935&routeType=car_fast_traffic&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "museum"
+          ]
+        },
+        {
+          "publicId": "51215029-8803-4acd-be44-e5d945d1b645",
+          "type": "meal",
+          "title": "Rychlý oběd u Experymentu nebo cestou do Orłowa",
+          "startTime": "13:30",
+          "endTime": "14:20",
+          "durationMinutes": 50,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "distanceKm": 0.5,
+          "notes": "Neplánovat dlouhé posezení. Konkrétní podnik a denní menu ověřit ráno.",
+          "whyHere": "Praktická pauza před pobřežní částí dne.",
+          "bookingNote": "Pro sedm osob je vhodné ráno ověřit kapacitu.",
+          "parkingNote": "Auto ponechat u Experymentu nebo se přesunout směrem k Orłowu podle zvoleného podniku.",
+          "needsVerification": true,
+          "sourceUrl": "https://experyment.gdynia.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=restaurant+near+Centrum+Nauki+Experyment+Gdynia",
+            "mapyUrl": "https://mapy.com/fnc/v1/search?query=restaurace%20Centrum%20Nauki%20Experyment%20Gdynia",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Rychl%C3%BD%20ob%C4%9Bd%20u%20Experymentu%20nebo%20cestou%20do%20Or%C5%82owa",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "meal"
+          ]
+        },
+        {
+          "publicId": "29a5850f-369c-47af-90b7-e9d16cc4c25e",
+          "type": "poi_visit",
+          "title": "Molo, pláž a útes Orłowo",
+          "startTime": "14:35",
+          "endTime": "16:30",
+          "durationMinutes": 115,
+          "status": "planned",
+          "placePublicId": "cfaa9bd2-8efe-4b99-8ebb-cdbaf330371e",
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 6.0,
+          "notes": "Pohodový okruh bez dlouhé túry. Po dešti se nepřibližovat těsně pod klif.",
+          "whyHere": "Pobřežní část dne vyvažuje lodě a Experyment.",
+          "bookingNote": "Bez rezervace.",
+          "parkingNote": "Parkovat dál od mola a dojít přibližně 10–15 minut.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.gdynia.pl/turystyczna",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.4793%2C18.5592",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.5592,54.4793&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.4793%2C18.5592",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.5592,54.4793&routeType=car_fast_traffic&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "nature"
+          ]
+        },
+        {
+          "publicId": "fa20878c-e6f5-4f9e-8c1c-d793d9451cc1",
+          "type": "car_transfer",
+          "title": "Přejezd z Orłowa do Sopotu",
+          "startTime": "16:30",
+          "endTime": "17:00",
+          "durationMinutes": 30,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 7.0,
+          "notes": "Čas zahrnuje hledání parkování v Sopotu.",
+          "whyHere": "Sopot přímo navazuje na Orłowo směrem na jih.",
+          "bookingNote": null,
+          "parkingNote": "Vybrat parkování v docházkové vzdálenosti od Bohaterów Monte Cassino.",
+          "needsVerification": true,
+          "sourceUrl": "https://visit.sopot.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C5%99ejezd%20z%20Or%C5%82owa%20do%20Sopotu",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Or%C5%82owo%2C+Gdynia&destination=Plac+Zdrojowy%2C+Sopot&travelmode=driving",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        },
+        {
+          "publicId": "79d6052d-664e-42a9-a570-bed6714afff1",
+          "type": "poi_visit",
+          "title": "Sopot – Monciak, Krzywy Domek, molo a pláž",
+          "startTime": "17:00",
+          "endTime": "19:30",
+          "durationMinutes": 150,
+          "status": "planned",
+          "placePublicId": "3bd2b72f-8835-494e-aa92-dfc4217fd06a",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 10.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 3.0,
+          "notes": "Projít Bohaterów Monte Cassino, Krzywy Domek, Plac Zdrojowy, molo a krátký úsek pláže.",
+          "whyHere": "Krátká podvečerní zastávka dodá výletu atmosféru Sopotu bez zkrácení samostatného dne v Gdaňsku.",
+          "bookingNote": "Bez rezervace; vstup na molo koupit na místě.",
+          "parkingNote": "Auto ponechat na vybraném parkovišti u centra.",
+          "needsVerification": true,
+          "sourceUrl": "https://visit.sopot.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Molo+w+Sopocie",
+            "mapyUrl": "https://mapy.com/fnc/v1/search?query=Molo%20w%20Sopocie",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Plac+Zdrojowy%2C+Sopot",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "historic_center"
+          ]
+        },
+        {
+          "publicId": "ba01c2af-a1b6-4fe2-bcda-fb5afa884cda",
+          "type": "meal",
+          "title": "Večeře v Sopotu",
+          "startTime": "19:30",
+          "endTime": "20:30",
+          "durationMinutes": 60,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "distanceKm": 0.5,
+          "notes": "Pro rozumnější cenu odejít několik ulic od mola. Pro sedm osob ověřit kapacitu.",
+          "whyHere": "Klidné zakončení dlouhého dne před návratem.",
+          "bookingNote": "Doporučeno rezervovat nebo zavolat během odpoledne.",
+          "parkingNote": "Auto zůstává na stejném parkovišti.",
+          "needsVerification": true,
+          "sourceUrl": "https://visit.sopot.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=restaurants+Sopot+centrum",
+            "mapyUrl": "https://mapy.com/fnc/v1/search?query=restaurace%20Sopot%20centrum",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Ve%C4%8De%C5%99e%20v%20Sopotu",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "meal"
+          ]
+        },
+        {
+          "publicId": "e6dc9f05-8cf4-4a27-8164-84ac79dd7d28",
+          "type": "car_transfer",
+          "title": "Návrat ze Sopotu do Jastrzębie Góry",
+          "startTime": "20:30",
+          "endTime": "21:45",
+          "durationMinutes": 75,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 60.0,
+          "notes": "Doba je orientační podle večerního provozu.",
+          "whyHere": "Závěrečný přesun na ubytování.",
+          "bookingNote": null,
+          "parkingNote": null,
+          "needsVerification": true,
+          "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=Sopot&destination=Jastrz%C4%99bia+G%C3%B3ra&travelmode=driving",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=N%C3%A1vrat%20ze%20Sopotu%20do%20Jastrz%C4%99bie%20G%C3%B3ry",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Sopot&destination=Jastrz%C4%99bia+G%C3%B3ra&travelmode=driving",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "car_transfer"
           ]
         }
       ]
