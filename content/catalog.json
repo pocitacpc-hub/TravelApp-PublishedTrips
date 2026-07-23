@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-23T17:51:28.3708501\u002B00:00",
+  "generatedAt": "2026-07-23T19:44:22.0659363\u002B00:00",
   "trips": [
     {
       "publicId": "1c57cea5-d4b5-4cca-9b37-cb4d5be80c01",
@@ -13,8 +13,8 @@
       "coverImageUrl": null,
       "status": "upcoming",
       "isListed": true,
-      "revision": 4,
-      "updatedAt": "2026-07-23T17:51:05.9366956\u002B00:00",
+      "revision": 5,
+      "updatedAt": "2026-07-23T19:44:01.8592559\u002B00:00",
       "vaultAvailable": false
     }
   ]

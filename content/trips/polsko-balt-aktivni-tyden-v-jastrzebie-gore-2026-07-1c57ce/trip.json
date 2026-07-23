@@ -3,7 +3,7 @@
   "documentType": "published_trip",
   "publicId": "1c57cea5-d4b5-4cca-9b37-cb4d5be80c01",
   "slug": "polsko-balt-aktivni-tyden-v-jastrzebie-gore-2026-07-1c57ce",
-  "revision": 4,
+  "revision": 5,
   "title": "Polsko-Balt – aktivní týden v Jastrzębie Góře",
   "subtitle": "Jastrzębia Góra",
   "summary": null,
@@ -15,8 +15,8 @@
   "currency": "PLN",
   "status": "upcoming",
   "isListed": true,
-  "generatedAt": "2026-07-23T17:51:05.9366956+00:00",
-  "publishedAt": "2026-07-23T17:51:05.9366956+00:00",
+  "generatedAt": "2026-07-23T19:44:01.8592559+00:00",
+  "publishedAt": "2026-07-23T19:44:01.8592559+00:00",
   "location": {
     "name": "Jastrzębia Góra",
     "region": "Polsko",
@@ -406,38 +406,38 @@
       "publicId": "53268458-4333-4058-bb98-9fc7822bdbdc",
       "date": "2026-07-30",
       "dayIndex": 4,
-      "title": "Gdaňsk a Muzeum druhé světové války",
-      "summary": "Historické centrum ráno a rozsáhlé muzeum odpoledne.",
+      "title": "Gdaňsk – jarmark, historické centrum, Żuraw, Ołowianka a muzeum",
+      "summary": "Ranní pěší okruh historickým centrem během Jarmarku sv. Dominika, krátký pohled na Żuraw a Ołowianku a odpolední Muzeum druhé světové války.",
       "dayType": "city_history",
-      "weatherNote": "Vhodné za slunce i přeháněk.",
+      "weatherNote": "Při dešti zkrátit nábřeží a Ołowianku, ponechat interiér baziliky a celý rezervovaný blok muzea.",
       "alternatives": {
         "badWeather": {
           "title": "Alternativa při špatném počasí",
-          "text": "Zkrátit centrum, muzeum ponechat."
+          "text": "Historické centrum zkrátit na Mariackou, baziliku a krátký průchod jarmarkem. Ołowianku vynechat. Muzeum ponechat 13:00–16:30."
         },
         "hotWeather": {
           "title": "Alternativa při horku",
-          "text": "Centrum jen ráno, odpoledne strávit uvnitř."
+          "text": "Ranní venkovní okruh držet bez delšího čekání, věž baziliky vynechat a přes poledne se přesunout do klimatizovaného muzea."
         },
         "easy": {
           "title": "Lehčí alternativa",
-          "text": "Kratší centrum a přibližně 2,5 hodiny v muzeu."
+          "text": "Długi Targ, Mariacka, bazilika bez věže, Żuraw zvenku, rychlý oběd a muzeum. Ołowianku vynechat."
         },
         "active": {
           "title": "Aktivnější alternativa",
-          "text": "Po muzeu delší procházka po nábřeží Motławy."
+          "text": "Zařadit věž baziliky nebo interiér Żurawu, nikoliv obojí. V takovém případě zkrátit Ołowianku a jarmark."
         }
       },
       "items": [
         {
-          "publicId": "a26d0b05-b6b3-48dd-aa96-9c298e949f3c",
-          "type": "poi_visit",
-          "title": "Długi Targ, Mariacka a Motława",
-          "startTime": "09:15",
-          "endTime": "11:30",
-          "durationMinutes": 135,
+          "publicId": "e094b989-d779-4a18-bc88-934d8912cb25",
+          "type": "car_transfer",
+          "title": "Odjezd z Jastrzębie Góry a parkování u muzea",
+          "startTime": "07:15",
+          "endTime": "09:10",
+          "durationMinutes": 115,
           "status": "planned",
-          "placePublicId": "6b64b5b5-6315-4f78-b249-3853955cea23",
+          "placePublicId": null,
           "transportMode": "car",
           "cost": {
             "amount": 0.0,
@@ -445,21 +445,179 @@
             "text": null
           },
           "distanceKm": 72.0,
-          "notes": "Parkovat u muzea a do centra dojít pěšky. Oběd dát před rezervovaným vstupem.",
-          "whyHere": "Ranní městská část poskytne kontext před návštěvou muzea.",
+          "notes": "Čas zahrnuje letní provoz a rezervu na parkování. Před cestou změřit celkovou výšku auta včetně střešního nákladu.",
+          "whyHere": "Jedno parkoviště pro celý den minimalizuje zdržení během Jarmarku sv. Dominika.",
+          "bookingNote": null,
+          "parkingNote": "Vjezd z ulice Wałowa, maximální výška 1,9 m.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/plan-your-visit/parking",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Odjezd%20z%20Jastrz%C4%99bie%20G%C3%B3ry%20a%20parkov%C3%A1n%C3%AD%20u%20muzea",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+Jastrz%C4%99bia+G%C3%B3ra&destination=54.3566%2C18.659&travelmode=driving",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?start=18.3133,54.8317&end=18.659,54.3566&routeType=car_fast_traffic&navigate=true"
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        },
+        {
+          "publicId": "a26d0b05-b6b3-48dd-aa96-9c298e949f3c",
+          "type": "poi_visit",
+          "title": "Długi Targ, Mariacka, bazilika a Jarmark sv. Dominika",
+          "startTime": "09:20",
+          "endTime": "10:40",
+          "durationMinutes": 80,
+          "status": "planned",
+          "placePublicId": "6b64b5b5-6315-4f78-b249-3853955cea23",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 3.0,
+          "notes": "Projít Targ Rybny, Długi Targ, Neptunovu fontánu, Mariackou ulici a interiér baziliky. Jarmareční stánky navštívit průběžně. Věž baziliky pouze jako volitelný doplněk za 20/10 PLN.",
+          "whyHere": "Kompaktní blok pokrývá hlavní symboly historického Gdaňsku a atmosféru jarmarku.",
           "bookingNote": "Bez rezervace.",
-          "parkingNote": "Podzemní parkoviště muzea pouze pro vozidlo do 1,9 metru.",
-          "needsVerification": false,
+          "parkingNote": "Auto zůstává u Muzea druhé světové války.",
+          "needsVerification": true,
           "sourceUrl": "https://visitgdansk.com/",
           "mapLinks": {
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3485%2C18.653",
             "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.653,54.3485&zoom=16&marker=true",
-            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3485%2C18.653",
-            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.653,54.3485&navigate=true"
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=D%C5%82ugi%20Targ%2C%20Mariacka%2C%20bazilika%20a%20Jarmark%20sv.%20Dominika",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.653,54.3485&routeType=car_fast_traffic&navigate=true"
           },
           "tags": [
             "poi_visit",
             "historic_center"
+          ]
+        },
+        {
+          "publicId": "efc0f9ba-2480-47f6-8c6b-7eb3bc60530d",
+          "type": "poi_visit",
+          "title": "Żuraw zvenku",
+          "startTime": "10:40",
+          "endTime": "11:00",
+          "durationMinutes": 20,
+          "status": "planned",
+          "placePublicId": "eefb618b-654a-413b-8e9b-095f7609bb47",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 0.5,
+          "notes": "Hlavní plán je venkovní prohlídka a fotografie. Interiér pouze v aktivní variantě.",
+          "whyHere": "Żuraw je hlavní symbol námořního Gdaňsku a leží přímo na trase k Ołowiance.",
+          "bookingNote": "Vnější prohlídka bez rezervace.",
+          "parkingNote": "Auto zůstává u muzea.",
+          "needsVerification": false,
+          "sourceUrl": "https://nmm.pl/en/crane/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3504%2C18.6576",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.6576,54.3504&zoom=17&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=%C5%BBuraw%20zvenku",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.6576,54.3504&routeType=foot_fast&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "monument"
+          ]
+        },
+        {
+          "publicId": "8614f536-3850-4b98-a4bb-5f223c56d91a",
+          "type": "poi_visit",
+          "title": "Ołowianka a Sołdek zvenku",
+          "startTime": "11:00",
+          "endTime": "11:35",
+          "durationMinutes": 35,
+          "status": "planned",
+          "placePublicId": "f1324a2f-ee54-446d-8ed5-2b896c497f2a",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 1.5,
+          "notes": "Krátký ostrovní okruh, výhled na Żuraw, Sołdek pouze zvenku a případná jarmareční zóna.",
+          "whyHere": "Ołowianka poskytuje nejlepší pohled zpět na historické nábřeží.",
+          "bookingNote": "Bez rezervace.",
+          "parkingNote": "Auto zůstává u muzea.",
+          "needsVerification": false,
+          "sourceUrl": "https://nmm.pl/en/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3524%2C18.6605",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.6605,54.3524&zoom=17&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=O%C5%82owianka%20a%20So%C5%82dek%20zvenku",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.6605,54.3524&routeType=foot_fast&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "district"
+          ]
+        },
+        {
+          "publicId": "5ddb946d-9904-4571-bfbd-02d0997bec76",
+          "type": "meal",
+          "title": "Rychlý oběd v centru nebo na jarmarku",
+          "startTime": "11:35",
+          "endTime": "12:20",
+          "durationMinutes": 45,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "distanceKm": 0.8,
+          "notes": "Vybrat rychlý podnik nebo jarmareční jídlo. Pro sedm osob se vyhnout dlouhému čekání v restauraci přímo u Neptunovy fontány.",
+          "whyHere": "Oběd před muzeem zabrání přerušování dlouhé expozice.",
+          "bookingNote": "Konkrétní podnik ověřit ráno; pro sedm osob případně zavolat.",
+          "parkingNote": "Auto zůstává u muzea.",
+          "needsVerification": true,
+          "sourceUrl": "https://visitgdansk.com/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar+Turystyczny+Szeroka+Gdansk",
+            "mapyUrl": "https://mapy.com/fnc/v1/search?query=Bar%20Turystyczny%20Gda%C5%84sk",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Rychl%C3%BD%20ob%C4%9Bd%20v%20centru%20nebo%20na%20jarmarku",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "meal"
+          ]
+        },
+        {
+          "publicId": "5dc88efa-7d3d-4d1c-bb9c-fa4a2d50640a",
+          "type": "walk_transfer",
+          "title": "Návrat k muzeu a časová rezerva",
+          "startTime": "12:20",
+          "endTime": "12:50",
+          "durationMinutes": 30,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 1.5,
+          "notes": "Rezerva na toaletu, případnou frontu a příchod nejméně 10 minut před vstupem.",
+          "whyHere": "Rezervovaný vstup do muzea je nejméně flexibilní část dne.",
+          "bookingNote": "Mít připravené elektronické vstupenky.",
+          "parkingNote": "Návrat ke stejnému parkovišti.",
+          "needsVerification": false,
+          "sourceUrl": "https://www.muzeum1939.pl/en",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=N%C3%A1vrat%20k%20muzeu%20a%20%C4%8Dasov%C3%A1%20rezerva",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3566%2C18.659&travelmode=walking",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&routeType=foot_fast&navigate=true"
+          },
+          "tags": [
+            "walk_transfer"
           ]
         },
         {
@@ -477,22 +635,82 @@
             "currency": "PLN",
             "text": null
           },
-          "distanceKm": 1.5,
-          "notes": "Dospělý 33 PLN, zlevněný 23 PLN.",
+          "distanceKm": 0.0,
+          "notes": "Dospělý 33 PLN, zlevněný 23 PLN, rodinný 72 PLN. Pro 4 dospělé + 3 děti může být nejvýhodnější rodinný lístek pro 2+3 a dva běžné dospělé, celkem 138 PLN. Český audioprůvodce 12 PLN za osobu.",
           "whyHere": "Hlavní indoor a vzdělávací bod městského dne.",
           "bookingNote": "Rezervovat 2–5 dní předem na přibližně 13:00.",
-          "parkingNote": "Maximální výška 1,9 metru; první tři hodiny zdarma od středy do neděle.",
-          "needsVerification": false,
+          "parkingNote": "Auto je v podzemním parkovišti; maximální výška 1,9 m.",
+          "needsVerification": true,
           "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/buying-tickets",
           "mapLinks": {
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3566%2C18.659",
-            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.659,54.3566&zoom=16&marker=true",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.659,54.3566&zoom=17&marker=true",
             "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3566%2C18.659",
-            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&navigate=true"
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&routeType=car_fast_traffic&navigate=true"
           },
           "tags": [
             "poi_visit",
             "museum"
+          ]
+        },
+        {
+          "publicId": "22ed83a2-e607-408c-afc3-a691c98dc5ed",
+          "type": "rest",
+          "title": "Odpočinek, občerstvení a krátká procházka",
+          "startTime": "16:30",
+          "endTime": "17:30",
+          "durationMinutes": 60,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "distanceKm": 1.0,
+          "notes": "Po náročné expozici dát pauzu. Podle energie krátce projít okolí Stara Stocznia; nepřidávat další velké muzeum.",
+          "whyHere": "Muzeum je obsahově i fyzicky náročné a skupina potřebuje rezervu před návratem.",
+          "bookingNote": null,
+          "parkingNote": "Auto zůstává u muzea.",
+          "needsVerification": false,
+          "sourceUrl": "https://visitgdansk.com/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Stara+Stocznia+Gdansk",
+            "mapyUrl": "https://mapy.com/fnc/v1/search?query=Stara%20Stocznia%20Gda%C5%84sk",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Odpo%C4%8Dinek%2C%20ob%C4%8Derstven%C3%AD%20a%20kr%C3%A1tk%C3%A1%20proch%C3%A1zka",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "rest"
+          ]
+        },
+        {
+          "publicId": "6fb78faa-6eea-4063-8897-4a60a12fa099",
+          "type": "car_transfer",
+          "title": "Návrat do Jastrzębie Góry",
+          "startTime": "17:30",
+          "endTime": "19:20",
+          "durationMinutes": 110,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 72.0,
+          "notes": "Doba je orientační podle odpoledního provozu v Trojměstí a u Redy.",
+          "whyHere": "Návrat po plnohodnotném městském dni bez další večerní atrakce.",
+          "bookingNote": null,
+          "parkingNote": "Před odjezdem uhradit parkování kartou.",
+          "needsVerification": true,
+          "sourceUrl": "https://visitgdansk.com/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=N%C3%A1vrat%20do%20Jastrz%C4%99bie%20G%C3%B3ry",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=54.3566%2C18.659&destination=Piastowska+2%2C+Jastrz%C4%99bia+G%C3%B3ra&travelmode=driving",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?start=18.659,54.3566&end=18.3133,54.8317&routeType=car_fast_traffic&navigate=true"
+          },
+          "tags": [
+            "car_transfer"
           ]
         }
       ]
@@ -1794,32 +2012,32 @@
       "addressText": "Długi Targ, Gdańsk",
       "latitude": 54.3485,
       "longitude": 18.653,
-      "description": "Historické jádro s Długim Targem, ulicí Mariacka a nábřežím Motławy.",
-      "whyVisit": "Hlavní městský a architektonický výlet pobytu.",
-      "travelerTips": "Začít ráno, obědvat před hlavní špičkou a poté pokračovat do muzea.",
-      "warnings": "V létě velmi rušné; v horku venkovní trasu zkrátit.",
+      "description": "Historické jádro Gdaňsku s Královskou cestou, Długim Targem, Neptunovou fontánou, Mariackou ulicí a nábřežím Motławy.",
+      "whyVisit": "Nejlepší úvod do Gdaňsku a hlavní městská část dne před rozsáhlou návštěvou Muzea druhé světové války.",
+      "travelerTips": "Zaparkovat u Muzea druhé světové války a celý ranní okruh absolvovat pěšky. Kvůli Jarmarku sv. Dominika počítat s pomalejší chůzí a větším množstvím lidí.",
+      "warnings": "V době Jarmarku sv. Dominika je centrum velmi rušné. Při skluzu vynechat věž baziliky a zkrátit Královskou cestu, nikoliv rezervovaný vstup do muzea.",
       "officialUrl": "https://visitgdansk.com/",
-      "sourceUrl": "https://visitgdansk.com/",
+      "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/plan-your-visit/parking",
       "reservationUrl": null,
       "mapLinks": {
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3485%2C18.653",
         "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.653,54.3485&zoom=16&marker=true",
         "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3485%2C18.653",
-        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.653,54.3485&navigate=true"
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.653,54.3485&routeType=car_fast_traffic&navigate=true"
       },
       "parking": {
         "name": "Podzemní parkoviště Muzea druhé světové války",
-        "addressText": null,
+        "addressText": "Plac Władysława Bartoszewskiego 1, Gdańsk; vjezd z ulice Wałowa",
         "latitude": 54.3566,
         "longitude": 18.659,
-        "note": "Zaparkovat u muzea a centrum projít pěšky. Vozidlo včetně střešního nákladu musí mít maximálně 1,9 metru.",
-        "priceNote": null,
+        "note": "142 míst. Maximální výška vozidla včetně střešního nákladu je 1,9 m. Otevřeno 09:00–20:00. Od středy do neděle mají návštěvníci hlavní expozice první 3 hodiny zdarma, každá další započatá hodina stojí 10 PLN. Platba kartou.",
+        "priceNote": "Při parkování přibližně 09:00–17:45 očekávat asi 50–60 PLN podle přesného času a uznání bezplatných prvních tří hodin.",
         "heightLimitMeters": 1.9,
         "mapLinks": {
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3566%2C18.659",
-          "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.659,54.3566&zoom=16&marker=true",
+          "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.659,54.3566&zoom=17&marker=true",
           "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3566%2C18.659",
-          "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&navigate=true"
+          "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&routeType=car_fast_traffic&navigate=true"
         },
         "needsVerification": false
       },
@@ -1836,7 +2054,7 @@
           "openTime": null,
           "closeTime": null,
           "isClosed": false,
-          "note": "Veřejný prostor.",
+          "note": "Veřejný prostor; provoz jednotlivých památek a stánků se liší.",
           "sourceUrl": "https://visitgdansk.com/"
         }
       ],
@@ -1847,7 +2065,7 @@
           "childPrice": 0.0,
           "familyPrice": 0.0,
           "currency": "PLN",
-          "note": "Jednotlivé památky se platí zvlášť.",
+          "note": "Vstupy do jednotlivých památek se platí samostatně.",
           "sourceUrl": "https://visitgdansk.com/"
         }
       ],
@@ -1863,7 +2081,7 @@
           "note": "V letní sezoně počítat přibližně s 90–120 minutami."
         }
       ],
-      "alternativesJson": "[\n        {\n          \"type\": \"bad_weather\",\n          \"text\": \"Zkrátit historické centrum a více času ponechat muzeu.\"\n        }\n      ]",
+      "alternativesJson": "[\n        {\n          \"type\": \"bad_weather\",\n          \"text\": \"Zkrátit nábřeží a Královskou cestu, ponechat interiér baziliky a Muzeum druhé světové války.\"\n        },\n        {\n          \"type\": \"late\",\n          \"text\": \"Vynechat věž baziliky a zkrátit jarmark na průchod mezi hlavními místy.\"\n        }\n      ]",
       "needsVerification": false
     },
     {
@@ -2256,39 +2474,39 @@
       "addressText": "Plac Władysława Bartoszewskiego 1, 80-862 Gdańsk",
       "latitude": 54.3566,
       "longitude": 18.659,
-      "description": "Rozsáhlá moderní expozice o druhé světové válce.",
-      "whyVisit": "Hlavní indoor a vzdělávací bod výletu do Gdaňsku.",
-      "travelerTips": "Rezervovat vstup kolem 13:00 a počítat s 2,5–3,5 hodinami.",
-      "warnings": "Úterní bezplatný den může znamenat dlouhé čekání; pro skupinu je praktičtější placený čtvrtek.",
+      "description": "Rozsáhlá moderní expozice o druhé světové válce, zaměřená na vojenské události i zkušenost civilního obyvatelstva.",
+      "whyVisit": "Hlavní indoor a vzdělávací bod dne, vhodný pro teenagery od přibližně 12 let.",
+      "travelerTips": "Rezervovat vstup kolem 13:00 a počítat s 3–3,5 hodinami. Nesnažit se číst každý panel; soustředit se na velké exponáty, rekonstrukce a příběhy lidí. Český audioprůvodce zvážit alespoň pro část skupiny.",
+      "warnings": "Expozice je rozsáhlá a emocionálně náročná. Po návštěvě už nepřidávat další velké muzeum.",
       "officialUrl": "https://www.muzeum1939.pl/en",
       "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/plan-your-visit/parking",
-      "reservationUrl": null,
+      "reservationUrl": "https://bilety.muzeum1939.pl/",
       "mapLinks": {
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3566%2C18.659",
-        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.659,54.3566&zoom=16&marker=true",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.659,54.3566&zoom=17&marker=true",
         "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3566%2C18.659",
-        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&navigate=true"
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&routeType=car_fast_traffic&navigate=true"
       },
       "parking": {
         "name": "Podzemní parkoviště Muzea druhé světové války",
-        "addressText": null,
+        "addressText": "Plac Władysława Bartoszewskiego 1, Gdańsk; vjezd z ulice Wałowa",
         "latitude": 54.3566,
         "longitude": 18.659,
-        "note": "142 míst. Od středy do neděle první tři hodiny zdarma s lístkem na hlavní expozici; každá další hodina 10 PLN. Platba kartou.",
-        "priceNote": null,
+        "note": "142 míst, maximální výška 1,9 m. První 3 hodiny zdarma pro návštěvníky hlavní expozice od středy do neděle, další hodina 10 PLN. Platba kartou.",
+        "priceNote": "Při celodenním využití počítat přibližně s 50–60 PLN.",
         "heightLimitMeters": 1.9,
         "mapLinks": {
           "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3566%2C18.659",
-          "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.659,54.3566&zoom=16&marker=true",
+          "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.659,54.3566&zoom=17&marker=true",
           "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3566%2C18.659",
-          "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&navigate=true"
+          "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&routeType=car_fast_traffic&navigate=true"
         },
         "needsVerification": false
       },
       "booking": {
         "required": true,
         "recommendedAdvance": "2-5_days",
-        "note": "Koupit online na konkrétní čas. Po zakoupení tento den nepřesouvat kvůli drobné změně počasí.",
+        "note": "Koupit online na konkrétní čas, ideálně kolem 13:00. Po zakoupení tento den nepřesouvat kvůli drobné změně počasí.",
         "needsVerification": false
       },
       "openingHours": [
@@ -2299,7 +2517,7 @@
           "closeTime": "18:00",
           "isClosed": false,
           "note": "Plánovaný vstup ve 13:00.",
-          "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/buying-tickets"
+          "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/opening-hours"
         }
       ],
       "prices": [
@@ -2307,9 +2525,18 @@
           "priceType": "standard",
           "adultPrice": 33.0,
           "childPrice": 23.0,
+          "familyPrice": 72.0,
+          "currency": "PLN",
+          "note": "Rodinná vstupenka platí maximálně pro 5 osob v konfiguraci 1–2 dospělí a děti do 19 let. Pro 4 dospělé + 3 děti vychází pravděpodobně nejlépe 1 rodinná vstupenka za 72 PLN a 2 běžné vstupenky za 66 PLN, celkem 138 PLN; potvrdit při nákupu.",
+          "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/buying-tickets"
+        },
+        {
+          "priceType": "audio_guide",
+          "adultPrice": 12.0,
+          "childPrice": 12.0,
           "familyPrice": null,
           "currency": "PLN",
-          "note": "Dospělý 33 PLN (cca 184 CZK), zlevněný 23 PLN (cca 128 CZK).",
+          "note": "Pro všech 7 osob celkem 84 PLN.",
           "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/buying-tickets"
         }
       ],
@@ -2325,8 +2552,8 @@
           "note": "Letní dojezd může být 90–120 minut."
         }
       ],
-      "alternativesJson": "[\n        {\n          \"type\": \"sold_out\",\n          \"text\": \"Při vyprodaných časech zvolit Evropské centrum Solidarity.\"\n        }\n      ]",
-      "needsVerification": false
+      "alternativesJson": "[\n        {\n          \"type\": \"sold_out\",\n          \"text\": \"Při vyprodaném čase ověřit jiný vstup téhož dne; celý program nepřesouvat bez kontroly dostupnosti.\"\n        }\n      ]",
+      "needsVerification": true
     },
     {
       "publicId": "5ced41da-9121-47e4-b492-47ecfb9513a2",
@@ -2477,6 +2704,75 @@
       "needsVerification": true
     },
     {
+      "publicId": "f1324a2f-ee54-446d-8ed5-2b896c497f2a",
+      "name": "Ostrov Ołowianka",
+      "category": "district",
+      "addressText": "Ołowianka, Gdańsk",
+      "latitude": 54.3524,
+      "longitude": 18.6605,
+      "description": "Krátký ostrovní okruh s výhledem přes Motławu na historické nábřeží, Żuraw, muzejní loď Sołdek a budovu Baltské filharmonie.",
+      "whyVisit": "Nejlepší venkovní pohled na Żuraw a příjemná změna perspektivy bez přidání dalšího velkého muzea.",
+      "travelerTips": "Projít ostrov přibližně 30–40 minut. Sołdek pouze zvenku, protože další muzejní loď už je v programu Gdyně.",
+      "warnings": "Během Jarmarku sv. Dominika může být ostrov rušnější kvůli tematické zóně a programu.",
+      "officialUrl": "https://nmm.pl/en/",
+      "sourceUrl": "https://nmm.pl/en/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3524%2C18.6605",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.6605,54.3524&zoom=17&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3524%2C18.6605",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.6605,54.3524&routeType=foot_fast&navigate=true"
+      },
+      "parking": {
+        "name": null,
+        "addressText": null,
+        "latitude": null,
+        "longitude": null,
+        "note": null,
+        "priceNote": null,
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": null,
+          "mapyUrl": null,
+          "googleNavigationUrl": null,
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": false
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": null,
+        "note": "Veřejný prostor bez rezervace.",
+        "needsVerification": false
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Thursday",
+          "date": "2026-07-30",
+          "openTime": null,
+          "closeTime": null,
+          "isClosed": false,
+          "note": "Veřejný venkovní prostor.",
+          "sourceUrl": "https://nmm.pl/en/"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "free",
+          "adultPrice": 0.0,
+          "childPrice": 0.0,
+          "familyPrice": 0.0,
+          "currency": "PLN",
+          "note": "Vstup do muzeí a na loď Sołdek se platí samostatně.",
+          "sourceUrl": "https://nmm.pl/en/"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [],
+      "alternativesJson": "[\n        {\n          \"type\": \"bad_weather\",\n          \"text\": \"Při silném dešti Ołowianku vynechat a vrátit se přímo k muzeu.\"\n        }\n      ]",
+      "needsVerification": false
+    },
+    {
       "publicId": "3bd2b72f-8835-494e-aa92-dfc4217fd06a",
       "name": "Sopot – Monciak, molo a pláž",
       "category": "historic_center",
@@ -2544,6 +2840,75 @@
       "distances": [],
       "alternativesJson": "[\n        {\n          \"type\": \"late\",\n          \"text\": \"Při skluzu zkrátit Sopot na Monciak, Plac Zdrojowy a molo bez delší pláže.\"\n        }\n      ]",
       "needsVerification": true
+    },
+    {
+      "publicId": "eefb618b-654a-413b-8e9b-095f7609bb47",
+      "name": "Żuraw – historický přístavní jeřáb",
+      "category": "monument",
+      "addressText": "Szeroka 67/68, 80-835 Gdańsk",
+      "latitude": 54.3504,
+      "longitude": 18.6576,
+      "description": "Ikonický středověký přístavní jeřáb a jeden z hlavních symbolů námořního Gdaňsku.",
+      "whyVisit": "Povinný vizuální bod nábřeží a přirozené spojení mezi Mariackou ulicí a Ołowiankou.",
+      "travelerTips": "V hlavním plánu stačí 15–20 minut zvenku. Interiér zařadit pouze při mimořádném zájmu a současně vynechat věž baziliky.",
+      "warnings": "Vstup do interiéru zabere přibližně 45–60 minut a mohl by ohrozit rezervovaný čas muzea.",
+      "officialUrl": "https://nmm.pl/en/crane/",
+      "sourceUrl": "https://nmm.pl/en/crane/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3504%2C18.6576",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.6576,54.3504&zoom=17&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3504%2C18.6576",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.6576,54.3504&routeType=foot_fast&navigate=true"
+      },
+      "parking": {
+        "name": null,
+        "addressText": null,
+        "latitude": null,
+        "longitude": null,
+        "note": null,
+        "priceNote": null,
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": null,
+          "mapyUrl": null,
+          "googleNavigationUrl": null,
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": false
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": null,
+        "note": "Vnější prohlídka bez rezervace; pro interiér ověřit dostupnost vstupenek.",
+        "needsVerification": true
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Thursday",
+          "date": "2026-07-30",
+          "openTime": "10:00",
+          "closeTime": "18:00",
+          "isClosed": false,
+          "note": "Poslední vstup bývá hodinu před zavřením.",
+          "sourceUrl": "https://nmm.pl/en/crane/"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "museum_entry",
+          "adultPrice": 26.0,
+          "childPrice": 19.0,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Hlavní plán počítá pouze s bezplatnou venkovní prohlídkou.",
+          "sourceUrl": "https://nmm.pl/en/crane/"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [],
+      "alternativesJson": "[\n        {\n          \"type\": \"active\",\n          \"text\": \"Navštívit interiér přibližně 45–60 minut a vynechat věž baziliky.\"\n        },\n        {\n          \"type\": \"late\",\n          \"text\": \"Pouze rychlá fotografie z nábřeží nebo z Ołowianky.\"\n        }\n      ]",
+      "needsVerification": true
     }
   ],
   "generalTips": [
@@ -2579,6 +2944,10 @@
       "url": "https://www.aquaparkreda.pl/en/first-visit"
     },
     {
+      "title": "Bazilika Panny Marie – informace pro turisty",
+      "url": "https://bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow/"
+    },
+    {
       "title": "Centrum Nauki Experyment",
       "url": "https://experyment.gdynia.pl/"
     },
@@ -2611,6 +2980,14 @@
       "url": "https://zamek.malbork.pl/wizyta/dojazd/"
     },
     {
+      "title": "Jarmark sv. Dominika – atrakce",
+      "url": "https://jarmarkswdominika.pl/en/attractions/"
+    },
+    {
+      "title": "Jarmark sv. Dominika – oficiální web",
+      "url": "https://jarmarkswdominika.pl/en/"
+    },
+    {
       "title": "Lisi Jar",
       "url": "https://www.jastrzebia-gora.com/atrakcje/wawoz-lisi-jar-w-jastrzebiej-gorze-1499"
     },
@@ -2625,6 +3002,10 @@
     {
       "title": "Muzeum druhé světové války",
       "url": "https://www.muzeum1939.pl/en"
+    },
+    {
+      "title": "Muzeum druhé světové války – otevírací doba",
+      "url": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/opening-hours"
     },
     {
       "title": "Muzeum druhé světové války – parkování",
@@ -2651,8 +3032,16 @@
       "url": "https://www.helmuzeum.pl/zwiedzanie/godziny-otwarcia/"
     },
     {
+      "title": "National Maritime Museum",
+      "url": "https://nmm.pl/en/"
+    },
+    {
       "title": "National Maritime Museum – Dar Pomorza",
       "url": "https://nmm.pl/en/dar-pomorza/"
+    },
+    {
+      "title": "National Maritime Museum – Żuraw",
+      "url": "https://nmm.pl/en/crane/"
     },
     {
       "title": "Parking Pod Mostem",
@@ -2693,6 +3082,6 @@
   ],
   "quality": {
     "warnings": [],
-    "needsVerificationCount": 37
+    "needsVerificationCount": 44
   }
 }
