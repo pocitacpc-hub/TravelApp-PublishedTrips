@@ -1,5 +1,6 @@
 import "./styles/main.css";
-import { createTripSections } from "./app/render-model";
+import { createTripSections, dayAnchorId } from "./app/render-model";
+import { renderTripDayOverview } from "./app/trip-day-overview";
 import { parseCatalog, parseTrip } from "./data/parse";
 import type { CatalogTrip, PublishedDay, PublishedItem, PublishedPlace, PublishedTrip } from "./data/types";
 
@@ -101,7 +102,7 @@ function itemCard(item: PublishedItem, places: Map<string, PublishedPlace>): str
 function dayCard(day: PublishedDay, trip: PublishedTrip): string {
   const places = new Map(trip.places.map((place) => [place.publicId, place]));
   const alternatives = Object.values(day.alternatives).filter((value) => value !== null);
-  return `<article class="day-card" id="${escapeHtml(day.publicId)}">
+  return `<article class="day-card" id="${escapeHtml(dayAnchorId(day))}">
     <div class="day-card__heading">
       <div><span class="eyebrow">Den ${day.dayIndex} · ${formatDate(day.date)}</span><h3>${escapeHtml(day.title)}</h3></div>
       <span class="day-index">${day.dayIndex}</span>
@@ -151,15 +152,18 @@ function renderTrip(trip: PublishedTrip): void {
         <a href="#program">Program</a>
         <a href="#prakticke">Prakticky</a>
       </nav>
+      <div class="trip-overview-layout">
+        ${renderTripDayOverview(trip.days)}
+        <section id="prakticke" class="info-panel">
+          <h2>Praktické informace</h2>
+          <p>Místní čas: <strong>${escapeHtml(trip.timezone)}</strong></p>
+          <p>Poslední publikace: ${new Intl.DateTimeFormat("cs-CZ", { dateStyle: "medium", timeStyle: "short" }).format(new Date(trip.publishedAt))}</p>
+          ${trip.quality.warnings.map((warning) => `<p class="weather-note">${escapeHtml(warning)}</p>`).join("")}
+        </section>
+      </div>
       <section id="program" class="days" aria-labelledby="program-title">
         <div class="section-heading"><h2 id="program-title">Program po dnech</h2><span>${trip.days.length}</span></div>
         ${trip.days.map((day) => dayCard(day, trip)).join("")}
-      </section>
-      <section id="prakticke" class="info-panel">
-        <h2>Praktické informace</h2>
-        <p>Místní čas: <strong>${escapeHtml(trip.timezone)}</strong></p>
-        <p>Poslední publikace: ${new Intl.DateTimeFormat("cs-CZ", { dateStyle: "medium", timeStyle: "short" }).format(new Date(trip.publishedAt))}</p>
-        ${trip.quality.warnings.map((warning) => `<p class="weather-note">${escapeHtml(warning)}</p>`).join("")}
       </section>
       <div id="place-detail"></div>
     </main>
