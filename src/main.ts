@@ -149,21 +149,20 @@ function renderTrip(trip: PublishedTrip): void {
     </header>
     <main id="main" class="shell content trip-content">
       <nav class="quick-nav" aria-label="Rychlé odkazy">
+        <a href="#overview">Přehled dní</a>
         <a href="#program">Program</a>
         <a href="#prakticke">Prakticky</a>
       </nav>
-      <div class="trip-overview-layout">
-        ${renderTripDayOverview(trip.days)}
-        <section id="prakticke" class="info-panel">
-          <h2>Praktické informace</h2>
-          <p>Místní čas: <strong>${escapeHtml(trip.timezone)}</strong></p>
-          <p>Poslední publikace: ${new Intl.DateTimeFormat("cs-CZ", { dateStyle: "medium", timeStyle: "short" }).format(new Date(trip.publishedAt))}</p>
-          ${trip.quality.warnings.map((warning) => `<p class="weather-note">${escapeHtml(warning)}</p>`).join("")}
-        </section>
-      </div>
+      ${renderTripDayOverview(trip.days)}
       <section id="program" class="days" aria-labelledby="program-title">
         <div class="section-heading"><h2 id="program-title">Program po dnech</h2><span>${trip.days.length}</span></div>
         ${trip.days.map((day) => dayCard(day, trip)).join("")}
+      </section>
+      <section id="prakticke" class="info-panel">
+        <h2>Praktické informace</h2>
+        <p>Místní čas: <strong>${escapeHtml(trip.timezone)}</strong></p>
+        <p>Poslední publikace: ${new Intl.DateTimeFormat("cs-CZ", { dateStyle: "medium", timeStyle: "short" }).format(new Date(trip.publishedAt))}</p>
+        ${trip.quality.warnings.map((warning) => `<p class="weather-note">${escapeHtml(warning)}</p>`).join("")}
       </section>
       <div id="place-detail"></div>
     </main>

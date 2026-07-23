@@ -59,14 +59,12 @@ h1 { max-width: 12ch; margin-bottom: 1rem; font-family: Georgia, "Times New Roma
 .trip-hero .badge { border-color: rgb(255 255 255 / 28%); background: rgb(255 255 255 / 10%); color: white; }
 .quick-nav { position: sticky; top: .6rem; z-index: 2; display: flex; gap: .5rem; margin-bottom: .9rem; padding: .4rem; border: 1px solid var(--line); border-radius: 1rem; background: rgb(255 253 248 / 92%); backdrop-filter: blur(12px); }
 .quick-nav a { flex: 1 1 0; min-width: 0; padding: .65rem; border-radius: .65rem; color: var(--green); font-weight: 750; text-align: center; text-decoration: none; }
-.trip-overview-layout { display: grid; gap: 1.5rem; margin-bottom: 2.2rem; }
+.day-overview { scroll-margin-top: 5.2rem; margin-bottom: 2.2rem; }
 .day-overview h2 { margin-bottom: .8rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.5rem; font-weight: 600; }
 .day-overview__columns { display: grid; gap: .75rem; }
 .day-overview__column { overflow: hidden; border: 1px solid var(--line); border-radius: 1rem; background: var(--paper); box-shadow: 0 8px 24px rgb(28 57 50 / 6%); }
 .day-overview__link { display: grid; grid-template-columns: 1.35rem minmax(4.7rem, auto) minmax(0, 1fr); align-items: center; gap: .55rem; min-height: 3rem; padding: .55rem .7rem; color: var(--ink); text-decoration: none; cursor: pointer; }
 .day-overview__link + .day-overview__link { border-top: 1px solid var(--line); }
-.day-overview__link:hover { background: #f1f5ef; }
-.day-overview__link:hover .day-overview__title { text-decoration: underline; text-decoration-color: #9dafaa; }
 .day-overview__link:focus-visible { position: relative; z-index: 1; outline: 3px solid #f4a261; outline-offset: -3px; }
 .day-overview__badge { display: grid; place-items: center; width: 1.3rem; height: 1.3rem; border-radius: 999px; background: var(--green); color: white; font-size: .7rem; font-weight: 800; font-variant-numeric: tabular-nums; }
 .day-overview__date { color: var(--muted); font-size: .76rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -114,10 +112,10 @@ details p { margin: .8rem 0 0; color: var(--muted); line-height: 1.5; }
   .trip-card .button { grid-column: auto; }
   .trip-content { display: grid; grid-template-columns: minmax(0, 1fr) 18rem; gap: 2rem; align-items: start; }
   .quick-nav { grid-column: 1 / -1; }
-  .trip-overview-layout { grid-column: 1 / -1; grid-template-columns: minmax(0, 1fr) 18rem; align-items: start; margin-bottom: .2rem; }
+  .day-overview { grid-column: 1; margin-bottom: .2rem; }
   .day-overview__columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .days { grid-column: 1; }
-  .info-panel { position: sticky; top: 5.5rem; margin-top: 0; }
+  .info-panel { grid-column: 2; grid-row: 2; position: sticky; top: 5.5rem; margin-top: 0; }
   .place-dialog { inset: 2rem 2rem 2rem auto; width: min(46rem, calc(100% - 4rem)); }
 }
 
@@ -141,7 +139,18 @@ details p { margin: .8rem 0 0; color: var(--muted); line-height: 1.5; }
   body { background: #0e1815; }
   .trip-card__flag, details { background: #26332f; }
   .badge--status { border-color: #397365; background: #193f36; color: #bde6da; }
-  .quick-nav { background: rgb(23 37 33 / 92%); }
+  .quick-nav { border-color: #48645a; background: rgb(23 37 33 / 96%); }
+  .quick-nav a { color: #e8f3ee; }
   .weather-note { background: #44351c; color: #f4dba7; }
   .info-panel { background: #1c302a; }
+}
+
+@media (hover: hover) {
+  .day-overview__link:hover { background: #f1f5ef; }
+  .day-overview__link:hover .day-overview__title { text-decoration: underline; text-decoration-color: #9dafaa; }
+}
+
+@media (hover: hover) and (prefers-color-scheme: dark) {
+  .day-overview__link:hover { background: #26332f; }
+  .day-overview__link:hover .day-overview__title { text-decoration-color: #8ca89e; }
 }

@@ -28,7 +28,7 @@ export function renderTripDayOverview(days: PublishedDay[]): string {
   const [firstColumn, secondColumn] = createDayOverviewColumns(days);
   if (firstColumn.length === 0) return "";
 
-  return `<section class="day-overview" aria-labelledby="day-overview-title">
+  return `<section id="overview" class="day-overview" aria-labelledby="day-overview-title">
     <h2 id="day-overview-title">Přehled dní</h2>
     <div class="day-overview__columns">
       ${renderColumn(firstColumn)}
