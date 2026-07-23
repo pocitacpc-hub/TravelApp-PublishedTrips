@@ -48,6 +48,21 @@ Výstup je v `dist/` a necommitne se.
 4. Spusť `npm run check`.
 5. Před commitem ručně potvrď, že data jsou skutečně veřejná.
 
+TravelApp nyní připravuje změny přímo v tomto lokálním repozitáři. Ruční publikační
+brána je v DevCenteru vedena jako `TravelApp – Published Trip`. Její akce Publikovat:
+
+1. povolí změny pouze v `content/catalog.json` a `content/trips/*/trip.json`,
+2. spustí `npm run check`,
+3. ověří synchronizaci větve `main`,
+4. vytvoří commit a pushne jej,
+5. při dostupném GitHub CLI počká na výsledek GitHub Pages workflow.
+
+Samostatná kontrola bez commitu a pushnutí:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\publish-prepared-content.ps1 -ValidateOnly
+```
+
 Ukázka v `content/trips/sample-trip-2026-07-k4m7/` je záměrně smyšlená a sanitizovaná.
 
 ## GitHub Pages
@@ -58,6 +73,7 @@ V nastavení repozitáře musí vlastník ručně zvolit Pages source `GitHub Ac
 
 ## Dokumentace
 
+- `CODEX-DEV-RUNBOOK.md`
 - `docs/architecture.md`
 - `docs/content-format.md`
 - `docs/security.md`

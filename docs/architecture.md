@@ -7,8 +7,12 @@ Lokální TravelApp je zdrojem pravdy pro program. Tento repozitář obsahuje po
 ## Tok dat
 
 ```text
-TravelApp -> sanitizovaný publikační balíček -> tento repozitář -> GitHub Actions -> GitHub Pages
+TravelApp -> lokálně připravený sanitizovaný obsah -> ruční brána v DevCenteru -> GitHub Actions -> GitHub Pages
 ```
+
+TravelApp zapisuje pouze `content/catalog.json` a odpovídající
+`content/trips/<slug>/trip.json`. Commit a push nejsou součástí TravelApp; provádí je
+uživatel samostatnou akcí `TravelApp – Published Trip` v DevCenteru.
 
 Statický web nemá backend ani databázi. Katalog je v `content/catalog.json`, každá cesta v `content/trips/<slug>/trip.json`. Vite sestaví společný frontend a `tools/build-site.ts` vytvoří fyzické route a veřejnou kopii dat v `dist/data/`.
 
@@ -25,4 +29,3 @@ základní publikovaný program + publikované patche + lokální patche telefon
 ```
 
 Patche, offline vrstva a šifrovaný trezor nejsou součástí prvního checkpointu.
-
