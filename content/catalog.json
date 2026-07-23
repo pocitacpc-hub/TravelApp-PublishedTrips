@@ -1,26 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-19T08:59:36.7955317\u002B00:00",
+  "generatedAt": "2026-07-23T16:29:41.4167402\u002B00:00",
   "trips": [
     {
-      "publicId": "34712d42-f27b-4b45-9fd9-bf8e72d47f23",
-      "slug": "sample-trip-2026-07-k4m7",
-      "title": "Uk\u00E1zkov\u00E1 cesta",
-      "subtitle": "Sanitizovan\u00FD rodinn\u00FD program",
-      "dateFrom": "2026-07-18",
-      "dateTo": "2026-07-20",
-      "countryCode": "CZ",
-      "coverImageUrl": null,
-      "status": "active",
-      "isListed": true,
-      "revision": 1,
-      "updatedAt": "2026-07-18T15:30:00Z",
-      "vaultAvailable": false
-    },
-    {
-      "publicId": "8514f554-ce1c-4772-9699-4543b380c71a",
-      "slug": "aktivni-tyden-jastrzebia-gora-2026-07-8514f5",
-      "title": "Aktivn\u00ED t\u00FDden Jastrz\u0119bia G\u00F3ra",
+      "publicId": "1c57cea5-d4b5-4cca-9b37-cb4d5be80c01",
+      "slug": "polsko-balt-aktivni-tyden-v-jastrzebie-gore-2026-07-1c57ce",
+      "title": "Polsko-Balt \u2013 aktivn\u00ED t\u00FDden v Jastrz\u0119bie G\u00F3\u0159e",
       "subtitle": "Jastrz\u0119bia G\u00F3ra",
       "dateFrom": "2026-07-27",
       "dateTo": "2026-08-03",
@@ -28,23 +13,8 @@
       "coverImageUrl": null,
       "status": "upcoming",
       "isListed": true,
-      "revision": 1,
-      "updatedAt": "2026-07-19T08:57:22.2969252\u002B00:00",
-      "vaultAvailable": false
-    },
-    {
-      "publicId": "d9b6f6e3-c33e-403e-a2a8-493d37feead2",
-      "slug": "pohodove-alicante-pro-sest-dospelych-2026-10-d9b6f6",
-      "title": "Pohodov\u00E9 Alicante pro \u0161est dosp\u011Bl\u00FDch",
-      "subtitle": "Alicante",
-      "dateFrom": "2026-10-28",
-      "dateTo": "2026-11-01",
-      "countryCode": "ES",
-      "coverImageUrl": null,
-      "status": "upcoming",
-      "isListed": true,
-      "revision": 1,
-      "updatedAt": "2026-07-18T14:41:19.7263679\u002B00:00",
+      "revision": 3,
+      "updatedAt": "2026-07-23T16:27:33.9539125\u002B00:00",
       "vaultAvailable": false
     }
   ]

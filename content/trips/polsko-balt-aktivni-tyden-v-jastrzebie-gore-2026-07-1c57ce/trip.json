@@ -1,0 +1,2627 @@
+{
+  "schemaVersion": "1.1",
+  "documentType": "published_trip",
+  "publicId": "1c57cea5-d4b5-4cca-9b37-cb4d5be80c01",
+  "slug": "polsko-balt-aktivni-tyden-v-jastrzebie-gore-2026-07-1c57ce",
+  "revision": 3,
+  "title": "Polsko-Balt – aktivní týden v Jastrzębie Góře",
+  "subtitle": "Jastrzębia Góra",
+  "summary": null,
+  "dateFrom": "2026-07-27",
+  "dateTo": "2026-08-03",
+  "timezone": "Europe/Warsaw",
+  "countryCode": "PL",
+  "locale": "cs-CZ",
+  "currency": "PLN",
+  "status": "upcoming",
+  "isListed": true,
+  "generatedAt": "2026-07-23T16:27:33.9539125+00:00",
+  "publishedAt": "2026-07-23T16:27:33.9539125+00:00",
+  "location": {
+    "name": "Jastrzębia Góra",
+    "region": "Polsko",
+    "latitude": 54.832,
+    "longitude": 18.302,
+    "publicAccommodationArea": null,
+    "exactAccommodationInVault": false
+  },
+  "weather": {
+    "enabled": true,
+    "latitude": 54.832,
+    "longitude": 18.302,
+    "timezone": "Europe/Warsaw"
+  },
+  "days": [
+    {
+      "publicId": "4165c562-ee9b-4899-acd4-ac0649ca1614",
+      "date": "2026-07-27",
+      "dayIndex": 1,
+      "title": "Cesta do destinace: krátká Toruň",
+      "summary": "Odjezd z Ostravy v 08:00, krátká zastávka v Toruni a pokračování do Jastrzębie Góry.",
+      "dayType": "arrival",
+      "weatherNote": "Prohlídka je převážně venkovní. Při silném dešti zkrátit okruh na hlavní náměstí a ulice.",
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Toruň 45–60 minut, rychlé jídlo a přímá cesta k ubytování."
+        },
+        "hotWeather": {
+          "title": "Alternativa při horku",
+          "text": "Držet centrum do 60 minut, doplnit tekutiny a pokračovat k pobřeží."
+        },
+        "easy": {
+          "title": "Lehčí alternativa",
+          "text": "Rynek Staromiejski, Koperníkův pomník, Křivá věž a oběd."
+        },
+        "active": {
+          "title": "Aktivnější alternativa",
+          "text": "Celý 75minutový okruh včetně hradeb a nábřeží Visly."
+        }
+      },
+      "items": [
+        {
+          "publicId": "cfeb2a1a-7609-4cac-a87a-91bc97084799",
+          "type": "transport",
+          "title": "Odjezd z Ostravy",
+          "startTime": "08:00",
+          "endTime": "08:00",
+          "durationMinutes": 0,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 0.0,
+          "notes": "Naplánovat jednu krátkou dálniční přestávku kolem 10:00. Do Toruně počítat přibližně s 4,5–5 hodinami včetně provozu a zastávky.",
+          "whyHere": "Pevný začátek příjezdového dne.",
+          "bookingNote": "Bez rezervace.",
+          "parkingNote": null,
+          "needsVerification": true,
+          "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=Ostrava%2C+Czechia&destination=Parking+Pod+Mostem%2C+Bulwar+Filadelfijski+11%2F15%2C+Toru%C5%84&travelmode=driving",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ostrava%2C+Czechia",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Ostrava%2C+Czechia&destination=Parking+Pod+Mostem%2C+Bulwar+Filadelfijski+11%2F15%2C+Toru%C5%84&travelmode=driving",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "transport"
+          ]
+        },
+        {
+          "publicId": "945449c2-7911-4218-a83c-f288d865ffe2",
+          "type": "poi_visit",
+          "title": "Toruň – krátký okruh historickým centrem",
+          "startTime": "12:30",
+          "endTime": "13:45",
+          "durationMinutes": 75,
+          "status": "planned",
+          "placePublicId": "90ca305e-b388-4494-b7a9-cadd05762c95",
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 441.0,
+          "notes": "Projít Rynek Staromiejski, Koperníkův pomník, ulici Szeroka, katedrálu zvenku, Křivou věž a podle času krátký úsek hradeb nebo nábřeží.",
+          "whyHere": "Jediná a hlavní turistická zastávka cestou k moři.",
+          "bookingNote": "Bez rezervace; do muzeí nechodit.",
+          "parkingNote": "Primárně venkovní Parking Pod Mostem; záloha CKK Jordanki.",
+          "needsVerification": true,
+          "sourceUrl": "https://visittorun.com/en/page/sightseeing-route",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rynek+Staromiejski+Toru%C5%84",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.6049,53.0105&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Parking+Pod+Mostem%2C+Bulwar+Filadelfijski+11%2F15%2C+Toru%C5%84",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.6049,53.0105&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "historic_center"
+          ]
+        },
+        {
+          "publicId": "e14c4e13-334e-42a3-8cfd-330aacb0596c",
+          "type": "meal",
+          "title": "Rychlý oběd v Toruni",
+          "startTime": "13:45",
+          "endTime": "14:25",
+          "durationMinutes": 40,
+          "status": "planned",
+          "placePublicId": "4e909ae1-3812-42af-bce6-a635d6edb5e9",
+          "transportMode": "walk",
+          "cost": null,
+          "distanceKm": 0.3,
+          "notes": "Při frontě vzít jídlo s sebou a odjet nejpozději kolem 14:30–14:45.",
+          "whyHere": "Praktický oběd přímo v centru bez dalšího přejezdu.",
+          "bookingNote": "Aktuální pondělní otevírací dobu a kapacitu pro sedm osob ověřit ráno.",
+          "parkingNote": "Auto ponechat na Parking Pod Mostem.",
+          "needsVerification": true,
+          "sourceUrl": "https://visittorun.com/en/content/pod-arkadami",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar+Mleczny+Pod+Arkadami+R%C3%B3%C5%BCana+1+Toru%C5%84",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Bar+Mleczny+Pod+Arkadami%2C+R%C3%B3%C5%BCana+1%2C+Toru%C5%84",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "meal",
+            "restaurant_area"
+          ]
+        },
+        {
+          "publicId": "2d7b3085-7640-469e-9c6d-b949c4bf67a1",
+          "type": "arrival",
+          "title": "Příjezd do Jastrzębie Góry a ubytování",
+          "startTime": "18:00",
+          "endTime": "18:00",
+          "durationMinutes": 0,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 231.0,
+          "notes": "Orientační příjezd 17:30–18:30; při silném pobřežním provozu i později.",
+          "whyHere": "Konec příjezdového dne.",
+          "bookingNote": "Ubytování informovat o očekávaném příjezdu po 17:30 a ověřit způsob předání klíčů.",
+          "parkingNote": "Soukromé parkování u ubytování; prostor pro velké auto ověřit.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.morskie-tarasy.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Piastowska+2%2C+84-104+Jastrz%C4%99bia+G%C3%B3ra%2C+Poland",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Parking+Pod+Mostem%2C+Toru%C5%84&destination=Piastowska+2%2C+84-104+Jastrz%C4%99bia+G%C3%B3ra%2C+Poland&travelmode=driving",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "arrival"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "5444a9f2-68a2-4314-aeea-f869ddcc396d",
+      "date": "2026-07-28",
+      "dayIndex": 2,
+      "title": "Rozewie, Lisi Jar a místní pláž",
+      "summary": "Místní aktivní den bez dlouhého řízení.",
+      "dayType": "local_active",
+      "weatherNote": "Po silném dešti mohou být stezky kluzké.",
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Při celodenním dešti prohodit s Aquaparkem Reda."
+        },
+        "hotWeather": {
+          "title": "Alternativa při horku",
+          "text": "Autem k majáku a zkrátit pěší trasu."
+        },
+        "easy": {
+          "title": "Lehčí alternativa",
+          "text": "Jen maják, oběd a pláž."
+        },
+        "active": {
+          "title": "Aktivnější alternativa",
+          "text": "Při slabém ranním větru lze místo pláže vyjet s paddleboardem do Pucku."
+        }
+      },
+      "items": [
+        {
+          "publicId": "2a82a22f-264d-425a-a3d1-a4fc4314d305",
+          "type": "poi_visit",
+          "title": "Maják Rozewie a Lisi Jar",
+          "startTime": "09:30",
+          "endTime": "13:00",
+          "durationMinutes": 210,
+          "status": "planned",
+          "placePublicId": "08a20809-c9a9-41d3-9132-1c40ae84d6a9",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 19.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 6.0,
+          "notes": "Maják 19 PLN dospělý a 13 PLN zlevněný; rokle je zdarma.",
+          "whyHere": "Silný místní program bez dlouhého automobilového přesunu.",
+          "bookingNote": "Lístek do majáku stačí koupit na místě.",
+          "parkingNote": "Při jízdě autem použít parkoviště u majáku.",
+          "needsVerification": true,
+          "sourceUrl": "https://tpnmm.pl/latarnia-rozewie/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.8308%2C18.3361",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.3361,54.8308&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.8308%2C18.3361",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.3361,54.8308&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "viewpoint"
+          ]
+        },
+        {
+          "publicId": "0458a7fd-25bb-42d3-9dc8-1a9d32c458b9",
+          "type": "meal",
+          "title": "Denní menu a odpočinek u moře",
+          "startTime": "13:30",
+          "endTime": "18:30",
+          "durationMinutes": 300,
+          "status": "planned",
+          "placePublicId": "10922298-f926-4caa-ae60-2baa7ecf6f4f",
+          "transportMode": "walk",
+          "cost": null,
+          "distanceKm": 1.0,
+          "notes": "Denní sestavu v Morski ověřit kolem 11:00. Po obědě volný plážový blok.",
+          "whyHere": "Po dopolední chůzi potřebuje skupina jídlo a odpočinek.",
+          "bookingNote": "Pro sedm osob zavolat.",
+          "parkingNote": "Auto nechat u ubytování.",
+          "needsVerification": true,
+          "sourceUrl": "https://barmorski.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Morski+Bar+Restaurant+Jastrz%C4%99bia+G%C3%B3ra",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Morski+Bar+Restaurant+Jastrz%C4%99bia+G%C3%B3ra",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "meal",
+            "restaurant_area"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "ed614c28-91de-43d2-8d73-cbce2f2fd766",
+      "date": "2026-07-29",
+      "dayIndex": 3,
+      "title": "Hel autem",
+      "summary": "Cypel, Fokarium a vojenská historie.",
+      "dayType": "full_day_trip",
+      "weatherNote": "Hel je použitelný i při větru, ale ne při celodenním silném dešti.",
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Prohodit s Aquaparkem Reda."
+        },
+        "hotWeather": {
+          "title": "Alternativa při horku",
+          "text": "Cypel brzy ráno, přes poledne Fokarium a muzeum."
+        },
+        "easy": {
+          "title": "Lehčí alternativa",
+          "text": "Cypel, Fokarium a přístav bez vojenského muzea."
+        },
+        "active": {
+          "title": "Aktivnější alternativa",
+          "text": "Delší pobřežní okruh a hlavní muzejní část."
+        }
+      },
+      "items": [
+        {
+          "publicId": "41531534-6051-47a8-81d9-457892c41469",
+          "type": "poi_visit",
+          "title": "Cypel Helski",
+          "startTime": "07:30",
+          "endTime": "09:45",
+          "durationMinutes": 135,
+          "status": "planned",
+          "placePublicId": "b84af487-abfc-4cd2-aad4-8968e379f50c",
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 46.0,
+          "notes": "Odjezd z ubytování kolem 06:00. Po 06:45 roste riziko zdržení.",
+          "whyHere": "Ráno je na Cypu klidněji.",
+          "bookingNote": "Bez rezervace.",
+          "parkingNote": "Parkoviště u Cypu nebo ulice Kuracyjna; sazbu ověřit.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.helmuzeum.pl/zwiedzanie/mapa/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.5986%2C18.8164",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.8164,54.5986&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.5986%2C18.8164",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.8164,54.5986&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "nature"
+          ]
+        },
+        {
+          "publicId": "73b85713-05b9-4833-9955-ae74f4912d51",
+          "type": "poi_visit",
+          "title": "Fokarium a krmení v 11:00",
+          "startTime": "10:10",
+          "endTime": "11:45",
+          "durationMinutes": 95,
+          "status": "planned",
+          "placePublicId": "18718c5d-ad7c-484d-8dfb-d9873dd5b3ed",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 25.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 2.0,
+          "notes": "Dospělý 25 PLN, zlevněný 20 PLN.",
+          "whyHere": "Hlavní vzdělávací bod výletu na Hel.",
+          "bookingNote": "Místa nelze rezervovat; lístek online nebo v automatu.",
+          "parkingNote": "Auto ponechat na ranním parkovišti, pokud je docházka přijatelná.",
+          "needsVerification": false,
+          "sourceUrl": "https://fokarium.ug.edu.pl/dla-odwiedzajacych/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.606752%2C18.800803",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.800803,54.606752&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.606752%2C18.800803",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.800803,54.606752&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "museum"
+          ]
+        },
+        {
+          "publicId": "a9ee191e-b917-4e54-8f60-e2e5bb8d0f74",
+          "type": "poi_visit",
+          "title": "Muzeum Obrony Wybrzeża",
+          "startTime": "13:30",
+          "endTime": "16:30",
+          "durationMinutes": 180,
+          "status": "planned",
+          "placePublicId": "5ced41da-9121-47e4-b492-47ecfb9513a2",
+          "transportMode": "car",
+          "cost": null,
+          "distanceKm": 4.0,
+          "notes": "Po rychlém obědě vybrat hlavní část komplexu. Návrat z Helu nejlépe až po 18:30.",
+          "whyHere": "Vojenská historie je vhodná pro teenagery.",
+          "bookingNote": "Lístky na místě; konkrétní balíček podle energie.",
+          "parkingNote": "Venkovní parkoviště u areálu.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.helmuzeum.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.6223%2C18.7972",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.7972,54.6223&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.6223%2C18.7972",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.7972,54.6223&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "museum"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "53268458-4333-4058-bb98-9fc7822bdbdc",
+      "date": "2026-07-30",
+      "dayIndex": 4,
+      "title": "Gdaňsk a Muzeum druhé světové války",
+      "summary": "Historické centrum ráno a rozsáhlé muzeum odpoledne.",
+      "dayType": "city_history",
+      "weatherNote": "Vhodné za slunce i přeháněk.",
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Zkrátit centrum, muzeum ponechat."
+        },
+        "hotWeather": {
+          "title": "Alternativa při horku",
+          "text": "Centrum jen ráno, odpoledne strávit uvnitř."
+        },
+        "easy": {
+          "title": "Lehčí alternativa",
+          "text": "Kratší centrum a přibližně 2,5 hodiny v muzeu."
+        },
+        "active": {
+          "title": "Aktivnější alternativa",
+          "text": "Po muzeu delší procházka po nábřeží Motławy."
+        }
+      },
+      "items": [
+        {
+          "publicId": "a26d0b05-b6b3-48dd-aa96-9c298e949f3c",
+          "type": "poi_visit",
+          "title": "Długi Targ, Mariacka a Motława",
+          "startTime": "09:15",
+          "endTime": "11:30",
+          "durationMinutes": 135,
+          "status": "planned",
+          "placePublicId": "6b64b5b5-6315-4f78-b249-3853955cea23",
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 72.0,
+          "notes": "Parkovat u muzea a do centra dojít pěšky. Oběd dát před rezervovaným vstupem.",
+          "whyHere": "Ranní městská část poskytne kontext před návštěvou muzea.",
+          "bookingNote": "Bez rezervace.",
+          "parkingNote": "Podzemní parkoviště muzea pouze pro vozidlo do 1,9 metru.",
+          "needsVerification": false,
+          "sourceUrl": "https://visitgdansk.com/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3485%2C18.653",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.653,54.3485&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3485%2C18.653",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.653,54.3485&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "historic_center"
+          ]
+        },
+        {
+          "publicId": "33bd60e5-48e8-48e4-bf5d-e64386bc5ec0",
+          "type": "poi_visit",
+          "title": "Muzeum druhé světové války",
+          "startTime": "13:00",
+          "endTime": "16:30",
+          "durationMinutes": 210,
+          "status": "planned",
+          "placePublicId": "b2a99d71-bba0-4337-929d-54ffc2127e6a",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 33.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 1.5,
+          "notes": "Dospělý 33 PLN, zlevněný 23 PLN.",
+          "whyHere": "Hlavní indoor a vzdělávací bod městského dne.",
+          "bookingNote": "Rezervovat 2–5 dní předem na přibližně 13:00.",
+          "parkingNote": "Maximální výška 1,9 metru; první tři hodiny zdarma od středy do neděle.",
+          "needsVerification": false,
+          "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/buying-tickets",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3566%2C18.659",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.659,54.3566&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3566%2C18.659",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "museum"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "58e273ce-272d-432b-934b-ca59b621636a",
+      "date": "2026-07-31",
+      "dayIndex": 5,
+      "title": "Aquapark Reda – plovoucí dešťový den",
+      "summary": "Pevná hlavní atrakce s výchozím pátečním termínem.",
+      "dayType": "floating_bad_weather",
+      "weatherNote": "Ideální při dešti, chladu nebo silném větru.",
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Hlavní plán je sám dešťovou variantou."
+        },
+        "hotWeather": {
+          "title": "Alternativa při horku",
+          "text": "Při nejlepším bezvětrném dni preferovat venkovní výlet."
+        },
+        "easy": {
+          "title": "Lehčí alternativa",
+          "text": "Tříhodinový vstup od 08:00 do 11:00."
+        },
+        "active": {
+          "title": "Aktivnější alternativa",
+          "text": "Celodenní vstup s reálným pobytem do 14:30; část dospělých může využít Saunarium."
+        }
+      },
+      "items": [
+        {
+          "publicId": "83d81267-0e1f-477e-ad19-75e121384405",
+          "type": "poi_visit",
+          "title": "Aquapark Reda",
+          "startTime": "08:00",
+          "endTime": "14:30",
+          "durationMinutes": 390,
+          "status": "planned",
+          "placePublicId": "d77fd5c6-6a40-457d-84de-6ccc03952635",
+          "transportMode": "car",
+          "cost": {
+            "amount": 200.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 31.0,
+          "notes": "Celodenní vstup: dospělý 200 PLN, osoba do 18 let 170 PLN. Tříhodinový vstup: 155 PLN a 125 PLN. Saunarium pouze 18+.",
+          "whyHere": "Pevná hlavní atrakce pobytu a nejlepší indoor program.",
+          "bookingNote": "Koupit online večer předem po potvrzení počasí.",
+          "parkingNote": "Pro velké auto preferovat venkovní P1 nebo P2; cenu ověřit.",
+          "needsVerification": false,
+          "sourceUrl": "https://www.aquaparkreda.pl/en/prices",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.6018%2C18.3484",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.3484,54.6018&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.6018%2C18.3484",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.3484,54.6018&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "custom"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "6ccb7115-9648-41e5-a39b-9878edb7c1f3",
+      "date": "2026-08-01",
+      "dayIndex": 6,
+      "title": "Pohyblivé duny ve Słowińském národním parku",
+      "summary": "Celodenní přírodní túra s aktivní a zkrácenou variantou.",
+      "dayType": "active_nature",
+      "weatherNote": "Ideální je sucho, přibližně 17–23 °C a slabší vítr.",
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Prohodit s Redou nebo Gdyní."
+        },
+        "hotWeather": {
+          "title": "Alternativa při horku",
+          "text": "Použít zkrácenou variantu s melexem."
+        },
+        "easy": {
+          "title": "Lehčí alternativa",
+          "text": "Melex a přibližně 7–9 kilometrů pěšky."
+        },
+        "active": {
+          "title": "Aktivnější alternativa",
+          "text": "Celý okruh přibližně 15,1 kilometru."
+        }
+      },
+      "items": [
+        {
+          "publicId": "ae892449-0ece-4f09-9980-fdb55b00eacb",
+          "type": "transport",
+          "title": "Auto do Łeby a transfer k Rąbce",
+          "startTime": "06:00",
+          "endTime": "08:15",
+          "durationMinutes": 135,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": null,
+          "distanceKm": 73.0,
+          "notes": "Nenavigovat na uzavřené parkoviště Rąbka.",
+          "whyHere": "Aktuální uzavření parkoviště mění logistiku výletu.",
+          "bookingNote": "Transfer ověřit nebo objednat den předem.",
+          "parkingNote": "Použít městské parkoviště v Łebě; konkrétní plochu a cenu ověřit.",
+          "needsVerification": true,
+          "sourceUrl": "https://spn.gov.pl/aktualnosci/informacja-dot-funkcjonowania-parkingu-w-rabce",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=parking+%C5%81eba+centrum",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=parking+%C5%81eba+centrum",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "transport"
+          ]
+        },
+        {
+          "publicId": "15020966-7ac8-41e4-ba66-8bffb5c37dfb",
+          "type": "poi_visit",
+          "title": "Łącka duna a pobřežní okruh",
+          "startTime": "08:15",
+          "endTime": "14:45",
+          "durationMinutes": 390,
+          "status": "planned",
+          "placePublicId": "8eda5a5b-a235-414f-b620-4db87d4ac172",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 10.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 15.1,
+          "notes": "Dospělý vstup 10 PLN, zlevněný 5 PLN. Vzít minimálně 1–1,5 litru vody na osobu.",
+          "whyHere": "Nejunikátnější přírodní výlet pobytu.",
+          "bookingNote": "Vstup online nebo na místě; místní transfer ověřit předem.",
+          "parkingNote": "Auto zůstává v Łebě.",
+          "needsVerification": true,
+          "sourceUrl": "https://spn.gov.pl/szlaki-turystyczne",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.748703%2C17.417793",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=17.417793,54.748703&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.748703%2C17.417793",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=17.417793,54.748703&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "nature"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "a8a60e28-4f76-4aac-9ebc-a52827eb32ec",
+      "date": "2026-08-02",
+      "dayIndex": 7,
+      "title": "Gdyně a Sopot – Błyskawica, Experyment, Orłowo a molo",
+      "summary": "Námořní historie v centru Gdyně, interaktivní věda, pobřeží Orłowa a podvečerní Sopot.",
+      "dayType": "mixed_weather",
+      "weatherNote": "Při celodenním dešti vynechat Orłowo nebo Sopot a prodloužit indoor program. ORP Błyskawica může být uzavřena při nepříznivých podmínkách.",
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "ORP Błyskawica, pokud zůstane otevřená, volitelně Dar Pomorza, Experyment a krátký Sopot podle počasí. Orłowo vynechat."
+        },
+        "hotWeather": {
+          "title": "Alternativa při horku",
+          "text": "Experyment držet na dvě hodiny, v Orłowu jen molo a pláž a větší část podvečera ponechat Sopotu."
+        },
+        "easy": {
+          "title": "Lehčí alternativa",
+          "text": "ORP Błyskawica, Experyment a krátké Orłowo. Sopot zkrátit nebo vynechat podle energie."
+        },
+        "active": {
+          "title": "Aktivnější alternativa",
+          "text": "Po ORP Błyskawica navštívit také interiér Dar Pomorza přibližně 10:55–11:45. Potom Experyment 12:10–14:10, oběd do 15:00, Orłowo 15:15–16:45 a Sopot 17:15–19:30."
+        }
+      },
+      "items": [
+        {
+          "publicId": "e5b5f88b-823b-4b42-98ab-244bee94f69d",
+          "type": "car_transfer",
+          "title": "Odjezd z Jastrzębie Góry do centra Gdyně",
+          "startTime": "08:15",
+          "endTime": "09:30",
+          "durationMinutes": 75,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 55.0,
+          "notes": "Počítat s nedělním provozem a rezervou na parkování u Skweru Kościuszki.",
+          "whyHere": "Včasný příjezd umožní stihnout první vstup na ORP Błyskawica.",
+          "bookingNote": null,
+          "parkingNote": "Primárně Skwer Kościuszki / Nabrzeże Pomorskie; zálohu zvolit podle obsazenosti.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=Jastrz%C4%99bia+G%C3%B3ra&destination=Skwer+Ko%C5%9Bciuszki%2C+Gdynia&travelmode=driving",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Odjezd%20z%20Jastrz%C4%99bie%20G%C3%B3ry%20do%20centra%20Gdyn%C4%9B",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Jastrz%C4%99bia+G%C3%B3ra&destination=Skwer+Ko%C5%9Bciuszki%2C+Gdynia&travelmode=driving",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        },
+        {
+          "publicId": "26001a41-c662-4ee0-ad9e-41ae6b8784fc",
+          "type": "poi_visit",
+          "title": "Přístav a Dar Pomorza zvenku",
+          "startTime": "09:30",
+          "endTime": "09:55",
+          "durationMinutes": 25,
+          "status": "planned",
+          "placePublicId": "00be31a0-cfbc-4d61-b0e0-fa36142da184",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 0.5,
+          "notes": "Krátká procházka po nábřeží a fotografie plachetnice. Interiér není součástí hlavního plánu.",
+          "whyHere": "Vyplní čas před otevřením Błyskawice bez dalšího přejezdu.",
+          "bookingNote": null,
+          "parkingNote": "Auto ponechat u Skweru Kościuszki.",
+          "needsVerification": false,
+          "sourceUrl": "https://nmm.pl/en/dar-pomorza/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dar+Pomorza+Gdynia",
+            "mapyUrl": "https://mapy.com/fnc/v1/search?query=Dar%20Pomorza%20Gdynia",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=P%C5%99%C3%ADstav%20a%20Dar%20Pomorza%20zvenku",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "museum"
+          ]
+        },
+        {
+          "publicId": "3bd06186-e46b-42e6-baf3-38008d7578d7",
+          "type": "poi_visit",
+          "title": "ORP Błyskawica",
+          "startTime": "10:00",
+          "endTime": "10:50",
+          "durationMinutes": 50,
+          "status": "planned",
+          "placePublicId": "d710fae6-af55-4318-9186-8f89d20e4ac9",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 30.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 0.2,
+          "notes": "Hlavní námořní atrakce dne. Držet prohlídku kolem 45–50 minut.",
+          "whyHere": "Jedna z nejvýraznějších atrakcí Gdyně a silný zážitek pro děti ve věku 13–14 let.",
+          "bookingNote": "Bez běžné rezervace; přijít před prvním vstupem.",
+          "parkingNote": "Auto zůstává na stejném parkovišti.",
+          "needsVerification": true,
+          "sourceUrl": "https://muzeummw.pl/en/price-list-and-opening-hours/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=ORP+B%C5%82yskawica+Gdynia",
+            "mapyUrl": "https://mapy.com/fnc/v1/search?query=ORP%20B%C5%82yskawica%20Gdynia",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=ORP%20B%C5%82yskawica",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "museum"
+          ]
+        },
+        {
+          "publicId": "ff411131-358f-4960-8cea-35ff2faeb0f9",
+          "type": "car_transfer",
+          "title": "Přejezd k Centru Nauki Experyment",
+          "startTime": "10:50",
+          "endTime": "11:25",
+          "durationMinutes": 35,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 6.0,
+          "notes": "Čas zahrnuje návrat k autu, přejezd a parkování.",
+          "whyHere": "Přesun z přístavu k hlavní indoor aktivitě.",
+          "bookingNote": null,
+          "parkingNote": "Při zaplnění parkování u centra použít Arena nebo Riviera.",
+          "needsVerification": true,
+          "sourceUrl": "https://experyment.gdynia.pl/zaplanuj-wizyte/godziny-otwarcia-jak-dojechac/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C5%99ejezd%20k%20Centru%20Nauki%20Experyment",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.4935%2C18.5386",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.5386,54.4935&routeType=car_fast_traffic&navigate=true"
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        },
+        {
+          "publicId": "9f774656-99d3-4353-938d-3162cba47906",
+          "type": "poi_visit",
+          "title": "Centrum Nauki Experyment",
+          "startTime": "11:30",
+          "endTime": "13:30",
+          "durationMinutes": 120,
+          "status": "planned",
+          "placePublicId": "5f8fe9a5-7703-4cb4-af76-0f7ec4c63a68",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 30.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 0.0,
+          "notes": "Dvě hodiny jsou pro tento nabitý den dostačující.",
+          "whyHere": "Silný interaktivní program pro teenagery a jistota i při proměnlivém počasí.",
+          "bookingNote": "Doporučeno koupit vstup den předem.",
+          "parkingNote": "Auto ponechat u Experymentu.",
+          "needsVerification": true,
+          "sourceUrl": "https://experyment.gdynia.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.4935%2C18.5386",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.5386,54.4935&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.4935%2C18.5386",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.5386,54.4935&routeType=car_fast_traffic&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "museum"
+          ]
+        },
+        {
+          "publicId": "51215029-8803-4acd-be44-e5d945d1b645",
+          "type": "meal",
+          "title": "Rychlý oběd u Experymentu nebo cestou do Orłowa",
+          "startTime": "13:30",
+          "endTime": "14:20",
+          "durationMinutes": 50,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "distanceKm": 0.5,
+          "notes": "Neplánovat dlouhé posezení. Konkrétní podnik a denní menu ověřit ráno.",
+          "whyHere": "Praktická pauza před pobřežní částí dne.",
+          "bookingNote": "Pro sedm osob je vhodné ráno ověřit kapacitu.",
+          "parkingNote": "Auto ponechat u Experymentu nebo se přesunout směrem k Orłowu podle zvoleného podniku.",
+          "needsVerification": true,
+          "sourceUrl": "https://experyment.gdynia.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=restaurant+near+Centrum+Nauki+Experyment+Gdynia",
+            "mapyUrl": "https://mapy.com/fnc/v1/search?query=restaurace%20Centrum%20Nauki%20Experyment%20Gdynia",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Rychl%C3%BD%20ob%C4%9Bd%20u%20Experymentu%20nebo%20cestou%20do%20Or%C5%82owa",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "meal"
+          ]
+        },
+        {
+          "publicId": "29a5850f-369c-47af-90b7-e9d16cc4c25e",
+          "type": "poi_visit",
+          "title": "Molo, pláž a útes Orłowo",
+          "startTime": "14:35",
+          "endTime": "16:30",
+          "durationMinutes": 115,
+          "status": "planned",
+          "placePublicId": "cfaa9bd2-8efe-4b99-8ebb-cdbaf330371e",
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 6.0,
+          "notes": "Pohodový okruh bez dlouhé túry. Po dešti se nepřibližovat těsně pod klif.",
+          "whyHere": "Pobřežní část dne vyvažuje lodě a Experyment.",
+          "bookingNote": "Bez rezervace.",
+          "parkingNote": "Parkovat dál od mola a dojít přibližně 10–15 minut.",
+          "needsVerification": true,
+          "sourceUrl": "https://www.gdynia.pl/turystyczna",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.4793%2C18.5592",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.5592,54.4793&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.4793%2C18.5592",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.5592,54.4793&routeType=car_fast_traffic&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "nature"
+          ]
+        },
+        {
+          "publicId": "fa20878c-e6f5-4f9e-8c1c-d793d9451cc1",
+          "type": "car_transfer",
+          "title": "Přejezd z Orłowa do Sopotu",
+          "startTime": "16:30",
+          "endTime": "17:00",
+          "durationMinutes": 30,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 7.0,
+          "notes": "Čas zahrnuje hledání parkování v Sopotu.",
+          "whyHere": "Sopot přímo navazuje na Orłowo směrem na jih.",
+          "bookingNote": null,
+          "parkingNote": "Vybrat parkování v docházkové vzdálenosti od Bohaterów Monte Cassino.",
+          "needsVerification": true,
+          "sourceUrl": "https://visit.sopot.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C5%99ejezd%20z%20Or%C5%82owa%20do%20Sopotu",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Or%C5%82owo%2C+Gdynia&destination=Plac+Zdrojowy%2C+Sopot&travelmode=driving",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        },
+        {
+          "publicId": "79d6052d-664e-42a9-a570-bed6714afff1",
+          "type": "poi_visit",
+          "title": "Sopot – Monciak, Krzywy Domek, molo a pláž",
+          "startTime": "17:00",
+          "endTime": "19:30",
+          "durationMinutes": 150,
+          "status": "planned",
+          "placePublicId": "3bd2b72f-8835-494e-aa92-dfc4217fd06a",
+          "transportMode": "walk",
+          "cost": {
+            "amount": 10.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 3.0,
+          "notes": "Projít Bohaterów Monte Cassino, Krzywy Domek, Plac Zdrojowy, molo a krátký úsek pláže.",
+          "whyHere": "Krátká podvečerní zastávka dodá výletu atmosféru Sopotu bez zkrácení samostatného dne v Gdaňsku.",
+          "bookingNote": "Bez rezervace; vstup na molo koupit na místě.",
+          "parkingNote": "Auto ponechat na vybraném parkovišti u centra.",
+          "needsVerification": true,
+          "sourceUrl": "https://visit.sopot.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Molo+w+Sopocie",
+            "mapyUrl": "https://mapy.com/fnc/v1/search?query=Molo%20w%20Sopocie",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Plac+Zdrojowy%2C+Sopot",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "poi_visit",
+            "historic_center"
+          ]
+        },
+        {
+          "publicId": "ba01c2af-a1b6-4fe2-bcda-fb5afa884cda",
+          "type": "meal",
+          "title": "Večeře v Sopotu",
+          "startTime": "19:30",
+          "endTime": "20:30",
+          "durationMinutes": 60,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "distanceKm": 0.5,
+          "notes": "Pro rozumnější cenu odejít několik ulic od mola. Pro sedm osob ověřit kapacitu.",
+          "whyHere": "Klidné zakončení dlouhého dne před návratem.",
+          "bookingNote": "Doporučeno rezervovat nebo zavolat během odpoledne.",
+          "parkingNote": "Auto zůstává na stejném parkovišti.",
+          "needsVerification": true,
+          "sourceUrl": "https://visit.sopot.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=restaurants+Sopot+centrum",
+            "mapyUrl": "https://mapy.com/fnc/v1/search?query=restaurace%20Sopot%20centrum",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Ve%C4%8De%C5%99e%20v%20Sopotu",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "meal"
+          ]
+        },
+        {
+          "publicId": "e6dc9f05-8cf4-4a27-8164-84ac79dd7d28",
+          "type": "car_transfer",
+          "title": "Návrat ze Sopotu do Jastrzębie Góry",
+          "startTime": "20:30",
+          "endTime": "21:45",
+          "durationMinutes": 75,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 60.0,
+          "notes": "Doba je orientační podle večerního provozu.",
+          "whyHere": "Závěrečný přesun na ubytování.",
+          "bookingNote": null,
+          "parkingNote": null,
+          "needsVerification": true,
+          "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=Sopot&destination=Jastrz%C4%99bia+G%C3%B3ra&travelmode=driving",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=N%C3%A1vrat%20ze%20Sopotu%20do%20Jastrz%C4%99bie%20G%C3%B3ry",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Sopot&destination=Jastrz%C4%99bia+G%C3%B3ra&travelmode=driving",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "car_transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "publicId": "bbb444ec-31a6-41d9-a783-68b14ca90176",
+      "date": "2026-08-03",
+      "dayIndex": 8,
+      "title": "Odjezd přes Malbork",
+      "summary": "Odjezd z Jastrzębie Góry v 09:00, bezplatná pondělní venkovní trasa hradu Malbork a pokračování do Ostravy.",
+      "dayType": "departure",
+      "weatherNote": "Program je venkovní; při silném dešti zkrátit prohlídku a odjet dříve.",
+      "alternatives": {
+        "badWeather": {
+          "title": "Alternativa při špatném počasí",
+          "text": "Nádvoří, krátký pohled od Nogatu a odjezd do Ostravy."
+        },
+        "hotWeather": {
+          "title": "Alternativa při horku",
+          "text": "Držet trasu přibližně na 75–90 minut a mít vodu v autě."
+        },
+        "easy": {
+          "title": "Lehčí alternativa",
+          "text": "Nádvoří a panorama hradu od Nogatu bez celé trasy."
+        },
+        "active": {
+          "title": "Aktivnější alternativa",
+          "text": "Celá venkovní Castle Grounds Route a delší fotografická zastávka."
+        }
+      },
+      "items": [
+        {
+          "publicId": "8971cc2b-d224-41c5-bbc0-5a19d88ce65a",
+          "type": "departure",
+          "title": "Odjezd z Jastrzębie Góry",
+          "startTime": "09:00",
+          "endTime": "09:00",
+          "durationMinutes": 0,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 0.0,
+          "notes": "Naložit auto a odjet nejpozději v 09:00. Do Malborku počítat přibližně s 2–2,5 hodinami.",
+          "whyHere": "Pevný odjezdový milník z destinace.",
+          "bookingNote": "Čas check-outu ověřit s ubytováním.",
+          "parkingNote": "Odjezd z parkování u ubytování.",
+          "needsVerification": false,
+          "sourceUrl": "https://www.morskie-tarasy.pl/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Piastowska+2%2C+84-104+Jastrz%C4%99bia+G%C3%B3ra%2C+Poland",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+84-104+Jastrz%C4%99bia+G%C3%B3ra&destination=Parking+Wa%C5%82owa%2C+Malbork&travelmode=driving",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "departure"
+          ]
+        },
+        {
+          "publicId": "a831e6ba-19ec-4874-af6d-599a7ef349f8",
+          "type": "poi_visit",
+          "title": "Malbork – bezplatná pondělní venkovní trasa",
+          "startTime": "11:30",
+          "endTime": "13:15",
+          "durationMinutes": 105,
+          "status": "planned",
+          "placePublicId": "9504d1c6-afb8-4eae-8b64-bd9f5703b5b8",
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 121.0,
+          "notes": "Po parkování vyzvednout bezplatné vstupenky. Navštívit nádvoří, terasy, zahrady, příkopy a opevnění; hlavní interiéry a expozice vynechat.",
+          "whyHere": "Silná historická zastávka a přirozené přerušení dlouhé cesty do Ostravy.",
+          "bookingNote": "Bezplatné vstupenky vyzvednout osobně na místě.",
+          "parkingNote": "Parking Wałowa; orientačně 10 PLN za započatou hodinu.",
+          "needsVerification": true,
+          "sourceUrl": "https://bilety.zamek.malbork.pl/?lang=en",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.0397%2C19.0280",
+            "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=19.028,54.0397&zoom=16&marker=true",
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Parking+Wa%C5%82owa%2C+Malbork",
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=19.028,54.0397&navigate=true"
+          },
+          "tags": [
+            "poi_visit",
+            "castle"
+          ]
+        },
+        {
+          "publicId": "1ed45040-14db-4d61-b2e1-52fc91ef6bed",
+          "type": "meal",
+          "title": "Pohled od Nogatu a rychlý oběd",
+          "startTime": "13:15",
+          "endTime": "14:20",
+          "durationMinutes": 65,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "walk",
+          "cost": null,
+          "distanceKm": 1.5,
+          "notes": "Krátká fotografická zastávka a rychlé jídlo. Neplánovat dlouhé posezení v restauraci.",
+          "whyHere": "Před dlouhou jízdou do Ostravy je potřeba jídlo a krátký odpočinek.",
+          "bookingNote": "Bez rezervace; při frontě využít svačinu z auta.",
+          "parkingNote": "Auto ponechat na Parking Wałowa.",
+          "needsVerification": true,
+          "sourceUrl": "https://zamek.malbork.pl/en/home/",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=widok+na+zamek+Malbork+Nogat",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Parking+Wa%C5%82owa%2C+Malbork",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "meal"
+          ]
+        },
+        {
+          "publicId": "f1a33cdb-61b1-474b-beed-158aabc957d5",
+          "type": "transport",
+          "title": "Odjezd z Malborku do Ostravy",
+          "startTime": "14:30",
+          "endTime": "20:45",
+          "durationMinutes": 375,
+          "status": "planned",
+          "placePublicId": null,
+          "transportMode": "car",
+          "cost": {
+            "amount": 0.0,
+            "currency": "PLN",
+            "text": null
+          },
+          "distanceKm": 583.0,
+          "notes": "Orientační příjezd do Ostravy 20:15–21:30 podle provozu a jedné krátké přestávky.",
+          "whyHere": "Závěrečný přesun domů.",
+          "bookingNote": "Bez rezervace.",
+          "parkingNote": null,
+          "needsVerification": true,
+          "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=Parking+Wa%C5%82owa%2C+Malbork&destination=Ostrava%2C+Czechia&travelmode=driving",
+          "mapLinks": {
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ostrava%2C+Czechia",
+            "mapyUrl": null,
+            "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&origin=Parking+Wa%C5%82owa%2C+Malbork&destination=Ostrava%2C+Czechia&travelmode=driving",
+            "mapyNavigationUrl": null
+          },
+          "tags": [
+            "transport"
+          ]
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "publicId": "d77fd5c6-6a40-457d-84de-6ccc03952635",
+      "name": "Aquapark Reda",
+      "category": "custom",
+      "addressText": "Morska 5, 84-240 Reda",
+      "latitude": 54.6018,
+      "longitude": 18.3484,
+      "description": "Velký převážně vnitřní aquapark s tobogány, bazény a atrakcemi vhodnými pro teenagery.",
+      "whyVisit": "Pevná hlavní atrakce pobytu a nejlepší celodenní program za deště.",
+      "travelerTips": "Přijet na otevření v 08:00. Pro sedm osob je pohodlnější celodenní lístek, i když reálný pobyt bude přibližně 5–6 hodin.",
+      "warnings": "Saunarium je pouze pro osoby od 18 let a je bezplavkové. Letní vstupenky jsou vázané na datum.",
+      "officialUrl": "https://www.aquaparkreda.pl/en/",
+      "sourceUrl": "https://www.aquaparkreda.pl/en/prices",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.6018%2C18.3484",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.3484,54.6018&zoom=16&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.6018%2C18.3484",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.3484,54.6018&navigate=true"
+      },
+      "parking": {
+        "name": "Aquapark Reda P1 nebo P2",
+        "addressText": null,
+        "latitude": 54.6018,
+        "longitude": 18.3484,
+        "note": "Pro velké auto preferovat venkovní P1 nebo P2. Všechna parkoviště jsou placená; přesná cena a výška krytého P4 nejsou ověřené.",
+        "priceNote": null,
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.6018%2C18.3484",
+          "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.3484,54.6018&zoom=16&marker=true",
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.6018%2C18.3484",
+          "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.3484,54.6018&navigate=true"
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": true,
+        "recommendedAdvance": "day_before",
+        "note": "Koupit online večer předem po kontrole počasí. O víkendu nebo při celodenním dešti raději 1–2 dny předem.",
+        "needsVerification": false
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Friday",
+          "date": "2026-07-31",
+          "openTime": "08:00",
+          "closeTime": "22:00",
+          "isClosed": false,
+          "note": "Pátek je pouze výchozí datum. Při dřívějším deštivém všedním dni celý program prohodit.",
+          "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "three_hours",
+          "adultPrice": 155.0,
+          "childPrice": 125.0,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Dospělý 155 PLN (cca 863 CZK), osoba do 18 let 125 PLN (cca 696 CZK). Překročení času 2 PLN za minutu a osobu.",
+          "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
+        },
+        {
+          "priceType": "whole_day",
+          "adultPrice": 200.0,
+          "childPrice": 170.0,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Dospělý 200 PLN (cca 1114 CZK), osoba do 18 let 170 PLN (cca 947 CZK).",
+          "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
+        },
+        {
+          "priceType": "sauna_three_hours",
+          "adultPrice": 100.0,
+          "childPrice": null,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "100 PLN (cca 557 CZK).",
+          "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [
+        {
+          "fromName": "Domki Morskie Tarasy",
+          "distanceKm": 31.0,
+          "walkMinutes": null,
+          "carMinutes": 50,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+Jastrz%C4%99bia+G%C3%B3ra&destination=Aquapark+Reda+Morska+5&travelmode=driving",
+          "note": "Obvykle 40–55 minut; při dešti a silném provozu může cesta trvat déle."
+        }
+      ],
+      "alternativesJson": "[\n        {\n          \"type\": \"sun\",\n          \"text\": \"Při nejlepším bezvětrném dni přesunout Redu na horší všední den.\"\n        },\n        {\n          \"type\": \"budget\",\n          \"text\": \"Zvolit tříhodinový vstup od 08:00 a hlídat čas včetně převlékání.\"\n        },\n        {\n          \"type\": \"adult_only\",\n          \"text\": \"Část dospělých může využít Saunarium, ale teenageři do něj nesmějí.\"\n        }\n      ]",
+      "needsVerification": false
+    },
+    {
+      "publicId": "4e909ae1-3812-42af-bce6-a635d6edb5e9",
+      "name": "Bar Mleczny Pod Arkadami",
+      "category": "restaurant_area",
+      "addressText": "Różana 1, Toruń",
+      "latitude": null,
+      "longitude": null,
+      "description": "Jednoduchý levnější podnik v historickém centru vhodný na rychlý oběd.",
+      "whyVisit": "Umožní udržet zastávku v Toruni krátkou.",
+      "travelerTips": "Na jídlo vyhradit maximálně 20–30 minut. Při frontě koupit jídlo s sebou a pokračovat.",
+      "warnings": "Aktuální pondělní otevírací dobu, nabídku a kapacitu pro sedm osob ověřit v den cesty.",
+      "officialUrl": null,
+      "sourceUrl": "https://visittorun.com/en/content/pod-arkadami",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar+Mleczny+Pod+Arkadami+R%C3%B3%C5%BCana+1+Toru%C5%84",
+        "mapyUrl": null,
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Bar+Mleczny+Pod+Arkadami%2C+R%C3%B3%C5%BCana+1%2C+Toru%C5%84",
+        "mapyNavigationUrl": null
+      },
+      "parking": {
+        "name": null,
+        "addressText": null,
+        "latitude": null,
+        "longitude": null,
+        "note": null,
+        "priceNote": null,
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": null,
+          "mapyUrl": null,
+          "googleNavigationUrl": null,
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": false
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": "same_day",
+        "note": "Rezervace běžně není nutná; pro sedm osob ověřit kapacitu.",
+        "needsVerification": true
+      },
+      "openingHours": [],
+      "prices": [
+        {
+          "priceType": "standard_menu",
+          "adultPrice": null,
+          "childPrice": null,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Aktuální cenu a nabídku ověřit na místě.",
+          "sourceUrl": "https://visittorun.com/en/content/pod-arkadami"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [
+        {
+          "fromName": "Rynek Staromiejski",
+          "distanceKm": 0.2,
+          "walkMinutes": 3,
+          "carMinutes": null,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Rynek+Staromiejski+Toru%C5%84&destination=Bar+Mleczny+Pod+Arkadami%2C+R%C3%B3%C5%BCana+1%2C+Toru%C5%84&travelmode=walking",
+          "note": "V historickém centru."
+        }
+      ],
+      "alternativesJson": "[\n        {\n          \"type\": \"crowds\",\n          \"text\": \"Při frontě zvolit rychlé jídlo s sebou nebo oběd vynechat a zastavit později.\"\n        }\n      ]",
+      "needsVerification": true
+    },
+    {
+      "publicId": "5f8fe9a5-7703-4cb4-af76-0f7ec4c63a68",
+      "name": "Centrum Nauki Experyment",
+      "category": "museum",
+      "addressText": "Aleja Zwycięstwa 96/98, Gdynia",
+      "latitude": 54.4935,
+      "longitude": 18.5386,
+      "description": "Interaktivní centrum vědy s expozicemi vhodnými pro rodiny a teenagery.",
+      "whyVisit": "Silný indoor bod dne, který vyvažuje lodě a odpolední pobřeží.",
+      "travelerTips": "Počítat přibližně se dvěma hodinami. Při velkém zaujetí lze zůstat o něco déle, ale ne na úkor Orłowa a Sopotu.",
+      "warnings": "Parkování přímo u centra může být v neděli zaplněné.",
+      "officialUrl": "https://experyment.gdynia.pl/",
+      "sourceUrl": "https://experyment.gdynia.pl/zaplanuj-wizyte/godziny-otwarcia-jak-dojechac/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.4935%2C18.5386",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.5386,54.4935&zoom=16&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.4935%2C18.5386",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.5386,54.4935&routeType=car_fast_traffic&navigate=true"
+      },
+      "parking": {
+        "name": "Parkování u Experymentu",
+        "addressText": "Aleja Zwycięstwa 96/98, Gdynia",
+        "latitude": 54.4935,
+        "longitude": 18.5386,
+        "note": "Při zaplnění použít větší parkování mezi Gdynia Arenou a centrem Riviera.",
+        "priceNote": "Aktuální sazbu ověřit.",
+        "heightLimitMeters": 2.0,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.4935%2C18.5386",
+          "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.5386,54.4935&zoom=16&marker=true",
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.4935%2C18.5386",
+          "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.5386,54.4935&routeType=car_fast_traffic&navigate=true"
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": "day_before",
+        "note": "Na neděli je rozumné koupit vstupenky den předem; při dešti 2–3 dny předem.",
+        "needsVerification": true
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Sunday",
+          "date": "2026-08-02",
+          "openTime": "09:00",
+          "closeTime": "19:00",
+          "isClosed": false,
+          "note": "Pokladna zavírá hodinu před koncem.",
+          "sourceUrl": "https://experyment.gdynia.pl/zaplanuj-wizyte/godziny-otwarcia-jak-dojechac/"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "standard",
+          "adultPrice": 30.0,
+          "childPrice": 25.0,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Před nákupem ověřit aktuální ceník.",
+          "sourceUrl": "https://experyment.gdynia.pl/"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [],
+      "alternativesJson": "[]",
+      "needsVerification": true
+    },
+    {
+      "publicId": "b84af487-abfc-4cd2-aad4-8968e379f50c",
+      "name": "Cypel Helski",
+      "category": "nature",
+      "addressText": "Hel, Polsko",
+      "latitude": 54.5986,
+      "longitude": 18.8164,
+      "description": "Pobřežní stezky na konci Helské kosy s plážemi a vojenskými pozůstatky.",
+      "whyVisit": "Nejlepší ranní přírodní část výletu na Hel.",
+      "travelerTips": "Odjet z ubytování kolem 06:00 a projít Cypel před otevřením Fokaria.",
+      "warnings": "Příjezd po 09:00 výrazně zvyšuje riziko kolon a problémů s parkováním.",
+      "officialUrl": "https://www.helmuzeum.pl/zwiedzanie/mapa/",
+      "sourceUrl": "https://www.helmuzeum.pl/zwiedzanie/mapa/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.5986%2C18.8164",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.8164,54.5986&zoom=16&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.5986%2C18.8164",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.8164,54.5986&navigate=true"
+      },
+      "parking": {
+        "name": "Parking u Cypu nebo ulice Kuracyjna",
+        "addressText": null,
+        "latitude": null,
+        "longitude": null,
+        "note": "Přijet kolem 07:15. Konkrétní plochu a cenu ověřit podle značení.",
+        "priceNote": null,
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=parking+Kuracyjna+Hel",
+          "mapyUrl": null,
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=parking+Kuracyjna+Hel",
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": null,
+        "note": "Bez rezervace.",
+        "needsVerification": false
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Wednesday",
+          "date": "2026-07-29",
+          "openTime": null,
+          "closeTime": null,
+          "isClosed": false,
+          "note": "Veřejné pobřežní stezky.",
+          "sourceUrl": "https://www.helmuzeum.pl/zwiedzanie/mapa/"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "free",
+          "adultPrice": 0.0,
+          "childPrice": 0.0,
+          "familyPrice": 0.0,
+          "currency": "PLN",
+          "note": "Jednotlivé muzejní objekty se platí zvlášť.",
+          "sourceUrl": "https://www.helmuzeum.pl/zwiedzanie/mapa/"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [
+        {
+          "fromName": "Domki Morskie Tarasy",
+          "distanceKm": 46.0,
+          "walkMinutes": null,
+          "carMinutes": 70,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+Jastrz%C4%99bia+G%C3%B3ra&destination=Cypel+Helski&travelmode=driving",
+          "note": "Bez kolon přibližně 60–70 minut; v sezoně může být výrazně více."
+        }
+      ],
+      "alternativesJson": "[\n        {\n          \"type\": \"traffic\",\n          \"text\": \"Při mimořádné koloně nechat auto ve Władysławowu a pokračovat vlakem.\"\n        },\n        {\n          \"type\": \"bad_weather\",\n          \"text\": \"Při silném celodenním dešti Hel přesunout.\"\n        }\n      ]",
+      "needsVerification": true
+    },
+    {
+      "publicId": "00be31a0-cfbc-4d61-b0e0-fa36142da184",
+      "name": "Dar Pomorza",
+      "category": "museum",
+      "addressText": "Nabrzeże Pomorskie, Gdynia",
+      "latitude": null,
+      "longitude": null,
+      "description": "Historická třístěžňová školní plachetnice kotvící vedle ORP Błyskawica.",
+      "whyVisit": "Odlišný námořní zážitek zaměřený na život posádky a historii výcvikové lodi.",
+      "travelerTips": "V hlavním plánu pouze prohlídka zvenku. Interiér zařadit jen při velkém zájmu o lodě nebo horším počasí.",
+      "warnings": "Vstup do interiéru prodlouží dopoledne přibližně o 50–60 minut a vyžaduje zkrácení Orłowa.",
+      "officialUrl": "https://nmm.pl/en/dar-pomorza/",
+      "sourceUrl": "https://nmm.pl/en/dar-pomorza/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dar+Pomorza+Gdynia",
+        "mapyUrl": "https://mapy.com/fnc/v1/search?query=Dar%20Pomorza%20Gdynia",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Dar+Pomorza%2C+Gdynia",
+        "mapyNavigationUrl": null
+      },
+      "parking": {
+        "name": "Stejné parkování jako ORP Błyskawica",
+        "addressText": "Skwer Kościuszki, Gdynia",
+        "latitude": null,
+        "longitude": null,
+        "note": "Auto nepřesouvat mezi oběma loděmi.",
+        "priceNote": "Aktuální tarif ověřit.",
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=parking+Skwer+Ko%C5%9Bciuszki+Gdynia",
+          "mapyUrl": "https://mapy.com/fnc/v1/search?query=parking%20Skwer%20Ko%C5%9Bciuszki%20Gdynia",
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=parking+Skwer+Ko%C5%9Bciuszki+Gdynia",
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": null,
+        "note": "Individuální návštěva bez rezervace; poslední vstup je hodinu před zavřením.",
+        "needsVerification": false
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Sunday",
+          "date": "2026-08-02",
+          "openTime": "10:00",
+          "closeTime": "18:00",
+          "isClosed": false,
+          "note": "Poslední vstup 60 minut před zavřením.",
+          "sourceUrl": "https://nmm.pl/en/dar-pomorza-opening-hours-in-2026/"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "standard",
+          "adultPrice": 35.0,
+          "childPrice": 25.0,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": null,
+          "sourceUrl": "https://nmm.pl/en/dar-pomorza/"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [],
+      "alternativesJson": "[]",
+      "needsVerification": false
+    },
+    {
+      "publicId": "18718c5d-ad7c-484d-8dfb-d9873dd5b3ed",
+      "name": "Fokarium Hel",
+      "category": "museum",
+      "addressText": "Morska 2, vstup od ulice Portowej, 84-150 Hel",
+      "latitude": 54.606752,
+      "longitude": 18.800803,
+      "description": "Výzkumné a záchranné pracoviště tuleňů s komentovaným krmením.",
+      "whyVisit": "Hlavní vzdělávací a zážitkový bod výletu na Hel.",
+      "travelerTips": "Dorazit kolem 10:10 na krmení v 11:00.",
+      "warnings": "Místa nelze rezervovat a počet návštěvníků v areálu je omezený.",
+      "officialUrl": "https://fokarium.ug.edu.pl/dla-odwiedzajacych/",
+      "sourceUrl": "https://fokarium.ug.edu.pl/dla-odwiedzajacych/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.606752%2C18.800803",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.800803,54.606752&zoom=16&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.606752%2C18.800803",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.800803,54.606752&navigate=true"
+      },
+      "parking": {
+        "name": "Parkování v centru Helu nebo u Cypu",
+        "addressText": null,
+        "latitude": null,
+        "longitude": null,
+        "note": "Pokud je docházka přijatelná, ponechat auto na ranním parkovišti.",
+        "priceNote": null,
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=parking+Hel+centrum",
+          "mapyUrl": null,
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=parking+Hel+centrum",
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": "same_day",
+        "note": "Místo na krmení nelze rezervovat. Lístek lze koupit online nebo v automatech.",
+        "needsVerification": false
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Wednesday",
+          "date": "2026-07-29",
+          "openTime": "10:00",
+          "closeTime": "18:00",
+          "isClosed": false,
+          "note": "Krmení v červenci a srpnu v 11:00, 12:30, 14:00 a 15:30.",
+          "sourceUrl": "https://fokarium.ug.edu.pl/dla-odwiedzajacych/"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "standard",
+          "adultPrice": 25.0,
+          "childPrice": 20.0,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Dospělý 25 PLN (cca 139 CZK), zlevněný 20 PLN (cca 111 CZK).",
+          "sourceUrl": "https://fokarium.ug.edu.pl/dla-odwiedzajacych/"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [
+        {
+          "fromName": "Domki Morskie Tarasy",
+          "distanceKm": 45.0,
+          "walkMinutes": null,
+          "carMinutes": 65,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+Jastrz%C4%99bia+G%C3%B3ra&destination=Fokarium+Hel&travelmode=driving",
+          "note": "Orientační doba bez výrazné kolony."
+        }
+      ],
+      "alternativesJson": "[\n        {\n          \"type\": \"crowds\",\n          \"text\": \"Při mimořádné frontě zvolit pozdější krmení a změnit pořadí programu.\"\n        }\n      ]",
+      "needsVerification": false
+    },
+    {
+      "publicId": "90ca305e-b388-4494-b7a9-cadd05762c95",
+      "name": "Historické centrum Toruně",
+      "category": "historic_center",
+      "addressText": "Rynek Staromiejski, Toruń",
+      "latitude": 53.0105,
+      "longitude": 18.6049,
+      "description": "Kompaktní středověké centrum zapsané na seznamu UNESCO, vhodné jako hlavní zastávka při cestě z Ostravy k Baltu.",
+      "whyVisit": "Za 60–90 minut lze projít Staroměstské náměstí, Koperníkův pomník, ulici Szeroka, katedrálu zvenku, Křivou věž a část hradeb.",
+      "travelerTips": "Toruň je jediná plánovaná zastávka cestou k moři. Do muzeí v příjezdový den nechodit a držet pěší okruh přibližně na 2,5–3 kilometrech.",
+      "warnings": "Venkovní Parking Pod Mostem se může v letní sezoně zaplnit. Záložní parkování CKK Jordanki může mít výškový limit.",
+      "officialUrl": "https://visittorun.com/en",
+      "sourceUrl": "https://visittorun.com/en",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking+Pod+Mostem+Bulwar+Filadelfijski+Toru%C5%84",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.6049,53.0105&zoom=16&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Parking+Pod+Mostem%2C+Bulwar+Filadelfijski+11%2F15%2C+Toru%C5%84",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.6049,53.0105&navigate=true"
+      },
+      "parking": {
+        "name": "Parking Pod Mostem",
+        "addressText": null,
+        "latitude": null,
+        "longitude": null,
+        "note": "Venkovní parkoviště přibližně 3 minuty pěšky od Starého města. Orientační sazba 8 PLN za hodinu; aktuální tarif a obsazenost ověřit. Záloha: CKK Jordanki.",
+        "priceNote": null,
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking+Pod+Mostem+Bulwar+Filadelfijski+Toru%C5%84",
+          "mapyUrl": null,
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Parking+Pod+Mostem%2C+Bulwar+Filadelfijski+11%2F15%2C+Toru%C5%84",
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": null,
+        "note": "Pro venkovní pěší okruh není rezervace potřeba.",
+        "needsVerification": false
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Monday",
+          "date": "2026-07-27",
+          "openTime": null,
+          "closeTime": null,
+          "isClosed": false,
+          "note": "Historické centrum je veřejný prostor.",
+          "sourceUrl": "https://visittorun.com/en"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "free",
+          "adultPrice": 0.0,
+          "childPrice": 0.0,
+          "familyPrice": 0.0,
+          "currency": "PLN",
+          "note": "Parkování a občerstvení se platí zvlášť.",
+          "sourceUrl": "https://visittorun.com/en/page/sightseeing-route"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [
+        {
+          "fromName": "Ostrava",
+          "distanceKm": 441.0,
+          "walkMinutes": null,
+          "carMinutes": 270,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Ostrava%2C+Czechia&destination=CKK+Jordanki%2C+Toru%C5%84&travelmode=driving",
+          "note": "Se sedmi lidmi, přestávkou a provozem počítat přibližně se 4,5–5 hodinami."
+        }
+      ],
+      "alternativesJson": "[\n        {\n          \"type\": \"late_arrival\",\n          \"text\": \"Při příjezdu do Toruně po 14:00 zkrátit okruh na 45–60 minut a vzít jídlo s sebou.\"\n        },\n        {\n          \"type\": \"bad_weather\",\n          \"text\": \"Při silném dešti projít jen náměstí a hlavní ulice, dát rychlé jídlo a pokračovat k pobřeží.\"\n        }\n      ]",
+      "needsVerification": true
+    },
+    {
+      "publicId": "6b64b5b5-6315-4f78-b249-3853955cea23",
+      "name": "Hlavní město Gdaňsku",
+      "category": "historic_center",
+      "addressText": "Długi Targ, Gdańsk",
+      "latitude": 54.3485,
+      "longitude": 18.653,
+      "description": "Historické jádro s Długim Targem, ulicí Mariacka a nábřežím Motławy.",
+      "whyVisit": "Hlavní městský a architektonický výlet pobytu.",
+      "travelerTips": "Začít ráno, obědvat před hlavní špičkou a poté pokračovat do muzea.",
+      "warnings": "V létě velmi rušné; v horku venkovní trasu zkrátit.",
+      "officialUrl": "https://visitgdansk.com/",
+      "sourceUrl": "https://visitgdansk.com/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3485%2C18.653",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.653,54.3485&zoom=16&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3485%2C18.653",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.653,54.3485&navigate=true"
+      },
+      "parking": {
+        "name": "Podzemní parkoviště Muzea druhé světové války",
+        "addressText": null,
+        "latitude": 54.3566,
+        "longitude": 18.659,
+        "note": "Zaparkovat u muzea a centrum projít pěšky. Vozidlo včetně střešního nákladu musí mít maximálně 1,9 metru.",
+        "priceNote": null,
+        "heightLimitMeters": 1.9,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3566%2C18.659",
+          "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.659,54.3566&zoom=16&marker=true",
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3566%2C18.659",
+          "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&navigate=true"
+        },
+        "needsVerification": false
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": null,
+        "note": "Historické centrum je veřejný prostor.",
+        "needsVerification": false
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Thursday",
+          "date": "2026-07-30",
+          "openTime": null,
+          "closeTime": null,
+          "isClosed": false,
+          "note": "Veřejný prostor.",
+          "sourceUrl": "https://visitgdansk.com/"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "free",
+          "adultPrice": 0.0,
+          "childPrice": 0.0,
+          "familyPrice": 0.0,
+          "currency": "PLN",
+          "note": "Jednotlivé památky se platí zvlášť.",
+          "sourceUrl": "https://visitgdansk.com/"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [
+        {
+          "fromName": "Domki Morskie Tarasy",
+          "distanceKm": 72.0,
+          "walkMinutes": null,
+          "carMinutes": 105,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+Jastrz%C4%99bia+G%C3%B3ra&destination=Museum+of+the+Second+World+War+Gda%C5%84sk&travelmode=driving",
+          "note": "V letní sezoně počítat přibližně s 90–120 minutami."
+        }
+      ],
+      "alternativesJson": "[\n        {\n          \"type\": \"bad_weather\",\n          \"text\": \"Zkrátit historické centrum a více času ponechat muzeu.\"\n        }\n      ]",
+      "needsVerification": false
+    },
+    {
+      "publicId": "9504d1c6-afb8-4eae-8b64-bd9f5703b5b8",
+      "name": "Hrad Malbork – pondělní Castle Grounds Route",
+      "category": "castle",
+      "addressText": "Starościńska 1, 82-200 Malbork",
+      "latitude": 54.0397,
+      "longitude": 19.028,
+      "description": "Bezplatná pondělní trasa venkovními částmi hradního komplexu: nádvoří, terasy, zahrady, příkopy a opevnění. Hlavní interiéry a muzejní expozice nejsou součástí plánu.",
+      "whyVisit": "Výrazná a přirozená zastávka při cestě z pobřeží do Ostravy.",
+      "travelerTips": "Na místě vyzvednout bezplatné vstupenky. Držet se venkovních částí a po prohlídce dojít k řece Nogat na panoramatický pohled na hrad.",
+      "warnings": "V pondělí není přístupná plná historická trasa ani hlavní interiéry. Při zdržení zkrátit fotografickou zastávku, ne samotný odjezd do Ostravy.",
+      "officialUrl": "https://zamek.malbork.pl/en/home/",
+      "sourceUrl": "https://bilety.zamek.malbork.pl/?lang=en",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.0397%2C19.0280",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=19.028,54.0397&zoom=16&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.0397%2C19.0280",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=19.028,54.0397&navigate=true"
+      },
+      "parking": {
+        "name": "Parking Wałowa",
+        "addressText": null,
+        "latitude": null,
+        "longitude": null,
+        "note": "Venkovní parkoviště vhodné pro velké auto. Orientační sazba 10 PLN za každou započatou hodinu; aktuální tarif ověřit před cestou.",
+        "priceNote": null,
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking+Wa%C5%82owa+Malbork",
+          "mapyUrl": null,
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Parking+Wa%C5%82owa%2C+Malbork",
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": "on_site",
+        "note": "Bezplatné vstupenky se vyzvedávají osobně na místě; online rezervace pondělní bezplatné trasy není potřeba.",
+        "needsVerification": false
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Monday",
+          "date": "2026-08-03",
+          "openTime": "09:00",
+          "closeTime": "20:00",
+          "isClosed": false,
+          "note": "Pondělní Castle Grounds Route; poslední vstup je uváděn v 16:30.",
+          "sourceUrl": "https://bilety.zamek.malbork.pl/?lang=en"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "monday_castle_grounds",
+          "adultPrice": 0.0,
+          "childPrice": 0.0,
+          "familyPrice": 0.0,
+          "currency": "PLN",
+          "note": "Bezplatná vstupenka se vyzvedává na místě.",
+          "sourceUrl": "https://bilety.zamek.malbork.pl/?lang=en"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [
+        {
+          "fromName": "Domki Morskie Tarasy",
+          "distanceKm": 121.0,
+          "walkMinutes": null,
+          "carMinutes": 130,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+84-104+Jastrz%C4%99bia+G%C3%B3ra&destination=Parking+Wa%C5%82owa%2C+Malbork&travelmode=driving",
+          "note": "Počítat přibližně se 2–2,5 hodinami podle provozu."
+        },
+        {
+          "fromName": "Ostrava",
+          "distanceKm": 583.0,
+          "walkMinutes": null,
+          "carMinutes": 345,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Parking+Wa%C5%82owa%2C+Malbork&destination=Ostrava%2C+Czechia&travelmode=driving",
+          "note": "S přestávkou a provozem počítat přibližně s 5,5–6,5 hodinami."
+        }
+      ],
+      "alternativesJson": "[\n        {\n          \"type\": \"bad_weather\",\n          \"text\": \"Při vytrvalém dešti zkrátit venkovní trasu a ponechat jen nádvoří a pohled od Nogatu.\"\n        },\n        {\n          \"type\": \"late_arrival\",\n          \"text\": \"Při příjezdu po 13:00 držet prohlídku přibližně na 75–90 minut a odjet do Ostravy nejpozději kolem 15:00.\"\n        }\n      ]",
+      "needsVerification": true
+    },
+    {
+      "publicId": "8eda5a5b-a235-414f-b620-4db87d4ac172",
+      "name": "Łącka duna",
+      "category": "nature",
+      "addressText": "Słowiński Park Narodowy, okolí Łeby",
+      "latitude": 54.748703,
+      "longitude": 17.417793,
+      "description": "Rozsáhlá pohyblivá písečná duna mezi Baltským mořem a jezerem Łebsko.",
+      "whyVisit": "Nejunikátnější přírodní celodenní výlet pobytu.",
+      "travelerTips": "Vyjet v 06:00, parkovat v Łebě a pokračovat místním transferem. Vzít minimálně 1–1,5 litru vody na osobu.",
+      "warnings": "Parkoviště Rąbka je uzavřené do odvolání. Nenavigovat autem přímo do Rąbky.",
+      "officialUrl": "https://spn.gov.pl/",
+      "sourceUrl": "https://spn.gov.pl/aktualnosci/informacja-dot-funkcjonowania-parkingu-w-rabce",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.748703%2C17.417793",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=17.417793,54.748703&zoom=16&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.748703%2C17.417793",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=17.417793,54.748703&navigate=true"
+      },
+      "parking": {
+        "name": "Městské parkoviště v Łebě a místní transfer",
+        "addressText": null,
+        "latitude": null,
+        "longitude": null,
+        "note": "Přesné parkoviště a cenu vybrat den předem. Parkoviště Rąbka nepoužívat.",
+        "priceNote": null,
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=parking+%C5%81eba+centrum",
+          "mapyUrl": null,
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=parking+%C5%81eba+centrum",
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": "day_before",
+        "note": "Vstup lze koupit online nebo na místě. Transfer z Łeby ověřit nebo objednat den předem.",
+        "needsVerification": true
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Saturday",
+          "date": "2026-08-01",
+          "openTime": null,
+          "closeTime": null,
+          "isClosed": false,
+          "note": "Přírodní trasa podléhá aktuálním pravidlům a omezením národního parku.",
+          "sourceUrl": "https://spn.gov.pl/"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "park_entry",
+          "adultPrice": 10.0,
+          "childPrice": 5.0,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Dospělý 10 PLN (cca 56 CZK), zlevněný 5 PLN (cca 28 CZK).",
+          "sourceUrl": "https://spn.gov.pl/informacje-o-biletach"
+        },
+        {
+          "priceType": "local_transfer",
+          "adultPrice": null,
+          "childPrice": null,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Přesnou cenu pro termín cesty ověřit den předem.",
+          "sourceUrl": "https://melex-lebobusik.pl/en/melex-to-the-slowinski-national-park/"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [
+        {
+          "fromName": "Domki Morskie Tarasy",
+          "distanceKm": 73.0,
+          "walkMinutes": null,
+          "carMinutes": 100,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+Jastrz%C4%99bia+G%C3%B3ra&destination=%C5%81eba+centrum&travelmode=driving",
+          "note": "Dojezd do Łeby přibližně 90–105 minut, poté místní transfer."
+        }
+      ],
+      "alternativesJson": "[\n        {\n          \"type\": \"easy\",\n          \"text\": \"Použít melex na část přístupu a absolvovat přibližně 7–9 kilometrů pěšky.\"\n        },\n        {\n          \"type\": \"active\",\n          \"text\": \"Celý okruh přibližně 15,1 kilometru a 5–6 hodin chůze.\"\n        },\n        {\n          \"type\": \"bad_weather\",\n          \"text\": \"Při silném větru, vedru, bouřkách nebo vytrvalém dešti výlet přesunout.\"\n        }\n      ]",
+      "needsVerification": true
+    },
+    {
+      "publicId": "08a20809-c9a9-41d3-9132-1c40ae84d6a9",
+      "name": "Maják Rozewie a Lisi Jar",
+      "category": "viewpoint",
+      "addressText": "Leona Wzorka 1, Jastrzębia Góra",
+      "latitude": 54.8308,
+      "longitude": 18.3361,
+      "description": "Historický maják s námořní expozicí a navazující zalesněnou pobřežní roklí.",
+      "whyVisit": "Nejlepší místní aktivní den bez dlouhého řízení.",
+      "travelerTips": "Přijít na otevření v 09:30, vzít pevnější obuv a po dešti trasu zkrátit.",
+      "warnings": "Schody v majáku a možné kluzké úseky v rokli.",
+      "officialUrl": "https://tpnmm.pl/latarnia-rozewie/",
+      "sourceUrl": "https://tpnmm.pl/latarnia-rozewie/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.8308%2C18.3361",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.3361,54.8308&zoom=16&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.8308%2C18.3361",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.3361,54.8308&navigate=true"
+      },
+      "parking": {
+        "name": "Parkoviště u majáku Rozewie",
+        "addressText": null,
+        "latitude": null,
+        "longitude": null,
+        "note": "Pro velké auto použít venkovní plochu; sazbu ověřit na místě.",
+        "priceNote": null,
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=parking+Latarnia+Morska+Rozewie",
+          "mapyUrl": null,
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=parking+Latarnia+Morska+Rozewie",
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": "on_site",
+        "note": "Lístek do majáku stačí koupit na místě.",
+        "needsVerification": false
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Tuesday",
+          "date": "2026-07-28",
+          "openTime": "09:30",
+          "closeTime": "19:00",
+          "isClosed": false,
+          "note": "V červenci a srpnu otevřeno denně.",
+          "sourceUrl": "https://tpnmm.pl/latarnia-rozewie/"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "standard",
+          "adultPrice": 19.0,
+          "childPrice": 13.0,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Dospělý 19 PLN (cca 106 CZK), zlevněný 13 PLN (cca 72 CZK). Lisi Jar je zdarma.",
+          "sourceUrl": "https://tpnmm.pl/latarnia-rozewie/"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [
+        {
+          "fromName": "Domki Morskie Tarasy",
+          "distanceKm": 3.5,
+          "walkMinutes": 50,
+          "carMinutes": 10,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+Jastrz%C4%99bia+G%C3%B3ra&destination=Latarnia+Morska+Rozewie&travelmode=driving",
+          "note": "Orientační vzdálenost."
+        }
+      ],
+      "alternativesJson": "[\n        {\n          \"type\": \"easy\",\n          \"text\": \"Jen maják a krátký úsek Lisi Jar.\"\n        },\n        {\n          \"type\": \"bad_weather\",\n          \"text\": \"Při silném dešti přesunout na jiný den.\"\n        }\n      ]",
+      "needsVerification": true
+    },
+    {
+      "publicId": "cfaa9bd2-8efe-4b99-8ebb-cdbaf330371e",
+      "name": "Molo, pláž a útes Orłowo",
+      "category": "nature",
+      "addressText": "Orłowo, Gdynia",
+      "latitude": 54.4793,
+      "longitude": 18.5592,
+      "description": "Pobřežní část Gdyně s molem, pláží a výhledem na útes.",
+      "whyVisit": "Pohodová venkovní část dne po dvou indoor a technických atrakcích.",
+      "travelerTips": "Stačí přibližně 1 hodina 45 minut až 2 hodiny. Není nutné absolvovat dlouhou túru.",
+      "warnings": "Po dešti a při nestabilním svahu se nepřibližovat těsně pod klif.",
+      "officialUrl": "https://www.gdynia.pl/turystyczna",
+      "sourceUrl": "https://www.gdynia.pl/turystyczna",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.4793%2C18.5592",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.5592,54.4793&zoom=16&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.4793%2C18.5592",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.5592,54.4793&routeType=car_fast_traffic&navigate=true"
+      },
+      "parking": {
+        "name": "Parkování Orłowo",
+        "addressText": null,
+        "latitude": null,
+        "longitude": null,
+        "note": "Parkovat přibližně 10–15 minut pěšky od mola; konkrétní místo zvolit podle obsazenosti.",
+        "priceNote": "Tarif ověřit.",
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=parking+Or%C5%82owo+Gdynia",
+          "mapyUrl": "https://mapy.com/fnc/v1/search?query=parking%20Or%C5%82owo%20Gdynia",
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=parking+Or%C5%82owo+Gdynia",
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": null,
+        "note": "Bez rezervace.",
+        "needsVerification": false
+      },
+      "openingHours": [],
+      "prices": [
+        {
+          "priceType": "free",
+          "adultPrice": 0.0,
+          "childPrice": 0.0,
+          "familyPrice": 0.0,
+          "currency": "PLN",
+          "note": "Parkování a občerstvení se platí zvlášť.",
+          "sourceUrl": "https://www.gdynia.pl/turystyczna"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [],
+      "alternativesJson": "[\n        {\n          \"type\": \"bad_weather\",\n          \"text\": \"Při celodenním dešti Orłowo vynechat.\"\n        }\n      ]",
+      "needsVerification": true
+    },
+    {
+      "publicId": "10922298-f926-4caa-ae60-2baa7ecf6f4f",
+      "name": "Morski – Bar & Restaurant",
+      "category": "restaurant_area",
+      "addressText": "Królewska 7, Jastrzębia Góra",
+      "latitude": null,
+      "longitude": null,
+      "description": "Blízký podnik s průběžně zveřejňovanými obědovými sestavami.",
+      "whyVisit": "Praktický oběd po místní procházce a v pěší vzdálenosti od ubytování.",
+      "travelerTips": "Kolem 10:30–11:30 ověřit zestaw dnia a pro sedm osob zavolat.",
+      "warnings": "Konkrétní nabídka a cena se mění každý den.",
+      "officialUrl": "https://barmorski.pl/",
+      "sourceUrl": "https://barmorski.pl/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Morski+Bar+Restaurant+Jastrz%C4%99bia+G%C3%B3ra",
+        "mapyUrl": null,
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Morski+Bar+Restaurant+Jastrz%C4%99bia+G%C3%B3ra",
+        "mapyNavigationUrl": null
+      },
+      "parking": {
+        "name": null,
+        "addressText": null,
+        "latitude": null,
+        "longitude": null,
+        "note": null,
+        "priceNote": null,
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": null,
+          "mapyUrl": null,
+          "googleNavigationUrl": null,
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": false
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": "same_day",
+        "note": "Pro sedm osob doporučeno zavolat ráno.",
+        "needsVerification": true
+      },
+      "openingHours": [],
+      "prices": [
+        {
+          "priceType": "daily_menu",
+          "adultPrice": null,
+          "childPrice": null,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Cena a skladba budou známy až v konkrétní den.",
+          "sourceUrl": "https://barmorski.pl/"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [
+        {
+          "fromName": "Domki Morskie Tarasy",
+          "distanceKm": 0.3,
+          "walkMinutes": 4,
+          "carMinutes": 2,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+Jastrz%C4%99bia+G%C3%B3ra&destination=Morski+Bar+Restaurant+Jastrz%C4%99bia+G%C3%B3ra&travelmode=walking",
+          "note": "Orientační vzdálenost."
+        }
+      ],
+      "alternativesJson": "[\n        {\n          \"type\": \"sold_out\",\n          \"text\": \"Při vyprodání denního menu zvolit jiný podnik s obiady domowe.\"\n        }\n      ]",
+      "needsVerification": true
+    },
+    {
+      "publicId": "b2a99d71-bba0-4337-929d-54ffc2127e6a",
+      "name": "Muzeum druhé světové války v Gdaňsku",
+      "category": "museum",
+      "addressText": "Plac Władysława Bartoszewskiego 1, 80-862 Gdańsk",
+      "latitude": 54.3566,
+      "longitude": 18.659,
+      "description": "Rozsáhlá moderní expozice o druhé světové válce.",
+      "whyVisit": "Hlavní indoor a vzdělávací bod výletu do Gdaňsku.",
+      "travelerTips": "Rezervovat vstup kolem 13:00 a počítat s 2,5–3,5 hodinami.",
+      "warnings": "Úterní bezplatný den může znamenat dlouhé čekání; pro skupinu je praktičtější placený čtvrtek.",
+      "officialUrl": "https://www.muzeum1939.pl/en",
+      "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/plan-your-visit/parking",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3566%2C18.659",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.659,54.3566&zoom=16&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3566%2C18.659",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&navigate=true"
+      },
+      "parking": {
+        "name": "Podzemní parkoviště Muzea druhé světové války",
+        "addressText": null,
+        "latitude": 54.3566,
+        "longitude": 18.659,
+        "note": "142 míst. Od středy do neděle první tři hodiny zdarma s lístkem na hlavní expozici; každá další hodina 10 PLN. Platba kartou.",
+        "priceNote": null,
+        "heightLimitMeters": 1.9,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.3566%2C18.659",
+          "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.659,54.3566&zoom=16&marker=true",
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.3566%2C18.659",
+          "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.659,54.3566&navigate=true"
+        },
+        "needsVerification": false
+      },
+      "booking": {
+        "required": true,
+        "recommendedAdvance": "2-5_days",
+        "note": "Koupit online na konkrétní čas. Po zakoupení tento den nepřesouvat kvůli drobné změně počasí.",
+        "needsVerification": false
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Thursday",
+          "date": "2026-07-30",
+          "openTime": "10:00",
+          "closeTime": "18:00",
+          "isClosed": false,
+          "note": "Plánovaný vstup ve 13:00.",
+          "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/buying-tickets"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "standard",
+          "adultPrice": 33.0,
+          "childPrice": 23.0,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Dospělý 33 PLN (cca 184 CZK), zlevněný 23 PLN (cca 128 CZK).",
+          "sourceUrl": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/buying-tickets"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [
+        {
+          "fromName": "Domki Morskie Tarasy",
+          "distanceKm": 72.0,
+          "walkMinutes": null,
+          "carMinutes": 105,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+Jastrz%C4%99bia+G%C3%B3ra&destination=Museum+of+the+Second+World+War+Gda%C5%84sk&travelmode=driving",
+          "note": "Letní dojezd může být 90–120 minut."
+        }
+      ],
+      "alternativesJson": "[\n        {\n          \"type\": \"sold_out\",\n          \"text\": \"Při vyprodaných časech zvolit Evropské centrum Solidarity.\"\n        }\n      ]",
+      "needsVerification": false
+    },
+    {
+      "publicId": "5ced41da-9121-47e4-b492-47ecfb9513a2",
+      "name": "Muzeum Obrony Wybrzeża",
+      "category": "museum",
+      "addressText": "Helska 16, 84-150 Hel",
+      "latitude": 54.6223,
+      "longitude": 18.7972,
+      "description": "Muzejní komplex v bývalých pobřežních bateriích.",
+      "whyVisit": "Silný program pro teenagery se zájmem o techniku a vojenskou historii.",
+      "travelerTips": "Vybrat hlavní část komplexu a nekupovat automaticky všechny oddělené objekty.",
+      "warnings": "Ceník je členitý a výsledná cena závisí na vybraném balíčku.",
+      "officialUrl": "https://www.helmuzeum.pl/",
+      "sourceUrl": "https://www.helmuzeum.pl/zwiedzanie/godziny-otwarcia/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.6223%2C18.7972",
+        "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.7972,54.6223&zoom=16&marker=true",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.6223%2C18.7972",
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.7972,54.6223&navigate=true"
+      },
+      "parking": {
+        "name": "Parkoviště Muzeum Obrony Wybrzeża",
+        "addressText": null,
+        "latitude": 54.6223,
+        "longitude": 18.7972,
+        "note": "Venkovní parkování u areálu; cenu ověřit.",
+        "priceNote": null,
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.6223%2C18.7972",
+          "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.7972,54.6223&zoom=16&marker=true",
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.6223%2C18.7972",
+          "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.7972,54.6223&navigate=true"
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": "on_site",
+        "note": "Individuální návštěva běžně bez rezervace; přesný balíček ověřit.",
+        "needsVerification": true
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Wednesday",
+          "date": "2026-07-29",
+          "openTime": "10:00",
+          "closeTime": "19:00",
+          "isClosed": false,
+          "note": "Letní provoz hlavního komplexu.",
+          "sourceUrl": "https://www.helmuzeum.pl/zwiedzanie/godziny-otwarcia/"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "complex_tariff",
+          "adultPrice": null,
+          "childPrice": null,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Věž řízení palby je 15 PLN dospělý a 10 PLN zlevněný. Cenu hlavního balíčku ověřit.",
+          "sourceUrl": "https://www.helmuzeum.pl/zwiedzanie/ceny-biletow/"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [
+        {
+          "fromName": "Domki Morskie Tarasy",
+          "distanceKm": 43.0,
+          "walkMinutes": null,
+          "carMinutes": 62,
+          "publicTransportMinutes": null,
+          "routeUrl": "https://www.google.com/maps/dir/?api=1&origin=Piastowska+2%2C+Jastrz%C4%99bia+G%C3%B3ra&destination=Muzeum+Obrony+Wybrze%C5%BCa+Hel&travelmode=driving",
+          "note": "Orientační doba bez výrazné kolony."
+        }
+      ],
+      "alternativesJson": "[\n        {\n          \"type\": \"easy\",\n          \"text\": \"Navštívit pouze hlavní muzeum bez věže.\"\n        }\n      ]",
+      "needsVerification": true
+    },
+    {
+      "publicId": "d710fae6-af55-4318-9186-8f89d20e4ac9",
+      "name": "ORP Błyskawica",
+      "category": "museum",
+      "addressText": "Aleja Jana Pawła II, Gdynia",
+      "latitude": null,
+      "longitude": null,
+      "description": "Muzejní torpédoborec a jedna z nejvýraznějších námořních atrakcí Gdyně.",
+      "whyVisit": "Autentická vojenská loď s palubou, výzbrojí a částí podpalubí; pro teenagery výraznější než běžné městské muzeum.",
+      "travelerTips": "Přijet před otevřením a mířit na první vstup v 10:00. Prohlídku držet kolem 45–50 minut, aby zůstal čas na Experyment, Orłowo a Sopot.",
+      "warnings": "Loď může být mimořádně uzavřena kvůli počasí, bezpečnosti nebo vojenské akci. Mezi 13:00 a 14:00 je technická přestávka.",
+      "officialUrl": "https://muzeummw.pl/en/price-list-and-opening-hours/",
+      "sourceUrl": "https://muzeummw.pl/en/price-list-and-opening-hours/",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=ORP+B%C5%82yskawica+Gdynia",
+        "mapyUrl": "https://mapy.com/fnc/v1/search?query=ORP%20B%C5%82yskawica%20Gdynia",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=ORP+B%C5%82yskawica%2C+Gdynia",
+        "mapyNavigationUrl": null
+      },
+      "parking": {
+        "name": "Parkování Skwer Kościuszki / Nabrzeże Pomorskie",
+        "addressText": "Skwer Kościuszki, Gdynia",
+        "latitude": null,
+        "longitude": null,
+        "note": "V letní neděli přijet s rezervou. Při zaplnění použít jiné městské parkoviště a dojít pěšky.",
+        "priceNote": "Aktuální tarif ověřit na místě.",
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=parking+Skwer+Ko%C5%9Bciuszki+Gdynia",
+          "mapyUrl": "https://mapy.com/fnc/v1/search?query=parking%20Skwer%20Ko%C5%9Bciuszki%20Gdynia",
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=parking+Skwer+Ko%C5%9Bciuszki+Gdynia",
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": null,
+        "note": "Běžná individuální návštěva bez rezervace; přijít před prvním vstupem.",
+        "needsVerification": true
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Sunday",
+          "date": "2026-08-02",
+          "openTime": "10:00",
+          "closeTime": "18:00",
+          "isClosed": false,
+          "note": "Otevřeno 10:00–13:00 a 14:00–18:00; přestávka 13:00–14:00.",
+          "sourceUrl": "https://muzeummw.pl/en/price-list-and-opening-hours/"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "standard",
+          "adultPrice": 30.0,
+          "childPrice": 15.0,
+          "familyPrice": 75.0,
+          "currency": "PLN",
+          "note": "Rodinnou variantu a podmínky slev ověřit při nákupu.",
+          "sourceUrl": "https://muzeummw.pl/en/price-list-and-opening-hours/"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [],
+      "alternativesJson": "[\n        {\n          \"type\": \"closure\",\n          \"text\": \"Při mimořádném uzavření projít přístav, prohlédnout Dar Pomorza zvenku a pokračovat dříve do Experymentu.\"\n        }\n      ]",
+      "needsVerification": true
+    },
+    {
+      "publicId": "3bd2b72f-8835-494e-aa92-dfc4217fd06a",
+      "name": "Sopot – Monciak, molo a pláž",
+      "category": "historic_center",
+      "addressText": "Plac Zdrojowy, Sopot",
+      "latitude": null,
+      "longitude": null,
+      "description": "Krátká podvečerní návštěva hlavní promenády, centra, mola a pláže v Sopotu.",
+      "whyVisit": "Sopot přirozeně navazuje na Orłowo a doplní Gdyni o atmosféru lázeňského přímořského města.",
+      "travelerTips": "Projít Bohaterów Monte Cassino, Krzywy Domek, Plac Zdrojowy, molo a krátký úsek pláže. Na základní návštěvu stačí 2–2,5 hodiny.",
+      "warnings": "Centrum je v letní neděli velmi rušné a restaurace v bezprostřední blízkosti mola bývají dražší.",
+      "officialUrl": "https://visit.sopot.pl/",
+      "sourceUrl": "https://visit.sopot.pl/en/news/ostatnie-dni-na-skorzystanie-z-bezplatnego-wejscia-na-molo-30978143",
+      "reservationUrl": null,
+      "mapLinks": {
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Molo+w+Sopocie",
+        "mapyUrl": "https://mapy.com/fnc/v1/search?query=Molo%20w%20Sopocie",
+        "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Plac+Zdrojowy%2C+Sopot",
+        "mapyNavigationUrl": null
+      },
+      "parking": {
+        "name": "Parkování poblíž centra Sopotu",
+        "addressText": null,
+        "latitude": null,
+        "longitude": null,
+        "note": "Vybrat podle aktuální obsazenosti tak, aby bylo možné dojít pěšky na Bohaterów Monte Cassino a molo.",
+        "priceNote": "Aktuální tarif ověřit.",
+        "heightLimitMeters": null,
+        "mapLinks": {
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=parking+centrum+Sopot",
+          "mapyUrl": "https://mapy.com/fnc/v1/search?query=parking%20centrum%20Sopot",
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=parking+centrum+Sopot",
+          "mapyNavigationUrl": null
+        },
+        "needsVerification": true
+      },
+      "booking": {
+        "required": false,
+        "recommendedAdvance": null,
+        "note": "Vstup na molo se kupuje na místě; pro běžnou návštěvu bez rezervace.",
+        "needsVerification": false
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": "Sunday",
+          "date": "2026-08-02",
+          "openTime": "00:00",
+          "closeTime": "23:59",
+          "isClosed": false,
+          "note": "V období 27. 6.–31. 8. 2026 je placený vstup na molo dostupný 24 hodin denně.",
+          "sourceUrl": "https://visit.sopot.pl/en/news/ostatnie-dni-na-skorzystanie-z-bezplatnego-wejscia-na-molo-30978143"
+        }
+      ],
+      "prices": [
+        {
+          "priceType": "pier_entry",
+          "adultPrice": 10.0,
+          "childPrice": 5.0,
+          "familyPrice": 23.0,
+          "currency": "PLN",
+          "note": "Rodinná cena 23 PLN odpovídá variantě 2+3; pro skupinu 4 dospělí + 3 děti zvolit nejvýhodnější kombinaci u pokladny.",
+          "sourceUrl": "https://visit.sopot.pl/en/news/ostatnie-dni-na-skorzystanie-z-bezplatnego-wejscia-na-molo-30978143"
+        }
+      ],
+      "reviewMetrics": [],
+      "distances": [],
+      "alternativesJson": "[\n        {\n          \"type\": \"late\",\n          \"text\": \"Při skluzu zkrátit Sopot na Monciak, Plac Zdrojowy a molo bez delší pláže.\"\n        }\n      ]",
+      "needsVerification": true
+    }
+  ],
+  "generalTips": [
+    "Redu použít na první celodenně deštivý, chladný nebo velmi větrný všední den. Pokud takový den nepřijde, ponechat pátek 31. 7.",
+    "Odjezd autem kolem 06:00, ideálně úterý–čtvrtek; vlak je záloha.",
+    "Hlavní volba je auto s odjezdem kolem 06:00 ve středu. Při mimořádné koloně parkovat ve Władysławowu a pokračovat vlakem.",
+    "Odjezd z Jastrzębie Góry v 09:00. V pondělí využít bezplatnou Castle Grounds Route, navštívit pouze exteriéry a z Malborku odjet kolem 14:30.",
+    "SUP použít jen při slabém větru, bez bouřek a s bezpečným směrem větru. Při pochybnosti aktivitu zrušit.",
+    "Na duny nejet autem do Rąbky. Zaparkovat v Łebě a pokračovat místním transferem.",
+    "Odjezd z Ostravy v 08:00. V Toruni držet přibližně 75 minut na centrum a 40 minut na oběd, poté pokračovat přímo k ubytování.",
+    "Při odjezdu z Ostravy v 07:00 ponechat Toruň jako hlavní zastávku. Grudziądz je pouze bonus: vynechat jej, pokud příjezd do Toruně nastane po 13:00, odjezd z Toruně po 13:45 nebo je skupina unavená.",
+    "První celodenně deštivý/chladný/větrný všední den; bez deště nejpozději pátek 31. 7.",
+    "Rozhodnout ráno; leash, vesta, bez bouřek a větru od břehu.",
+    "Kontrolovat kolem 10:30–11:30; pro 7 osob zavolat; u ryb ověřit cenu za 100 g.",
+    "Menu dnia bývá zveřejněno až ráno. Pro sedm osob kontrolovat nabídku kolem 10:30–11:30 a zavolat."
+  ],
+  "publicDocuments": [],
+  "vault": {
+    "available": false,
+    "manifestUrl": null
+  },
+  "sources": [
+    {
+      "title": "Aquapark Reda",
+      "url": "https://www.aquaparkreda.pl/en/prices"
+    },
+    {
+      "title": "Aquapark Reda – poloha a parkování",
+      "url": "https://www.aquaparkreda.pl/en/location"
+    },
+    {
+      "title": "Centrum Nauki Experyment",
+      "url": "https://experyment.gdynia.pl/"
+    },
+    {
+      "title": "Centrum Nauki Experyment",
+      "url": "https://experyment.gdynia.pl/zaplanuj-wizyte/godziny-otwarcia-jak-dojechac/"
+    },
+    {
+      "title": "Fokarium Hel",
+      "url": "https://fokarium.ug.edu.pl/dla-odwiedzajacych/"
+    },
+    {
+      "title": "Gdynia Turystyczna",
+      "url": "https://www.gdynia.pl/turystyczna"
+    },
+    {
+      "title": "Helský muzejní komplex – mapa",
+      "url": "https://www.helmuzeum.pl/zwiedzanie/mapa/"
+    },
+    {
+      "title": "Hrad Malbork",
+      "url": "https://bilety.zamek.malbork.pl/?lang=en"
+    },
+    {
+      "title": "Hrad Malbork – příjezd",
+      "url": "https://zamek.malbork.pl/wizyta/dojazd/"
+    },
+    {
+      "title": "Lisi Jar",
+      "url": "https://www.jastrzebia-gora.com/atrakcje/wawoz-lisi-jar-w-jastrzebiej-gorze-1499"
+    },
+    {
+      "title": "Maják Rozewie",
+      "url": "https://tpnmm.pl/latarnia-rozewie/"
+    },
+    {
+      "title": "Morski – oficiální web",
+      "url": "https://barmorski.pl/"
+    },
+    {
+      "title": "Muzeum druhé světové války",
+      "url": "https://www.muzeum1939.pl/en"
+    },
+    {
+      "title": "Muzeum druhé světové války – parkování",
+      "url": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/plan-your-visit/parking"
+    },
+    {
+      "title": "Muzeum druhé světové války – vstupenky",
+      "url": "https://www.muzeum1939.pl/en/visit-and-tickets/wwii-museum-visit/buying-tickets"
+    },
+    {
+      "title": "Muzeum Marynarki Wojennej – ORP Błyskawica",
+      "url": "https://muzeummw.pl/en/price-list-and-opening-hours/"
+    },
+    {
+      "title": "Muzeum Obrony Wybrzeża",
+      "url": "https://www.helmuzeum.pl/"
+    },
+    {
+      "title": "Muzeum Obrony Wybrzeża – ceník",
+      "url": "https://www.helmuzeum.pl/zwiedzanie/ceny-biletow/"
+    },
+    {
+      "title": "Muzeum Obrony Wybrzeża – otevírací doba",
+      "url": "https://www.helmuzeum.pl/zwiedzanie/godziny-otwarcia/"
+    },
+    {
+      "title": "National Maritime Museum – Dar Pomorza",
+      "url": "https://nmm.pl/en/dar-pomorza/"
+    },
+    {
+      "title": "Parking Pod Mostem",
+      "url": "https://visittorun.com/pl/content/parking-pod-mostem"
+    },
+    {
+      "title": "Słowiński národní park",
+      "url": "https://spn.gov.pl/"
+    },
+    {
+      "title": "Słowiński národní park – uzavření parkoviště Rąbka",
+      "url": "https://spn.gov.pl/aktualnosci/informacja-dot-funkcjonowania-parkingu-w-rabce"
+    },
+    {
+      "title": "Słowiński národní park – vstupné",
+      "url": "https://spn.gov.pl/informacje-o-biletach"
+    },
+    {
+      "title": "Toruń – doporučená prohlídková trasa",
+      "url": "https://visittorun.com/en/page/sightseeing-route"
+    },
+    {
+      "title": "Visit Gdańsk",
+      "url": "https://visitgdansk.com/"
+    },
+    {
+      "title": "Visit Sopot – molo 2026",
+      "url": "https://visit.sopot.pl/en/news/ostatnie-dni-na-skorzystanie-z-bezplatnego-wejscia-na-molo-30978143"
+    },
+    {
+      "title": "Visit Toruń",
+      "url": "https://visittorun.com/en"
+    },
+    {
+      "title": "Visit Toruń – Pod Arkadami",
+      "url": "https://visittorun.com/en/content/pod-arkadami"
+    }
+  ],
+  "quality": {
+    "warnings": [],
+    "needsVerificationCount": 35
+  }
+}
