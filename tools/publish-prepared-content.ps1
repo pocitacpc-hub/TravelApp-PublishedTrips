@@ -121,8 +121,11 @@ try {
             exit 0
         }
         $runs = @($runsJson | ConvertFrom-Json)
-        if ($runs.Count -gt 0) {
-            $runId = $runs[0].databaseId
+        $run = $runs | Where-Object {
+            $_ -and $_.PSObject.Properties['databaseId'] -and $_.databaseId
+        } | Select-Object -First 1
+        if ($null -ne $run) {
+            $runId = [string]$run.databaseId
             break
         }
         Start-Sleep -Seconds 3
