@@ -3,7 +3,7 @@
   "documentType": "published_trip",
   "publicId": "1c57cea5-d4b5-4cca-9b37-cb4d5be80c01",
   "slug": "polsko-balt-aktivni-tyden-v-jastrzebie-gore-2026-07-1c57ce",
-  "revision": 3,
+  "revision": 4,
   "title": "Polsko-Balt – aktivní týden v Jastrzębie Góře",
   "subtitle": "Jastrzębia Góra",
   "summary": null,
@@ -15,8 +15,8 @@
   "currency": "PLN",
   "status": "upcoming",
   "isListed": true,
-  "generatedAt": "2026-07-23T16:27:33.9539125+00:00",
-  "publishedAt": "2026-07-23T16:27:33.9539125+00:00",
+  "generatedAt": "2026-07-23T17:51:05.9366956+00:00",
+  "publishedAt": "2026-07-23T17:51:05.9366956+00:00",
   "location": {
     "name": "Jastrzębia Góra",
     "region": "Polsko",
@@ -502,7 +502,7 @@
       "date": "2026-07-31",
       "dayIndex": 5,
       "title": "Aquapark Reda – plovoucí dešťový den",
-      "summary": "Pevná hlavní atrakce s výchozím pátečním termínem.",
+      "summary": "Pevná hlavní atrakce s výchozím pátečním termínem a rozšířeným ceníkem.",
       "dayType": "floating_bad_weather",
       "weatherNote": "Ideální při dešti, chladu nebo silném větru.",
       "alternatives": {
@@ -512,15 +512,15 @@
         },
         "hotWeather": {
           "title": "Alternativa při horku",
-          "text": "Při nejlepším bezvětrném dni preferovat venkovní výlet."
+          "text": "Při nejlepším bezvětrném dni preferovat venkovní výlet a Redu přesunout."
         },
         "easy": {
           "title": "Lehčí alternativa",
-          "text": "Tříhodinový vstup od 08:00 do 11:00."
+          "text": "Akční dvouhodinový vstup za 79 PLN na osobu, pokud je dostupný, nebo standardní dvouhodinový tarif."
         },
         "active": {
           "title": "Aktivnější alternativa",
-          "text": "Celodenní vstup s reálným pobytem do 14:30; část dospělých může využít Saunarium."
+          "text": "Celodenní Aquapark; dospělí mohou podle zájmu zvolit kombinaci se Saunariem, které je pouze 18+."
         }
       },
       "items": [
@@ -540,17 +540,17 @@
             "text": null
           },
           "distanceKm": 31.0,
-          "notes": "Celodenní vstup: dospělý 200 PLN, osoba do 18 let 170 PLN. Tříhodinový vstup: 155 PLN a 125 PLN. Saunarium pouze 18+.",
+          "notes": "Doporučený celodenní tarif: 200 PLN dospělý, 170 PLN dítě/zlevněný nebo 170 PLN za osobu při rodinném tarifu. Skupina 4+3: 1 190 PLN s rodinnou sazbou, jinak 1 310 PLN. Tříhodinová varianta stojí 155/125 PLN, ale při sedmi osobách se po přibližně 23 minutách překročení finančně vyrovná celodennímu tarifu.",
           "whyHere": "Pevná hlavní atrakce pobytu a nejlepší indoor program.",
-          "bookingNote": "Koupit online večer předem po potvrzení počasí.",
+          "bookingNote": "Celodenní vstup koupit online večer předem. Rodinnou sazbu potvrdit v nákupním procesu.",
           "parkingNote": "Pro velké auto preferovat venkovní P1 nebo P2; cenu ověřit.",
-          "needsVerification": false,
+          "needsVerification": true,
           "sourceUrl": "https://www.aquaparkreda.pl/en/prices",
           "mapLinks": {
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.6018%2C18.3484",
             "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.3484,54.6018&zoom=16&marker=true",
             "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.6018%2C18.3484",
-            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.3484,54.6018&navigate=true"
+            "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.3484,54.6018&routeType=car_fast_traffic&navigate=true"
           },
           "tags": [
             "poi_visit",
@@ -1190,39 +1190,39 @@
       "addressText": "Morska 5, 84-240 Reda",
       "latitude": 54.6018,
       "longitude": 18.3484,
-      "description": "Velký převážně vnitřní aquapark s tobogány, bazény a atrakcemi vhodnými pro teenagery.",
-      "whyVisit": "Pevná hlavní atrakce pobytu a nejlepší celodenní program za deště.",
-      "travelerTips": "Přijet na otevření v 08:00. Pro sedm osob je pohodlnější celodenní lístek, i když reálný pobyt bude přibližně 5–6 hodin.",
-      "warnings": "Saunarium je pouze pro osoby od 18 let a je bezplavkové. Letní vstupenky jsou vázané na datum.",
+      "description": "Velký převážně vnitřní aquapark s tobogány, bazény, žraločím akváriem a atrakcemi vhodnými pro teenagery.",
+      "whyVisit": "Pevná hlavní atrakce pobytu a nejlepší celodenní program za deště, chladu nebo silného větru.",
+      "travelerTips": "Přijet na otevření v 08:00. Pro plánovaný pobyt 5–6 hodin je finančně bezpečnější celodenní vstup. Rozdíl mezi rodinným tříhodinovým a celodenním tarifem pro 7 osob je 315 PLN. Překročení času stojí 2 PLN za minutu a osobu, tedy 14 PLN za minutu pro celou skupinu; přibližně po 23 minutách navíc už je celodenní vstup levnější než tříhodinový.",
+      "warnings": "Celodenní vstupenka je dostupná pouze online. Online vstupenky jsou vázané na vybraný den, nelze změnit datum ani je vrátit. Rodinný tarif má vlastní podmínky: nejméně 3 osoby a nejvýše 2 dospělí na jedno dítě ve věku 3–18 let. Složení 4 dospělí a 3 děti tento poměr splňuje, ale nárok rodinné skupiny je vhodné potvrdit při nákupu. Saunarium je pouze pro osoby od 18 let a je bezplavkové.",
       "officialUrl": "https://www.aquaparkreda.pl/en/",
       "sourceUrl": "https://www.aquaparkreda.pl/en/prices",
-      "reservationUrl": null,
+      "reservationUrl": "https://www.aquaparkreda.pl/en/buy-ticket",
       "mapLinks": {
         "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.6018%2C18.3484",
         "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.3484,54.6018&zoom=16&marker=true",
         "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.6018%2C18.3484",
-        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.3484,54.6018&navigate=true"
+        "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.3484,54.6018&routeType=car_fast_traffic&navigate=true"
       },
       "parking": {
         "name": "Aquapark Reda P1 nebo P2",
-        "addressText": null,
+        "addressText": "Morska 5, 84-240 Reda",
         "latitude": 54.6018,
         "longitude": 18.3484,
-        "note": "Pro velké auto preferovat venkovní P1 nebo P2. Všechna parkoviště jsou placená; přesná cena a výška krytého P4 nejsou ověřené.",
-        "priceNote": null,
+        "note": "P1, P2 a P3 jsou venkovní, P4 je kryté. Všechna parkoviště jsou placená. Pro velké auto použít P1 nebo P2.",
+        "priceNote": "Přesná sazba není na oficiálním webu spolehlivě uvedena; ověřit na místě.",
         "heightLimitMeters": null,
         "mapLinks": {
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=54.6018%2C18.3484",
-          "mapyUrl": "https://mapy.com/fnc/v1/showmap?center=18.3484,54.6018&zoom=16&marker=true",
-          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=54.6018%2C18.3484",
-          "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.3484,54.6018&navigate=true"
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aquapark+Reda+parking",
+          "mapyUrl": "https://mapy.com/fnc/v1/search?query=Aquapark%20Reda%20parking",
+          "googleNavigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Aquapark+Reda+Morska+5",
+          "mapyNavigationUrl": "https://mapy.com/fnc/v1/route?end=18.3484,54.6018&routeType=car_fast_traffic&navigate=true"
         },
         "needsVerification": true
       },
       "booking": {
         "required": true,
         "recommendedAdvance": "day_before",
-        "note": "Koupit online večer předem po kontrole počasí. O víkendu nebo při celodenním dešti raději 1–2 dny předem.",
+        "note": "Celodenní vstup koupit online večer předem po kontrole počasí. Dvouhodinové a tříhodinové vstupenky lze podle oficiální nákupní stránky koupit také na místě, ale v letní sezoně je online nákup praktičtější a držitelé online vstupenek mají přednost.",
         "needsVerification": false
       },
       "openingHours": [
@@ -1232,36 +1232,99 @@
           "openTime": "08:00",
           "closeTime": "22:00",
           "isClosed": false,
-          "note": "Pátek je pouze výchozí datum. Při dřívějším deštivém všedním dni celý program prohodit.",
+          "note": "Letní provoz. Pátek je výchozí datum; při dřívějším celodenním dešti lze celý den prohodit.",
           "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
         }
       ],
       "prices": [
         {
-          "priceType": "three_hours",
+          "priceType": "summer_2h",
+          "adultPrice": 125.0,
+          "childPrice": 105.0,
+          "familyPrice": 105.0,
+          "currency": "PLN",
+          "note": "Dospělý 125 PLN, dítě nebo osoba se zlevněným nárokem 105 PLN, rodinný tarif 105 PLN za osobu. Pro 4 dospělé + 3 děti: 815 PLN bez rodinného tarifu, nebo 735 PLN při rodinné sazbě pro všech 7 osob. Orientačně přibližně 4 548 CZK nebo 4 101 CZK při kurzu 1 PLN ≈ 5,58 CZK.",
+          "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
+        },
+        {
+          "priceType": "summer_3h",
           "adultPrice": 155.0,
           "childPrice": 125.0,
-          "familyPrice": null,
+          "familyPrice": 125.0,
           "currency": "PLN",
-          "note": "Dospělý 155 PLN (cca 863 CZK), osoba do 18 let 125 PLN (cca 696 CZK). Překročení času 2 PLN za minutu a osobu.",
+          "note": "Dospělý 155 PLN, dítě nebo osoba se zlevněným nárokem 125 PLN, rodinný tarif 125 PLN za osobu. Pro 4 dospělé + 3 děti: 995 PLN bez rodinného tarifu, nebo 875 PLN při rodinné sazbě pro všech 7 osob. Orientačně přibližně 5 552 CZK nebo 4 883 CZK. Překročení času stojí 2 PLN za minutu a osobu.",
           "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
         },
         {
-          "priceType": "whole_day",
+          "priceType": "summer_whole_day",
           "adultPrice": 200.0,
           "childPrice": 170.0,
-          "familyPrice": null,
+          "familyPrice": 170.0,
           "currency": "PLN",
-          "note": "Dospělý 200 PLN (cca 1114 CZK), osoba do 18 let 170 PLN (cca 947 CZK).",
+          "note": "Dospělý 200 PLN, dítě nebo osoba se zlevněným nárokem 170 PLN, rodinný tarif 170 PLN za osobu. Pro 4 dospělé + 3 děti: 1 310 PLN bez rodinného tarifu, nebo 1 190 PLN při rodinné sazbě pro všech 7 osob. Orientačně přibližně 7 310 CZK nebo 6 640 CZK. Celodenní vstupenka je pouze online.",
           "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
         },
         {
-          "priceType": "sauna_three_hours",
+          "priceType": "summer_promo_2h_offpeak",
+          "adultPrice": 79.0,
+          "childPrice": 79.0,
+          "familyPrice": 79.0,
+          "currency": "PLN",
+          "note": "Propagační cena 79 PLN za osobu, pouze online, s nástupem v okně 08:00–09:00 nebo 19:00–20:00; nabídka je uváděna do 31. 8. 2026 a závisí na dostupnosti. Pro 7 osob celkem 553 PLN, přibližně 3 086 CZK.",
+          "sourceUrl": "https://www.aquaparkreda.pl/en/buy-ticket"
+        },
+        {
+          "priceType": "aquaspinner_one_ride",
+          "adultPrice": 7.0,
+          "childPrice": 7.0,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "AquaSpinner není zahrnut v běžném vstupném.",
+          "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
+        },
+        {
+          "priceType": "summer_sauna_1h_18plus",
+          "adultPrice": 60.0,
+          "childPrice": null,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Bezplavková zóna. Pro teenagery není dostupná.",
+          "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
+        },
+        {
+          "priceType": "summer_sauna_3h_18plus",
           "adultPrice": 100.0,
           "childPrice": null,
           "familyPrice": null,
           "currency": "PLN",
-          "note": "100 PLN (cca 557 CZK).",
+          "note": "Bezplavková zóna. Pro teenagery není dostupná.",
+          "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
+        },
+        {
+          "priceType": "summer_sauna_whole_day_18plus",
+          "adultPrice": 135.0,
+          "childPrice": null,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Bezplavková zóna. Pro teenagery není dostupná.",
+          "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
+        },
+        {
+          "priceType": "summer_sauna_plus_aquapark_3h_18plus",
+          "adultPrice": 215.0,
+          "childPrice": null,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Vhodné pouze pro dospělou část skupiny.",
+          "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
+        },
+        {
+          "priceType": "summer_sauna_plus_aquapark_whole_day_18plus",
+          "adultPrice": 275.0,
+          "childPrice": null,
+          "familyPrice": null,
+          "currency": "PLN",
+          "note": "Vhodné pouze pro dospělou část skupiny.",
           "sourceUrl": "https://www.aquaparkreda.pl/en/prices"
         }
       ],
@@ -1277,8 +1340,8 @@
           "note": "Obvykle 40–55 minut; při dešti a silném provozu může cesta trvat déle."
         }
       ],
-      "alternativesJson": "[\n        {\n          \"type\": \"sun\",\n          \"text\": \"Při nejlepším bezvětrném dni přesunout Redu na horší všední den.\"\n        },\n        {\n          \"type\": \"budget\",\n          \"text\": \"Zvolit tříhodinový vstup od 08:00 a hlídat čas včetně převlékání.\"\n        },\n        {\n          \"type\": \"adult_only\",\n          \"text\": \"Část dospělých může využít Saunarium, ale teenageři do něj nesmějí.\"\n        }\n      ]",
-      "needsVerification": false
+      "alternativesJson": "[\n        {\n          \"type\": \"budget\",\n          \"text\": \"Nejlevnější je dvouhodinová akce za 79 PLN na osobu, pokud je dostupná a stačí krátká návštěva.\"\n        },\n        {\n          \"type\": \"recommended\",\n          \"text\": \"Pro plánovaných 5–6 hodin zvolit celodenní rodinný tarif; je výrazně bezpečnější než tříhodinová vstupenka s doplatkem za překročení.\"\n        },\n        {\n          \"type\": \"short_visit\",\n          \"text\": \"Tříhodinový tarif dává smysl pouze při skutečném odchodu přibližně do 11:00 a pečlivém hlídání času včetně převlékání.\"\n        },\n        {\n          \"type\": \"adult_only\",\n          \"text\": \"Saunarium mohou využít pouze dospělí 18+; teenageři zůstávají v Aquaparku.\"\n        }\n      ]",
+      "needsVerification": true
     },
     {
       "publicId": "4e909ae1-3812-42af-bce6-a635d6edb5e9",
@@ -2508,8 +2571,12 @@
       "url": "https://www.aquaparkreda.pl/en/prices"
     },
     {
-      "title": "Aquapark Reda – poloha a parkování",
-      "url": "https://www.aquaparkreda.pl/en/location"
+      "title": "Aquapark Reda – nákup vstupenek",
+      "url": "https://www.aquaparkreda.pl/en/buy-ticket"
+    },
+    {
+      "title": "Aquapark Reda – první návštěva",
+      "url": "https://www.aquaparkreda.pl/en/first-visit"
     },
     {
       "title": "Centrum Nauki Experyment",
@@ -2518,6 +2585,10 @@
     {
       "title": "Centrum Nauki Experyment",
       "url": "https://experyment.gdynia.pl/zaplanuj-wizyte/godziny-otwarcia-jak-dojechac/"
+    },
+    {
+      "title": "ČNB – orientační kurz PLN",
+      "url": "https://www.cnb.cz/cs/platebni-styk/sluzby-pro-klienty/kurzovni-listek-cnb/index.html"
     },
     {
       "title": "Fokarium Hel",
@@ -2622,6 +2693,6 @@
   ],
   "quality": {
     "warnings": [],
-    "needsVerificationCount": 35
+    "needsVerificationCount": 37
   }
 }
